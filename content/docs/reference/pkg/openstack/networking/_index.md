@@ -36,20 +36,20 @@ Explore the resources and functions of the networking module in the Open Stack p
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getaddressscope" title="GetAddressScope"><span class="symbol function"></span>GetAddressScope</a></li>
-    <li><a href="getfloatingip" title="GetFloatingIp"><span class="symbol function"></span>GetFloatingIp</a></li>
-    <li><a href="getnetwork" title="GetNetwork"><span class="symbol function"></span>GetNetwork</a></li>
-    <li><a href="getport" title="GetPort"><span class="symbol function"></span>GetPort</a></li>
-    <li><a href="getportids" title="GetPortIds"><span class="symbol function"></span>GetPortIds</a></li>
-    <li><a href="getqosbandwidthlimitrule" title="GetQosBandwidthLimitRule"><span class="symbol function"></span>GetQosBandwidthLimitRule</a></li>
-    <li><a href="getqosdscpmarkingrule" title="GetQosDscpMarkingRule"><span class="symbol function"></span>GetQosDscpMarkingRule</a></li>
-    <li><a href="getqosminimumbandwidthrule" title="GetQosMinimumBandwidthRule"><span class="symbol function"></span>GetQosMinimumBandwidthRule</a></li>
-    <li><a href="getqospolicy" title="GetQosPolicy"><span class="symbol function"></span>GetQosPolicy</a></li>
-    <li><a href="getrouter" title="GetRouter"><span class="symbol function"></span>GetRouter</a></li>
-    <li><a href="getsecgroup" title="GetSecGroup"><span class="symbol function"></span>GetSecGroup</a></li>
-    <li><a href="getsubnet" title="GetSubnet"><span class="symbol function"></span>GetSubnet</a></li>
-    <li><a href="getsubnetpool" title="GetSubnetPool"><span class="symbol function"></span>GetSubnetPool</a></li>
-    <li><a href="gettrunk" title="GetTrunk"><span class="symbol function"></span>GetTrunk</a></li>
+    <li><a href="getaddressscope" title="getAddressScope"><span class="symbol function"></span>getAddressScope</a></li>
+    <li><a href="getfloatingip" title="getFloatingIp"><span class="symbol function"></span>getFloatingIp</a></li>
+    <li><a href="getnetwork" title="getNetwork"><span class="symbol function"></span>getNetwork</a></li>
+    <li><a href="getport" title="getPort"><span class="symbol function"></span>getPort</a></li>
+    <li><a href="getportids" title="getPortIds"><span class="symbol function"></span>getPortIds</a></li>
+    <li><a href="getqosbandwidthlimitrule" title="getQosBandwidthLimitRule"><span class="symbol function"></span>getQosBandwidthLimitRule</a></li>
+    <li><a href="getqosdscpmarkingrule" title="getQosDscpMarkingRule"><span class="symbol function"></span>getQosDscpMarkingRule</a></li>
+    <li><a href="getqosminimumbandwidthrule" title="getQosMinimumBandwidthRule"><span class="symbol function"></span>getQosMinimumBandwidthRule</a></li>
+    <li><a href="getqospolicy" title="getQosPolicy"><span class="symbol function"></span>getQosPolicy</a></li>
+    <li><a href="getrouter" title="getRouter"><span class="symbol function"></span>getRouter</a></li>
+    <li><a href="getsecgroup" title="getSecGroup"><span class="symbol function"></span>getSecGroup</a></li>
+    <li><a href="getsubnet" title="getSubnet"><span class="symbol function"></span>getSubnet</a></li>
+    <li><a href="getsubnetpool" title="getSubnetPool"><span class="symbol function"></span>getSubnetPool</a></li>
+    <li><a href="gettrunk" title="getTrunk"><span class="symbol function"></span>getTrunk</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

@@ -29,7 +29,7 @@ meta_desc: "Explore the GetSecret function of the keymanager module, including e
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupSecret<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-openstack/sdk/v2/go/openstack/keymanager?tab=doc#LookupSecretArgs">LookupSecretArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-openstack/sdk/v2/go/openstack/keymanager?tab=doc#LookupSecretResult">LookupSecretResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetSecret<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-openstack/sdk/v2/go/openstack/keymanager?tab=doc#GetSecretArgs">GetSecretArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-openstack/sdk/v2/go/openstack/keymanager?tab=doc#GetSecretResult">GetSecretResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -1355,7 +1355,7 @@ explicitly and implicitly added.
 ## Supporting Types
 
 
-<h4 id="getsecretacl">Get<wbr>Secret<wbr>Acl</h4>
+<h4 id="getsecretacl">get<wbr>Secret<wbr>Acl</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/openstack/types/output/#GetSecretAcl">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1430,7 +1430,7 @@ explicitly and implicitly added.
 
 
 
-<h4 id="getsecretaclread">Get<wbr>Secret<wbr>Acl<wbr>Read</h4>
+<h4 id="getsecretaclread">get<wbr>Secret<wbr>Acl<wbr>Read</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/openstack/types/output/#GetSecretAclRead">output</a> API doc for this type.
 {{% /choosable %}}

@@ -17,8 +17,8 @@ Explore the resources and functions of the containerinfra module in the Open Sta
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getcluster" title="GetCluster"><span class="symbol function"></span>GetCluster</a></li>
-    <li><a href="getclustertemplate" title="GetClusterTemplate"><span class="symbol function"></span>GetClusterTemplate</a></li>
+    <li><a href="getcluster" title="getCluster"><span class="symbol function"></span>getCluster</a></li>
+    <li><a href="getclustertemplate" title="getClusterTemplate"><span class="symbol function"></span>getClusterTemplate</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

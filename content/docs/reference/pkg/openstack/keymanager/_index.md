@@ -17,8 +17,8 @@ Explore the resources and functions of the keymanager module in the Open Stack p
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getcontainer" title="GetContainer"><span class="symbol function"></span>GetContainer</a></li>
-    <li><a href="getsecret" title="GetSecret"><span class="symbol function"></span>GetSecret</a></li>
+    <li><a href="getcontainer" title="getContainer"><span class="symbol function"></span>getContainer</a></li>
+    <li><a href="getsecret" title="getSecret"><span class="symbol function"></span>getSecret</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

@@ -22,11 +22,11 @@ Explore the resources and functions of the blockstorage module in the Open Stack
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getavailabilityzonesv3" title="GetAvailabilityZonesV3"><span class="symbol function"></span>GetAvailabilityZonesV3</a></li>
-    <li><a href="getsnapshotv2" title="GetSnapshotV2"><span class="symbol function"></span>GetSnapshotV2</a></li>
-    <li><a href="getsnapshotv3" title="GetSnapshotV3"><span class="symbol function"></span>GetSnapshotV3</a></li>
-    <li><a href="getvolumev2" title="GetVolumeV2"><span class="symbol function"></span>GetVolumeV2</a></li>
-    <li><a href="getvolumev3" title="GetVolumeV3"><span class="symbol function"></span>GetVolumeV3</a></li>
+    <li><a href="getavailabilityzonesv3" title="getAvailabilityZonesV3"><span class="symbol function"></span>getAvailabilityZonesV3</a></li>
+    <li><a href="getsnapshotv2" title="getSnapshotV2"><span class="symbol function"></span>getSnapshotV2</a></li>
+    <li><a href="getsnapshotv3" title="getSnapshotV3"><span class="symbol function"></span>getSnapshotV3</a></li>
+    <li><a href="getvolumev2" title="getVolumeV2"><span class="symbol function"></span>getVolumeV2</a></li>
+    <li><a href="getvolumev3" title="getVolumeV3"><span class="symbol function"></span>getVolumeV3</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

@@ -46,7 +46,7 @@ const port1 = pulumi.output(openstack.networking.getPort({
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupPort<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-openstack/sdk/v2/go/openstack/networking?tab=doc#LookupPortArgs">LookupPortArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-openstack/sdk/v2/go/openstack/networking?tab=doc#LookupPortResult">LookupPortResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetPort<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-openstack/sdk/v2/go/openstack/networking?tab=doc#GetPortArgs">GetPortArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-openstack/sdk/v2/go/openstack/networking?tab=doc#GetPortResult">GetPortResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -1584,7 +1584,7 @@ The structure is described below.
 ## Supporting Types
 
 
-<h4 id="getportallowedaddresspair">Get<wbr>Port<wbr>Allowed<wbr>Address<wbr>Pair</h4>
+<h4 id="getportallowedaddresspair">get<wbr>Port<wbr>Allowed<wbr>Address<wbr>Pair</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/openstack/types/output/#GetPortAllowedAddressPair">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1699,7 +1699,7 @@ The structure is described below.
 
 
 
-<h4 id="getportbinding">Get<wbr>Port<wbr>Binding</h4>
+<h4 id="getportbinding">get<wbr>Port<wbr>Binding</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/openstack/types/output/#GetPortBinding">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1926,7 +1926,7 @@ specific binding.
 
 
 
-<h4 id="getportextradhcpoption">Get<wbr>Port<wbr>Extra<wbr>Dhcp<wbr>Option</h4>
+<h4 id="getportextradhcpoption">get<wbr>Port<wbr>Extra<wbr>Dhcp<wbr>Option</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/openstack/types/output/#GetPortExtraDhcpOption">output</a> API doc for this type.
 {{% /choosable %}}

@@ -46,7 +46,7 @@ const example = pulumi.output(openstack.keymanager.getContainer({
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupContainer<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-openstack/sdk/v2/go/openstack/keymanager?tab=doc#LookupContainerArgs">LookupContainerArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-openstack/sdk/v2/go/openstack/keymanager?tab=doc#LookupContainerResult">LookupContainerResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetContainer<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-openstack/sdk/v2/go/openstack/keymanager?tab=doc#GetContainerArgs">GetContainerArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-openstack/sdk/v2/go/openstack/keymanager?tab=doc#GetContainerResult">GetContainerResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -664,7 +664,7 @@ structure is described below.
 ## Supporting Types
 
 
-<h4 id="getcontaineracl">Get<wbr>Container<wbr>Acl</h4>
+<h4 id="getcontaineracl">get<wbr>Container<wbr>Acl</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/openstack/types/output/#GetContainerAcl">output</a> API doc for this type.
 {{% /choosable %}}
@@ -739,7 +739,7 @@ structure is described below.
 
 
 
-<h4 id="getcontaineraclread">Get<wbr>Container<wbr>Acl<wbr>Read</h4>
+<h4 id="getcontaineraclread">get<wbr>Container<wbr>Acl<wbr>Read</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/openstack/types/output/#GetContainerAclRead">output</a> API doc for this type.
 {{% /choosable %}}
@@ -930,7 +930,7 @@ when `project_access` is set to `false`.
 
 
 
-<h4 id="getcontainerconsumer">Get<wbr>Container<wbr>Consumer</h4>
+<h4 id="getcontainerconsumer">get<wbr>Container<wbr>Consumer</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/openstack/types/output/#GetContainerConsumer">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1045,7 +1045,7 @@ when `project_access` is set to `false`.
 
 
 
-<h4 id="getcontainersecretref">Get<wbr>Container<wbr>Secret<wbr>Ref</h4>
+<h4 id="getcontainersecretref">get<wbr>Container<wbr>Secret<wbr>Ref</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/openstack/types/output/#GetContainerSecretRef">output</a> API doc for this type.
 {{% /choosable %}}

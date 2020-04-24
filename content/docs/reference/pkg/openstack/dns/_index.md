@@ -17,7 +17,7 @@ Explore the resources and functions of the dns module in the Open Stack package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getdnszone" title="GetDnsZone"><span class="symbol function"></span>GetDnsZone</a></li>
+    <li><a href="getdnszone" title="getDnsZone"><span class="symbol function"></span>getDnsZone</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

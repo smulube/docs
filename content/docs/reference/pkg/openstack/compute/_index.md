@@ -26,9 +26,9 @@ Explore the resources and functions of the compute module in the Open Stack pack
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getavailabilityzones" title="GetAvailabilityZones"><span class="symbol function"></span>GetAvailabilityZones</a></li>
-    <li><a href="getflavor" title="GetFlavor"><span class="symbol function"></span>GetFlavor</a></li>
-    <li><a href="getkeypair" title="GetKeypair"><span class="symbol function"></span>GetKeypair</a></li>
+    <li><a href="getavailabilityzones" title="getAvailabilityZones"><span class="symbol function"></span>getAvailabilityZones</a></li>
+    <li><a href="getflavor" title="getFlavor"><span class="symbol function"></span>getFlavor</a></li>
+    <li><a href="getkeypair" title="getKeypair"><span class="symbol function"></span>getKeypair</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

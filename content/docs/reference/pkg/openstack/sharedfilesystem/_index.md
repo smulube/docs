@@ -19,10 +19,10 @@ Explore the resources and functions of the sharedfilesystem module in the Open S
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getavailbilityzones" title="GetAvailbilityZones"><span class="symbol function"></span>GetAvailbilityZones</a></li>
-    <li><a href="getshare" title="GetShare"><span class="symbol function"></span>GetShare</a></li>
-    <li><a href="getsharenetwork" title="GetShareNetwork"><span class="symbol function"></span>GetShareNetwork</a></li>
-    <li><a href="getsnapshot" title="GetSnapshot"><span class="symbol function"></span>GetSnapshot</a></li>
+    <li><a href="getavailbilityzones" title="getAvailbilityZones"><span class="symbol function"></span>getAvailbilityZones</a></li>
+    <li><a href="getshare" title="getShare"><span class="symbol function"></span>getShare</a></li>
+    <li><a href="getsharenetwork" title="getShareNetwork"><span class="symbol function"></span>getShareNetwork</a></li>
+    <li><a href="getsnapshot" title="getSnapshot"><span class="symbol function"></span>getSnapshot</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
