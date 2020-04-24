@@ -33,19 +33,19 @@ A Pulumi package for creating and managing linode cloud resources.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getaccount" title="getAccount"><span class="symbol function"></span>getAccount</a></li>
-    <li><a href="getdomain" title="getDomain"><span class="symbol function"></span>getDomain</a></li>
-    <li><a href="getdomainrecord" title="getDomainRecord"><span class="symbol function"></span>getDomainRecord</a></li>
-    <li><a href="getimage" title="getImage"><span class="symbol function"></span>getImage</a></li>
-    <li><a href="getinstancetype" title="getInstanceType"><span class="symbol function"></span>getInstanceType</a></li>
-    <li><a href="getnetworkingip" title="getNetworkingIp"><span class="symbol function"></span>getNetworkingIp</a></li>
-    <li><a href="getobjectstoragecluster" title="getObjectStorageCluster"><span class="symbol function"></span>getObjectStorageCluster</a></li>
-    <li><a href="getprofile" title="getProfile"><span class="symbol function"></span>getProfile</a></li>
-    <li><a href="getregion" title="getRegion"><span class="symbol function"></span>getRegion</a></li>
-    <li><a href="getsshkey" title="getSshKey"><span class="symbol function"></span>getSshKey</a></li>
-    <li><a href="getstackscript" title="getStackScript"><span class="symbol function"></span>getStackScript</a></li>
-    <li><a href="getuser" title="getUser"><span class="symbol function"></span>getUser</a></li>
-    <li><a href="getvolume" title="getVolume"><span class="symbol function"></span>getVolume</a></li>
+    <li><a href="getaccount" title="GetAccount"><span class="symbol function"></span>GetAccount</a></li>
+    <li><a href="getdomain" title="GetDomain"><span class="symbol function"></span>GetDomain</a></li>
+    <li><a href="getdomainrecord" title="GetDomainRecord"><span class="symbol function"></span>GetDomainRecord</a></li>
+    <li><a href="getimage" title="GetImage"><span class="symbol function"></span>GetImage</a></li>
+    <li><a href="getinstancetype" title="GetInstanceType"><span class="symbol function"></span>GetInstanceType</a></li>
+    <li><a href="getnetworkingip" title="GetNetworkingIp"><span class="symbol function"></span>GetNetworkingIp</a></li>
+    <li><a href="getobjectstoragecluster" title="GetObjectStorageCluster"><span class="symbol function"></span>GetObjectStorageCluster</a></li>
+    <li><a href="getprofile" title="GetProfile"><span class="symbol function"></span>GetProfile</a></li>
+    <li><a href="getregion" title="GetRegion"><span class="symbol function"></span>GetRegion</a></li>
+    <li><a href="getsshkey" title="GetSshKey"><span class="symbol function"></span>GetSshKey</a></li>
+    <li><a href="getstackscript" title="GetStackScript"><span class="symbol function"></span>GetStackScript</a></li>
+    <li><a href="getuser" title="GetUser"><span class="symbol function"></span>GetUser</a></li>
+    <li><a href="getvolume" title="GetVolume"><span class="symbol function"></span>GetVolume</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
