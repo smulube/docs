@@ -22,11 +22,11 @@ Explore the resources and functions of the polardb module in the AliCloud packag
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getaccounts" title="GetAccounts"><span class="symbol function"></span>GetAccounts</a></li>
-    <li><a href="getclusters" title="GetClusters"><span class="symbol function"></span>GetClusters</a></li>
-    <li><a href="getdatabases" title="GetDatabases"><span class="symbol function"></span>GetDatabases</a></li>
-    <li><a href="getendpoints" title="GetEndpoints"><span class="symbol function"></span>GetEndpoints</a></li>
-    <li><a href="getzones" title="GetZones"><span class="symbol function"></span>GetZones</a></li>
+    <li><a href="getaccounts" title="getAccounts"><span class="symbol function"></span>getAccounts</a></li>
+    <li><a href="getclusters" title="getClusters"><span class="symbol function"></span>getClusters</a></li>
+    <li><a href="getdatabases" title="getDatabases"><span class="symbol function"></span>getDatabases</a></li>
+    <li><a href="getendpoints" title="getEndpoints"><span class="symbol function"></span>getEndpoints</a></li>
+    <li><a href="getzones" title="getZones"><span class="symbol function"></span>getZones</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

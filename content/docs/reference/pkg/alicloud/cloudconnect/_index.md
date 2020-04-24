@@ -18,7 +18,7 @@ Explore the resources and functions of the cloudconnect module in the AliCloud p
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getnetworks" title="GetNetworks"><span class="symbol function"></span>GetNetworks</a></li>
+    <li><a href="getnetworks" title="getNetworks"><span class="symbol function"></span>getNetworks</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

@@ -18,8 +18,8 @@ Explore the resources and functions of the adb module in the AliCloud package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getclusters" title="GetClusters"><span class="symbol function"></span>GetClusters</a></li>
-    <li><a href="getzones" title="GetZones"><span class="symbol function"></span>GetZones</a></li>
+    <li><a href="getclusters" title="getClusters"><span class="symbol function"></span>getClusters</a></li>
+    <li><a href="getzones" title="getZones"><span class="symbol function"></span>getZones</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

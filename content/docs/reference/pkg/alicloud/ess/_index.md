@@ -25,13 +25,13 @@ Explore the resources and functions of the ess module in the AliCloud package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getalarms" title="GetAlarms"><span class="symbol function"></span>GetAlarms</a></li>
-    <li><a href="getlifecyclehooks" title="GetLifecycleHooks"><span class="symbol function"></span>GetLifecycleHooks</a></li>
-    <li><a href="getnotifications" title="GetNotifications"><span class="symbol function"></span>GetNotifications</a></li>
-    <li><a href="getscalingconfigurations" title="GetScalingConfigurations"><span class="symbol function"></span>GetScalingConfigurations</a></li>
-    <li><a href="getscalinggroups" title="GetScalingGroups"><span class="symbol function"></span>GetScalingGroups</a></li>
-    <li><a href="getscalingrules" title="GetScalingRules"><span class="symbol function"></span>GetScalingRules</a></li>
-    <li><a href="getscheduledtasks" title="GetScheduledTasks"><span class="symbol function"></span>GetScheduledTasks</a></li>
+    <li><a href="getalarms" title="getAlarms"><span class="symbol function"></span>getAlarms</a></li>
+    <li><a href="getlifecyclehooks" title="getLifecycleHooks"><span class="symbol function"></span>getLifecycleHooks</a></li>
+    <li><a href="getnotifications" title="getNotifications"><span class="symbol function"></span>getNotifications</a></li>
+    <li><a href="getscalingconfigurations" title="getScalingConfigurations"><span class="symbol function"></span>getScalingConfigurations</a></li>
+    <li><a href="getscalinggroups" title="getScalingGroups"><span class="symbol function"></span>getScalingGroups</a></li>
+    <li><a href="getscalingrules" title="getScalingRules"><span class="symbol function"></span>getScalingRules</a></li>
+    <li><a href="getscheduledtasks" title="getScheduledTasks"><span class="symbol function"></span>getScheduledTasks</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

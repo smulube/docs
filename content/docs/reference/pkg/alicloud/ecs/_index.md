@@ -34,17 +34,17 @@ Explore the resources and functions of the ecs module in the AliCloud package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getdisks" title="GetDisks"><span class="symbol function"></span>GetDisks</a></li>
-    <li><a href="geteips" title="GetEips"><span class="symbol function"></span>GetEips</a></li>
-    <li><a href="getimages" title="GetImages"><span class="symbol function"></span>GetImages</a></li>
-    <li><a href="getinstancetypefamilies" title="GetInstanceTypeFamilies"><span class="symbol function"></span>GetInstanceTypeFamilies</a></li>
-    <li><a href="getinstancetypes" title="GetInstanceTypes"><span class="symbol function"></span>GetInstanceTypes</a></li>
-    <li><a href="getinstances" title="GetInstances"><span class="symbol function"></span>GetInstances</a></li>
-    <li><a href="getkeypairs" title="GetKeyPairs"><span class="symbol function"></span>GetKeyPairs</a></li>
-    <li><a href="getnetworkinterfaces" title="GetNetworkInterfaces"><span class="symbol function"></span>GetNetworkInterfaces</a></li>
-    <li><a href="getsecuritygrouprules" title="GetSecurityGroupRules"><span class="symbol function"></span>GetSecurityGroupRules</a></li>
-    <li><a href="getsecuritygroups" title="GetSecurityGroups"><span class="symbol function"></span>GetSecurityGroups</a></li>
-    <li><a href="getsnapshots" title="GetSnapshots"><span class="symbol function"></span>GetSnapshots</a></li>
+    <li><a href="getdisks" title="getDisks"><span class="symbol function"></span>getDisks</a></li>
+    <li><a href="geteips" title="getEips"><span class="symbol function"></span>getEips</a></li>
+    <li><a href="getimages" title="getImages"><span class="symbol function"></span>getImages</a></li>
+    <li><a href="getinstancetypefamilies" title="getInstanceTypeFamilies"><span class="symbol function"></span>getInstanceTypeFamilies</a></li>
+    <li><a href="getinstancetypes" title="getInstanceTypes"><span class="symbol function"></span>getInstanceTypes</a></li>
+    <li><a href="getinstances" title="getInstances"><span class="symbol function"></span>getInstances</a></li>
+    <li><a href="getkeypairs" title="getKeyPairs"><span class="symbol function"></span>getKeyPairs</a></li>
+    <li><a href="getnetworkinterfaces" title="getNetworkInterfaces"><span class="symbol function"></span>getNetworkInterfaces</a></li>
+    <li><a href="getsecuritygrouprules" title="getSecurityGroupRules"><span class="symbol function"></span>getSecurityGroupRules</a></li>
+    <li><a href="getsecuritygroups" title="getSecurityGroups"><span class="symbol function"></span>getSecurityGroups</a></li>
+    <li><a href="getsnapshots" title="getSnapshots"><span class="symbol function"></span>getSnapshots</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

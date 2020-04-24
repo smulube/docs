@@ -19,10 +19,10 @@ Explore the resources and functions of the kms module in the AliCloud package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getaliases" title="GetAliases"><span class="symbol function"></span>GetAliases</a></li>
-    <li><a href="getciphertext" title="GetCiphertext"><span class="symbol function"></span>GetCiphertext</a></li>
-    <li><a href="getkeys" title="GetKeys"><span class="symbol function"></span>GetKeys</a></li>
-    <li><a href="getplaintext" title="GetPlaintext"><span class="symbol function"></span>GetPlaintext</a></li>
+    <li><a href="getaliases" title="getAliases"><span class="symbol function"></span>getAliases</a></li>
+    <li><a href="getciphertext" title="getCiphertext"><span class="symbol function"></span>getCiphertext</a></li>
+    <li><a href="getkeys" title="getKeys"><span class="symbol function"></span>getKeys</a></li>
+    <li><a href="getplaintext" title="getPlaintext"><span class="symbol function"></span>getPlaintext</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

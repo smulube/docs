@@ -21,9 +21,9 @@ Explore the resources and functions of the vpn module in the AliCloud package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getconnections" title="GetConnections"><span class="symbol function"></span>GetConnections</a></li>
-    <li><a href="getcustomergateways" title="GetCustomerGateways"><span class="symbol function"></span>GetCustomerGateways</a></li>
-    <li><a href="getgateways" title="GetGateways"><span class="symbol function"></span>GetGateways</a></li>
+    <li><a href="getconnections" title="getConnections"><span class="symbol function"></span>getConnections</a></li>
+    <li><a href="getcustomergateways" title="getCustomerGateways"><span class="symbol function"></span>getCustomerGateways</a></li>
+    <li><a href="getgateways" title="getGateways"><span class="symbol function"></span>getGateways</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

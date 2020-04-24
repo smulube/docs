@@ -29,7 +29,7 @@ meta_desc: "Explore the GetMongoInstances function of the dds module, including 
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupMongoInstances<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/dds?tab=doc#LookupMongoInstancesArgs">LookupMongoInstancesArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/dds?tab=doc#LookupMongoInstancesResult">LookupMongoInstancesResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetMongoInstances<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/dds?tab=doc#GetMongoInstancesArgs">GetMongoInstancesArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/dds?tab=doc#GetMongoInstancesResult">GetMongoInstancesResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -671,7 +671,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getmongoinstancesinstance">Get<wbr>Mongo<wbr>Instances<wbr>Instance</h4>
+<h4 id="getmongoinstancesinstance">get<wbr>Mongo<wbr>Instances<wbr>Instance</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetMongoInstancesInstance">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1322,7 +1322,7 @@ The following output properties are available:
 
 
 
-<h4 id="getmongoinstancesinstancemongo">Get<wbr>Mongo<wbr>Instances<wbr>Instance<wbr>Mongo</h4>
+<h4 id="getmongoinstancesinstancemongo">get<wbr>Mongo<wbr>Instances<wbr>Instance<wbr>Mongo</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetMongoInstancesInstanceMongo">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1461,7 +1461,7 @@ The following output properties are available:
 
 
 
-<h4 id="getmongoinstancesinstanceshard">Get<wbr>Mongo<wbr>Instances<wbr>Instance<wbr>Shard</h4>
+<h4 id="getmongoinstancesinstanceshard">get<wbr>Mongo<wbr>Instances<wbr>Instance<wbr>Shard</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetMongoInstancesInstanceShard">output</a> API doc for this type.
 {{% /choosable %}}

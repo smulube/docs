@@ -22,9 +22,9 @@ Explore the resources and functions of the cs module in the AliCloud package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getkubernetesclusters" title="GetKubernetesClusters"><span class="symbol function"></span>GetKubernetesClusters</a></li>
-    <li><a href="getmanagedkubernetesclusters" title="GetManagedKubernetesClusters"><span class="symbol function"></span>GetManagedKubernetesClusters</a></li>
-    <li><a href="getserverlesskubernetesclusters" title="GetServerlessKubernetesClusters"><span class="symbol function"></span>GetServerlessKubernetesClusters</a></li>
+    <li><a href="getkubernetesclusters" title="getKubernetesClusters"><span class="symbol function"></span>getKubernetesClusters</a></li>
+    <li><a href="getmanagedkubernetesclusters" title="getManagedKubernetesClusters"><span class="symbol function"></span>getManagedKubernetesClusters</a></li>
+    <li><a href="getserverlesskubernetesclusters" title="getServerlessKubernetesClusters"><span class="symbol function"></span>getServerlessKubernetesClusters</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

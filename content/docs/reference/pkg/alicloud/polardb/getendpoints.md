@@ -36,7 +36,7 @@ Filters support regular expression for the cluster name, searches by clusterId, 
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupEndpoints<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/polardb?tab=doc#LookupEndpointsArgs">LookupEndpointsArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/polardb?tab=doc#LookupEndpointsResult">LookupEndpointsResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetEndpoints<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/polardb?tab=doc#GetEndpointsArgs">GetEndpointsArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/polardb?tab=doc#GetEndpointsResult">GetEndpointsResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -342,7 +342,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getendpointsendpoint">Get<wbr>Endpoints<wbr>Endpoint</h4>
+<h4 id="getendpointsendpoint">get<wbr>Endpoints<wbr>Endpoint</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetEndpointsEndpoint">output</a> API doc for this type.
 {{% /choosable %}}
@@ -637,7 +637,7 @@ The following output properties are available:
 
 
 
-<h4 id="getendpointsendpointaddressitem">Get<wbr>Endpoints<wbr>Endpoint<wbr>Address<wbr>Item</h4>
+<h4 id="getendpointsendpointaddressitem">get<wbr>Endpoints<wbr>Endpoint<wbr>Address<wbr>Item</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetEndpointsEndpointAddressItem">output</a> API doc for this type.
 {{% /choosable %}}

@@ -11,8 +11,8 @@ Explore the resources and functions of the ddos module in the AliCloud package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getddosbgpinstances" title="GetDdosBgpInstances"><span class="symbol function"></span>GetDdosBgpInstances</a></li>
-    <li><a href="getddoscooinstances" title="GetDdosCooInstances"><span class="symbol function"></span>GetDdosCooInstances</a></li>
+    <li><a href="getddosbgpinstances" title="getDdosBgpInstances"><span class="symbol function"></span>getDdosBgpInstances</a></li>
+    <li><a href="getddoscooinstances" title="getDdosCooInstances"><span class="symbol function"></span>getDdosCooInstances</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

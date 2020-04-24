@@ -55,7 +55,7 @@ const instance = new alicloud.ecs.Instance("instance", {
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupInstanceTypes<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/ecs?tab=doc#LookupInstanceTypesArgs">LookupInstanceTypesArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/ecs?tab=doc#LookupInstanceTypesResult">LookupInstanceTypesResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetInstanceTypes<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/ecs?tab=doc#GetInstanceTypesArgs">GetInstanceTypesArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/ecs?tab=doc#GetInstanceTypesResult">GetInstanceTypesResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -1209,7 +1209,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getinstancetypesinstancetype">Get<wbr>Instance<wbr>Types<wbr>Instance<wbr>Type</h4>
+<h4 id="getinstancetypesinstancetype">get<wbr>Instance<wbr>Types<wbr>Instance<wbr>Type</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetInstanceTypesInstanceType">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1608,7 +1608,7 @@ The following output properties are available:
 
 
 
-<h4 id="getinstancetypesinstancetypeburstableinstance">Get<wbr>Instance<wbr>Types<wbr>Instance<wbr>Type<wbr>Burstable<wbr>Instance</h4>
+<h4 id="getinstancetypesinstancetypeburstableinstance">get<wbr>Instance<wbr>Types<wbr>Instance<wbr>Type<wbr>Burstable<wbr>Instance</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetInstanceTypesInstanceTypeBurstableInstance">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1723,7 +1723,7 @@ The following output properties are available:
 
 
 
-<h4 id="getinstancetypesinstancetypegpu">Get<wbr>Instance<wbr>Types<wbr>Instance<wbr>Type<wbr>Gpu</h4>
+<h4 id="getinstancetypesinstancetypegpu">get<wbr>Instance<wbr>Types<wbr>Instance<wbr>Type<wbr>Gpu</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetInstanceTypesInstanceTypeGpu">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1838,7 +1838,7 @@ The following output properties are available:
 
 
 
-<h4 id="getinstancetypesinstancetypelocalstorage">Get<wbr>Instance<wbr>Types<wbr>Instance<wbr>Type<wbr>Local<wbr>Storage</h4>
+<h4 id="getinstancetypesinstancetypelocalstorage">get<wbr>Instance<wbr>Types<wbr>Instance<wbr>Type<wbr>Local<wbr>Storage</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetInstanceTypesInstanceTypeLocalStorage">output</a> API doc for this type.
 {{% /choosable %}}

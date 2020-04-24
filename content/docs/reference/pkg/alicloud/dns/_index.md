@@ -22,13 +22,13 @@ Explore the resources and functions of the dns module in the AliCloud package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getdomaingroups" title="GetDomainGroups"><span class="symbol function"></span>GetDomainGroups</a></li>
-    <li><a href="getdomainrecords" title="GetDomainRecords"><span class="symbol function"></span>GetDomainRecords</a></li>
-    <li><a href="getdomaintxtguid" title="GetDomainTxtGuid"><span class="symbol function"></span>GetDomainTxtGuid</a></li>
-    <li><a href="getdomains" title="GetDomains"><span class="symbol function"></span>GetDomains</a></li>
-    <li><a href="getgroups" title="GetGroups"><span class="symbol function"></span>GetGroups</a></li>
-    <li><a href="getrecords" title="GetRecords"><span class="symbol function"></span>GetRecords</a></li>
-    <li><a href="getresolutionlines" title="GetResolutionLines"><span class="symbol function"></span>GetResolutionLines</a></li>
+    <li><a href="getdomaingroups" title="getDomainGroups"><span class="symbol function"></span>getDomainGroups</a></li>
+    <li><a href="getdomainrecords" title="getDomainRecords"><span class="symbol function"></span>getDomainRecords</a></li>
+    <li><a href="getdomaintxtguid" title="getDomainTxtGuid"><span class="symbol function"></span>getDomainTxtGuid</a></li>
+    <li><a href="getdomains" title="getDomains"><span class="symbol function"></span>getDomains</a></li>
+    <li><a href="getgroups" title="getGroups"><span class="symbol function"></span>getGroups</a></li>
+    <li><a href="getrecords" title="getRecords"><span class="symbol function"></span>getRecords</a></li>
+    <li><a href="getresolutionlines" title="getResolutionLines"><span class="symbol function"></span>getResolutionLines</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

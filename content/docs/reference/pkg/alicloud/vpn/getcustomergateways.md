@@ -51,7 +51,7 @@ const foo = pulumi.output(alicloud.vpn.getCustomerGateways({
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupCustomerGateways<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/vpn?tab=doc#LookupCustomerGatewaysArgs">LookupCustomerGatewaysArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/vpn?tab=doc#LookupCustomerGatewaysResult">LookupCustomerGatewaysResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetCustomerGateways<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/vpn?tab=doc#GetCustomerGatewaysArgs">GetCustomerGatewaysArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/vpn?tab=doc#GetCustomerGatewaysResult">GetCustomerGatewaysResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -453,7 +453,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getcustomergatewaysgateway">Get<wbr>Customer<wbr>Gateways<wbr>Gateway</h4>
+<h4 id="getcustomergatewaysgateway">get<wbr>Customer<wbr>Gateways<wbr>Gateway</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetCustomerGatewaysGateway">output</a> API doc for this type.
 {{% /choosable %}}

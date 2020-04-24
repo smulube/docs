@@ -52,7 +52,7 @@ export const output = k8sClusters.clusters;
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupManagedKubernetesClusters<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/cs?tab=doc#LookupManagedKubernetesClustersArgs">LookupManagedKubernetesClustersArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/cs?tab=doc#LookupManagedKubernetesClustersResult">LookupManagedKubernetesClustersResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetManagedKubernetesClusters<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/cs?tab=doc#GetManagedKubernetesClustersArgs">GetManagedKubernetesClustersArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/cs?tab=doc#GetManagedKubernetesClustersResult">GetManagedKubernetesClustersResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -522,7 +522,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getmanagedkubernetesclusterscluster">Get<wbr>Managed<wbr>Kubernetes<wbr>Clusters<wbr>Cluster</h4>
+<h4 id="getmanagedkubernetesclusterscluster">get<wbr>Managed<wbr>Kubernetes<wbr>Clusters<wbr>Cluster</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetManagedKubernetesClustersCluster">output</a> API doc for this type.
 {{% /choosable %}}
@@ -853,7 +853,7 @@ The following output properties are available:
 
 
 
-<h4 id="getmanagedkubernetesclustersclusterconnections">Get<wbr>Managed<wbr>Kubernetes<wbr>Clusters<wbr>Cluster<wbr>Connections</h4>
+<h4 id="getmanagedkubernetesclustersclusterconnections">get<wbr>Managed<wbr>Kubernetes<wbr>Clusters<wbr>Cluster<wbr>Connections</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetManagedKubernetesClustersClusterConnections">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1040,7 +1040,7 @@ The following output properties are available:
 
 
 
-<h4 id="getmanagedkubernetesclustersclusterworkernode">Get<wbr>Managed<wbr>Kubernetes<wbr>Clusters<wbr>Cluster<wbr>Worker<wbr>Node</h4>
+<h4 id="getmanagedkubernetesclustersclusterworkernode">get<wbr>Managed<wbr>Kubernetes<wbr>Clusters<wbr>Cluster<wbr>Worker<wbr>Node</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetManagedKubernetesClustersClusterWorkerNode">output</a> API doc for this type.
 {{% /choosable %}}

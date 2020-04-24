@@ -23,10 +23,10 @@ Explore the resources and functions of the rds module in the AliCloud package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getinstanceclasses" title="GetInstanceClasses"><span class="symbol function"></span>GetInstanceClasses</a></li>
-    <li><a href="getinstanceengines" title="GetInstanceEngines"><span class="symbol function"></span>GetInstanceEngines</a></li>
-    <li><a href="getinstances" title="GetInstances"><span class="symbol function"></span>GetInstances</a></li>
-    <li><a href="getzones" title="GetZones"><span class="symbol function"></span>GetZones</a></li>
+    <li><a href="getinstanceclasses" title="getInstanceClasses"><span class="symbol function"></span>getInstanceClasses</a></li>
+    <li><a href="getinstanceengines" title="getInstanceEngines"><span class="symbol function"></span>getInstanceEngines</a></li>
+    <li><a href="getinstances" title="getInstances"><span class="symbol function"></span>getInstances</a></li>
+    <li><a href="getzones" title="getZones"><span class="symbol function"></span>getZones</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

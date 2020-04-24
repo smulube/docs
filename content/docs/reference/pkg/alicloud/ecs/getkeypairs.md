@@ -50,7 +50,7 @@ const defaultKeyPairs = defaultKeyPair.keyName.apply(keyName => alicloud.ecs.get
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupKeyPairs<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/ecs?tab=doc#LookupKeyPairsArgs">LookupKeyPairsArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/ecs?tab=doc#LookupKeyPairsResult">LookupKeyPairsResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetKeyPairs<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/ecs?tab=doc#GetKeyPairsArgs">GetKeyPairsArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/ecs?tab=doc#GetKeyPairsResult">GetKeyPairsResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -668,7 +668,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getkeypairskeypair">Get<wbr>Key<wbr>Pairs<wbr>Key<wbr>Pair</h4>
+<h4 id="getkeypairskeypair">get<wbr>Key<wbr>Pairs<wbr>Key<wbr>Pair</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetKeyPairsKeyPair">output</a> API doc for this type.
 {{% /choosable %}}
@@ -927,7 +927,7 @@ The following output properties are available:
 
 
 
-<h4 id="getkeypairskeypairinstance">Get<wbr>Key<wbr>Pairs<wbr>Key<wbr>Pair<wbr>Instance</h4>
+<h4 id="getkeypairskeypairinstance">get<wbr>Key<wbr>Pairs<wbr>Key<wbr>Pair<wbr>Instance</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetKeyPairsKeyPairInstance">output</a> API doc for this type.
 {{% /choosable %}}

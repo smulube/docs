@@ -48,7 +48,7 @@ export const firstSlbServerGroupId = sampleDs.slbServerGroups[0].id;
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupServerGroups<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/slb?tab=doc#LookupServerGroupsArgs">LookupServerGroupsArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/slb?tab=doc#LookupServerGroupsResult">LookupServerGroupsResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetServerGroups<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/slb?tab=doc#GetServerGroupsArgs">GetServerGroupsArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/slb?tab=doc#GetServerGroupsResult">GetServerGroupsResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -522,7 +522,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getservergroupsslbservergroup">Get<wbr>Server<wbr>Groups<wbr>Slb<wbr>Server<wbr>Group</h4>
+<h4 id="getservergroupsslbservergroup">get<wbr>Server<wbr>Groups<wbr>Slb<wbr>Server<wbr>Group</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetServerGroupsSlbServerGroup">output</a> API doc for this type.
 {{% /choosable %}}
@@ -673,7 +673,7 @@ The following output properties are available:
 
 
 
-<h4 id="getservergroupsslbservergroupserver">Get<wbr>Server<wbr>Groups<wbr>Slb<wbr>Server<wbr>Group<wbr>Server</h4>
+<h4 id="getservergroupsslbservergroupserver">get<wbr>Server<wbr>Groups<wbr>Slb<wbr>Server<wbr>Group<wbr>Server</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetServerGroupsSlbServerGroupServer">output</a> API doc for this type.
 {{% /choosable %}}

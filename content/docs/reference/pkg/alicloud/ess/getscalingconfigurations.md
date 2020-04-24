@@ -53,7 +53,7 @@ export const firstScalingRule = scalingconfigurationsDs.configurations[0].id;
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupScalingConfigurations<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/ess?tab=doc#LookupScalingConfigurationsArgs">LookupScalingConfigurationsArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/ess?tab=doc#LookupScalingConfigurationsResult">LookupScalingConfigurationsResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetScalingConfigurations<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/ess?tab=doc#GetScalingConfigurationsArgs">GetScalingConfigurationsArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/ess?tab=doc#GetScalingConfigurationsResult">GetScalingConfigurationsResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -531,7 +531,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getscalingconfigurationsconfiguration">Get<wbr>Scaling<wbr>Configurations<wbr>Configuration</h4>
+<h4 id="getscalingconfigurationsconfiguration">get<wbr>Scaling<wbr>Configurations<wbr>Configuration</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetScalingConfigurationsConfiguration">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1078,7 +1078,7 @@ The following output properties are available:
 
 
 
-<h4 id="getscalingconfigurationsconfigurationdatadisk">Get<wbr>Scaling<wbr>Configurations<wbr>Configuration<wbr>Data<wbr>Disk</h4>
+<h4 id="getscalingconfigurationsconfigurationdatadisk">get<wbr>Scaling<wbr>Configurations<wbr>Configuration<wbr>Data<wbr>Disk</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetScalingConfigurationsConfigurationDataDisk">output</a> API doc for this type.
 {{% /choosable %}}

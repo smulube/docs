@@ -11,7 +11,7 @@ Explore the resources and functions of the sag module in the AliCloud package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getacls" title="GetAcls"><span class="symbol function"></span>GetAcls</a></li>
+    <li><a href="getacls" title="getAcls"><span class="symbol function"></span>getAcls</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

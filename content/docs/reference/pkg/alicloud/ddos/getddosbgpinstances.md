@@ -50,7 +50,7 @@ export const instance = alicloud_ddosbgp_instances_instance.map(v => v.id);
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupDdosBgpInstances<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/ddos?tab=doc#LookupDdosBgpInstancesArgs">LookupDdosBgpInstancesArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/ddos?tab=doc#LookupDdosBgpInstancesResult">LookupDdosBgpInstancesResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetDdosBgpInstances<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/ddos?tab=doc#GetDdosBgpInstancesArgs">GetDdosBgpInstancesArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/ddos?tab=doc#GetDdosBgpInstancesResult">GetDdosBgpInstancesResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -456,7 +456,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getddosbgpinstancesinstance">Get<wbr>Ddos<wbr>Bgp<wbr>Instances<wbr>Instance</h4>
+<h4 id="getddosbgpinstancesinstance">get<wbr>Ddos<wbr>Bgp<wbr>Instances<wbr>Instance</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetDdosBgpInstancesInstance">output</a> API doc for this type.
 {{% /choosable %}}

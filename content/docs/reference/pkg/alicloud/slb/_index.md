@@ -26,18 +26,18 @@ Explore the resources and functions of the slb module in the AliCloud package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getacls" title="GetAcls"><span class="symbol function"></span>GetAcls</a></li>
-    <li><a href="getattachments" title="GetAttachments"><span class="symbol function"></span>GetAttachments</a></li>
-    <li><a href="getbackendservers" title="GetBackendServers"><span class="symbol function"></span>GetBackendServers</a></li>
-    <li><a href="getcacertificates" title="GetCaCertificates"><span class="symbol function"></span>GetCaCertificates</a></li>
-    <li><a href="getdomainextensions" title="GetDomainExtensions"><span class="symbol function"></span>GetDomainExtensions</a></li>
-    <li><a href="getlisteners" title="GetListeners"><span class="symbol function"></span>GetListeners</a></li>
-    <li><a href="getloadbalancers" title="GetLoadBalancers"><span class="symbol function"></span>GetLoadBalancers</a></li>
-    <li><a href="getmasterslaveservergroups" title="GetMasterSlaveServerGroups"><span class="symbol function"></span>GetMasterSlaveServerGroups</a></li>
-    <li><a href="getrules" title="GetRules"><span class="symbol function"></span>GetRules</a></li>
-    <li><a href="getservercertificates" title="GetServerCertificates"><span class="symbol function"></span>GetServerCertificates</a></li>
-    <li><a href="getservergroups" title="GetServerGroups"><span class="symbol function"></span>GetServerGroups</a></li>
-    <li><a href="getzones" title="GetZones"><span class="symbol function"></span>GetZones</a></li>
+    <li><a href="getacls" title="getAcls"><span class="symbol function"></span>getAcls</a></li>
+    <li><a href="getattachments" title="getAttachments"><span class="symbol function"></span>getAttachments</a></li>
+    <li><a href="getbackendservers" title="getBackendServers"><span class="symbol function"></span>getBackendServers</a></li>
+    <li><a href="getcacertificates" title="getCaCertificates"><span class="symbol function"></span>getCaCertificates</a></li>
+    <li><a href="getdomainextensions" title="getDomainExtensions"><span class="symbol function"></span>getDomainExtensions</a></li>
+    <li><a href="getlisteners" title="getListeners"><span class="symbol function"></span>getListeners</a></li>
+    <li><a href="getloadbalancers" title="getLoadBalancers"><span class="symbol function"></span>getLoadBalancers</a></li>
+    <li><a href="getmasterslaveservergroups" title="getMasterSlaveServerGroups"><span class="symbol function"></span>getMasterSlaveServerGroups</a></li>
+    <li><a href="getrules" title="getRules"><span class="symbol function"></span>getRules</a></li>
+    <li><a href="getservercertificates" title="getServerCertificates"><span class="symbol function"></span>getServerCertificates</a></li>
+    <li><a href="getservergroups" title="getServerGroups"><span class="symbol function"></span>getServerGroups</a></li>
+    <li><a href="getzones" title="getZones"><span class="symbol function"></span>getZones</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

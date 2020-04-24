@@ -66,7 +66,7 @@ const endpoint = new alicloud.PolardbEndpoints("endpoint", {
 {{% /choosable %}}
 
 {{% choosable language python %}}
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def </span><span class="nf">Endpoint</span><span class="p">(resource_name, opts=None, </span>auto_add_new_nodes=None<span class="p">, </span>db_cluster_id=None<span class="p">, </span>endpoint_config=None<span class="p">, </span>endpoint_type=None<span class="p">, </span>nodes=None<span class="p">, </span>read_write_mode=None<span class="p">, __props__=None);</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def </span><span class="nf">Endpoint</span><span class="p">(resource_name, </span>opts=None<span class="p">, </span>auto_add_new_nodes=None<span class="p">, </span>db_cluster_id=None<span class="p">, </span>endpoint_config=None<span class="p">, </span>endpoint_type=None<span class="p">, </span>nodes=None<span class="p">, </span>read_write_mode=None<span class="p">, </span>__props__=None<span class="p">);</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language go %}}

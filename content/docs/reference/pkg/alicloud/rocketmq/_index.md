@@ -26,9 +26,9 @@ Explore the resources and functions of the rocketmq module in the AliCloud packa
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getgroups" title="GetGroups"><span class="symbol function"></span>GetGroups</a></li>
-    <li><a href="getinstances" title="GetInstances"><span class="symbol function"></span>GetInstances</a></li>
-    <li><a href="gettopics" title="GetTopics"><span class="symbol function"></span>GetTopics</a></li>
+    <li><a href="getgroups" title="getGroups"><span class="symbol function"></span>getGroups</a></li>
+    <li><a href="getinstances" title="getInstances"><span class="symbol function"></span>getInstances</a></li>
+    <li><a href="gettopics" title="getTopics"><span class="symbol function"></span>getTopics</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

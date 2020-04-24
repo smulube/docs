@@ -17,11 +17,11 @@ Explore the resources and functions of the oss module in the AliCloud package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getbucketobjects" title="GetBucketObjects"><span class="symbol function"></span>GetBucketObjects</a></li>
-    <li><a href="getbuckets" title="GetBuckets"><span class="symbol function"></span>GetBuckets</a></li>
-    <li><a href="getinstanceattachments" title="GetInstanceAttachments"><span class="symbol function"></span>GetInstanceAttachments</a></li>
-    <li><a href="getinstances" title="GetInstances"><span class="symbol function"></span>GetInstances</a></li>
-    <li><a href="gettables" title="GetTables"><span class="symbol function"></span>GetTables</a></li>
+    <li><a href="getbucketobjects" title="getBucketObjects"><span class="symbol function"></span>getBucketObjects</a></li>
+    <li><a href="getbuckets" title="getBuckets"><span class="symbol function"></span>getBuckets</a></li>
+    <li><a href="getinstanceattachments" title="getInstanceAttachments"><span class="symbol function"></span>getInstanceAttachments</a></li>
+    <li><a href="getinstances" title="getInstances"><span class="symbol function"></span>getInstances</a></li>
+    <li><a href="gettables" title="getTables"><span class="symbol function"></span>getTables</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

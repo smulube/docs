@@ -36,7 +36,7 @@ Filters support regular expression for the account name, searches by clusterId.
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupAccounts<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/polardb?tab=doc#LookupAccountsArgs">LookupAccountsArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/polardb?tab=doc#LookupAccountsResult">LookupAccountsResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetAccounts<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/polardb?tab=doc#GetAccountsArgs">GetAccountsArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/polardb?tab=doc#GetAccountsResult">GetAccountsResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -374,7 +374,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getaccountsaccount">Get<wbr>Accounts<wbr>Account</h4>
+<h4 id="getaccountsaccount">get<wbr>Accounts<wbr>Account</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetAccountsAccount">output</a> API doc for this type.
 {{% /choosable %}}
@@ -633,7 +633,7 @@ The following output properties are available:
 
 
 
-<h4 id="getaccountsaccountdatabaseprivilege">Get<wbr>Accounts<wbr>Account<wbr>Database<wbr>Privilege</h4>
+<h4 id="getaccountsaccountdatabaseprivilege">get<wbr>Accounts<wbr>Account<wbr>Database<wbr>Privilege</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetAccountsAccountDatabasePrivilege">output</a> API doc for this type.
 {{% /choosable %}}

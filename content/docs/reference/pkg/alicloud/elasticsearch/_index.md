@@ -16,8 +16,8 @@ Explore the resources and functions of the elasticsearch module in the AliCloud 
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getinstances" title="GetInstances"><span class="symbol function"></span>GetInstances</a></li>
-    <li><a href="getzones" title="GetZones"><span class="symbol function"></span>GetZones</a></li>
+    <li><a href="getinstances" title="getInstances"><span class="symbol function"></span>getInstances</a></li>
+    <li><a href="getzones" title="getZones"><span class="symbol function"></span>getZones</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

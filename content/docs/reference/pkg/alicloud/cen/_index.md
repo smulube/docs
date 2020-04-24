@@ -23,12 +23,12 @@ Explore the resources and functions of the cen module in the AliCloud package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getbandwidthlimits" title="GetBandwidthLimits"><span class="symbol function"></span>GetBandwidthLimits</a></li>
-    <li><a href="getbandwidthpackages" title="GetBandwidthPackages"><span class="symbol function"></span>GetBandwidthPackages</a></li>
-    <li><a href="getflowlogs" title="GetFlowlogs"><span class="symbol function"></span>GetFlowlogs</a></li>
-    <li><a href="getinstances" title="GetInstances"><span class="symbol function"></span>GetInstances</a></li>
-    <li><a href="getregionrouteentries" title="GetRegionRouteEntries"><span class="symbol function"></span>GetRegionRouteEntries</a></li>
-    <li><a href="getrouteentries" title="GetRouteEntries"><span class="symbol function"></span>GetRouteEntries</a></li>
+    <li><a href="getbandwidthlimits" title="getBandwidthLimits"><span class="symbol function"></span>getBandwidthLimits</a></li>
+    <li><a href="getbandwidthpackages" title="getBandwidthPackages"><span class="symbol function"></span>getBandwidthPackages</a></li>
+    <li><a href="getflowlogs" title="getFlowlogs"><span class="symbol function"></span>getFlowlogs</a></li>
+    <li><a href="getinstances" title="getInstances"><span class="symbol function"></span>getInstances</a></li>
+    <li><a href="getregionrouteentries" title="getRegionRouteEntries"><span class="symbol function"></span>getRegionRouteEntries</a></li>
+    <li><a href="getrouteentries" title="getRouteEntries"><span class="symbol function"></span>getRouteEntries</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

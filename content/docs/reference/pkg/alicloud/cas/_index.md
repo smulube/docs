@@ -16,7 +16,7 @@ Explore the resources and functions of the cas module in the AliCloud package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getcertificates" title="GetCertificates"><span class="symbol function"></span>GetCertificates</a></li>
+    <li><a href="getcertificates" title="getCertificates"><span class="symbol function"></span>getCertificates</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

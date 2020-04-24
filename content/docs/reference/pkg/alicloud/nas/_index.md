@@ -19,11 +19,11 @@ Explore the resources and functions of the nas module in the AliCloud package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getaccessgroups" title="GetAccessGroups"><span class="symbol function"></span>GetAccessGroups</a></li>
-    <li><a href="getaccessrules" title="GetAccessRules"><span class="symbol function"></span>GetAccessRules</a></li>
-    <li><a href="getfilesystems" title="GetFileSystems"><span class="symbol function"></span>GetFileSystems</a></li>
-    <li><a href="getmounttargets" title="GetMountTargets"><span class="symbol function"></span>GetMountTargets</a></li>
-    <li><a href="getprotocols" title="GetProtocols"><span class="symbol function"></span>GetProtocols</a></li>
+    <li><a href="getaccessgroups" title="getAccessGroups"><span class="symbol function"></span>getAccessGroups</a></li>
+    <li><a href="getaccessrules" title="getAccessRules"><span class="symbol function"></span>getAccessRules</a></li>
+    <li><a href="getfilesystems" title="getFileSystems"><span class="symbol function"></span>getFileSystems</a></li>
+    <li><a href="getmounttargets" title="getMountTargets"><span class="symbol function"></span>getMountTargets</a></li>
+    <li><a href="getprotocols" title="getProtocols"><span class="symbol function"></span>getProtocols</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

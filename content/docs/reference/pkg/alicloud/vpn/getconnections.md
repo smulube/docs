@@ -49,7 +49,7 @@ const foo = pulumi.output(alicloud.vpn.getConnections({
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupConnections<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/vpn?tab=doc#LookupConnectionsArgs">LookupConnectionsArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/vpn?tab=doc#LookupConnectionsResult">LookupConnectionsResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetConnections<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/vpn?tab=doc#GetConnectionsArgs">GetConnectionsArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/vpn?tab=doc#GetConnectionsResult">GetConnectionsResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -603,7 +603,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getconnectionsconnection">Get<wbr>Connections<wbr>Connection</h4>
+<h4 id="getconnectionsconnection">get<wbr>Connections<wbr>Connection</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetConnectionsConnection">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1034,7 +1034,7 @@ The following output properties are available:
 
 
 
-<h4 id="getconnectionsconnectionikeconfig">Get<wbr>Connections<wbr>Connection<wbr>Ike<wbr>Config</h4>
+<h4 id="getconnectionsconnectionikeconfig">get<wbr>Connections<wbr>Connection<wbr>Ike<wbr>Config</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetConnectionsConnectionIkeConfig">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1401,7 +1401,7 @@ The following output properties are available:
 
 
 
-<h4 id="getconnectionsconnectionipsecconfig">Get<wbr>Connections<wbr>Connection<wbr>Ipsec<wbr>Config</h4>
+<h4 id="getconnectionsconnectionipsecconfig">get<wbr>Connections<wbr>Connection<wbr>Ipsec<wbr>Config</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetConnectionsConnectionIpsecConfig">output</a> API doc for this type.
 {{% /choosable %}}

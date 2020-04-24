@@ -48,7 +48,7 @@ export const firstOssBucketName = ossBucketsDs.buckets[0].name;
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupBuckets<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/oss?tab=doc#LookupBucketsArgs">LookupBucketsArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/oss?tab=doc#LookupBucketsResult">LookupBucketsResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetBuckets<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/oss?tab=doc#GetBucketsArgs">GetBucketsArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/oss?tab=doc#GetBucketsResult">GetBucketsResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -382,7 +382,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getbucketsbucket">Get<wbr>Buckets<wbr>Bucket</h4>
+<h4 id="getbucketsbucket">get<wbr>Buckets<wbr>Bucket</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetBucketsBucket">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1033,7 +1033,7 @@ The following output properties are available:
 
 
 
-<h4 id="getbucketsbucketcorsrule">Get<wbr>Buckets<wbr>Bucket<wbr>Cors<wbr>Rule</h4>
+<h4 id="getbucketsbucketcorsrule">get<wbr>Buckets<wbr>Bucket<wbr>Cors<wbr>Rule</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetBucketsBucketCorsRule">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1256,7 +1256,7 @@ The following output properties are available:
 
 
 
-<h4 id="getbucketsbucketlifecyclerule">Get<wbr>Buckets<wbr>Bucket<wbr>Lifecycle<wbr>Rule</h4>
+<h4 id="getbucketsbucketlifecyclerule">get<wbr>Buckets<wbr>Bucket<wbr>Lifecycle<wbr>Rule</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetBucketsBucketLifecycleRule">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1443,7 +1443,7 @@ The following output properties are available:
 
 
 
-<h4 id="getbucketsbucketlifecycleruleexpiration">Get<wbr>Buckets<wbr>Bucket<wbr>Lifecycle<wbr>Rule<wbr>Expiration</h4>
+<h4 id="getbucketsbucketlifecycleruleexpiration">get<wbr>Buckets<wbr>Bucket<wbr>Lifecycle<wbr>Rule<wbr>Expiration</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetBucketsBucketLifecycleRuleExpiration">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1558,7 +1558,7 @@ The following output properties are available:
 
 
 
-<h4 id="getbucketsbucketlogging">Get<wbr>Buckets<wbr>Bucket<wbr>Logging</h4>
+<h4 id="getbucketsbucketlogging">get<wbr>Buckets<wbr>Bucket<wbr>Logging</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetBucketsBucketLogging">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1673,7 +1673,7 @@ The following output properties are available:
 
 
 
-<h4 id="getbucketsbucketrefererconfig">Get<wbr>Buckets<wbr>Bucket<wbr>Referer<wbr>Config</h4>
+<h4 id="getbucketsbucketrefererconfig">get<wbr>Buckets<wbr>Bucket<wbr>Referer<wbr>Config</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetBucketsBucketRefererConfig">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1788,7 +1788,7 @@ The following output properties are available:
 
 
 
-<h4 id="getbucketsbucketserversideencryptionrule">Get<wbr>Buckets<wbr>Bucket<wbr>Server<wbr>Side<wbr>Encryption<wbr>Rule</h4>
+<h4 id="getbucketsbucketserversideencryptionrule">get<wbr>Buckets<wbr>Bucket<wbr>Server<wbr>Side<wbr>Encryption<wbr>Rule</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetBucketsBucketServerSideEncryptionRule">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1867,7 +1867,7 @@ The following output properties are available:
 
 
 
-<h4 id="getbucketsbucketversioning">Get<wbr>Buckets<wbr>Bucket<wbr>Versioning</h4>
+<h4 id="getbucketsbucketversioning">get<wbr>Buckets<wbr>Bucket<wbr>Versioning</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetBucketsBucketVersioning">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1946,7 +1946,7 @@ The following output properties are available:
 
 
 
-<h4 id="getbucketsbucketwebsite">Get<wbr>Buckets<wbr>Bucket<wbr>Website</h4>
+<h4 id="getbucketsbucketwebsite">get<wbr>Buckets<wbr>Bucket<wbr>Website</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetBucketsBucketWebsite">output</a> API doc for this type.
 {{% /choosable %}}

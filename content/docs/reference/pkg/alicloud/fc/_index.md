@@ -18,10 +18,10 @@ Explore the resources and functions of the fc module in the AliCloud package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getfunctions" title="GetFunctions"><span class="symbol function"></span>GetFunctions</a></li>
-    <li><a href="getservices" title="GetServices"><span class="symbol function"></span>GetServices</a></li>
-    <li><a href="gettriggers" title="GetTriggers"><span class="symbol function"></span>GetTriggers</a></li>
-    <li><a href="getzones" title="GetZones"><span class="symbol function"></span>GetZones</a></li>
+    <li><a href="getfunctions" title="getFunctions"><span class="symbol function"></span>getFunctions</a></li>
+    <li><a href="getservices" title="getServices"><span class="symbol function"></span>getServices</a></li>
+    <li><a href="gettriggers" title="getTriggers"><span class="symbol function"></span>getTriggers</a></li>
+    <li><a href="getzones" title="getZones"><span class="symbol function"></span>getZones</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

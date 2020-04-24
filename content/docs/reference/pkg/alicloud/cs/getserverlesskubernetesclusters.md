@@ -52,7 +52,7 @@ export const output = k8sClusters.clusters;
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupServerlessKubernetesClusters<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/cs?tab=doc#LookupServerlessKubernetesClustersArgs">LookupServerlessKubernetesClustersArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/cs?tab=doc#LookupServerlessKubernetesClustersResult">LookupServerlessKubernetesClustersResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetServerlessKubernetesClusters<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/cs?tab=doc#GetServerlessKubernetesClustersArgs">GetServerlessKubernetesClustersArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/cs?tab=doc#GetServerlessKubernetesClustersResult">GetServerlessKubernetesClustersResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -522,7 +522,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getserverlesskubernetesclusterscluster">Get<wbr>Serverless<wbr>Kubernetes<wbr>Clusters<wbr>Cluster</h4>
+<h4 id="getserverlesskubernetesclusterscluster">get<wbr>Serverless<wbr>Kubernetes<wbr>Clusters<wbr>Cluster</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetServerlessKubernetesClustersCluster">output</a> API doc for this type.
 {{% /choosable %}}
@@ -917,7 +917,7 @@ The following output properties are available:
 
 
 
-<h4 id="getserverlesskubernetesclustersclusterconnections">Get<wbr>Serverless<wbr>Kubernetes<wbr>Clusters<wbr>Cluster<wbr>Connections</h4>
+<h4 id="getserverlesskubernetesclustersclusterconnections">get<wbr>Serverless<wbr>Kubernetes<wbr>Clusters<wbr>Cluster<wbr>Connections</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetServerlessKubernetesClustersClusterConnections">output</a> API doc for this type.
 {{% /choosable %}}

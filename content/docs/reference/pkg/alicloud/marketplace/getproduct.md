@@ -52,7 +52,7 @@ export const firstProductPackageVersion = defaultProduct.products[0].skuses[0].p
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupProduct<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/marketplace?tab=doc#LookupProductArgs">LookupProductArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/marketplace?tab=doc#LookupProductResult">LookupProductResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetProduct<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/marketplace?tab=doc#GetProductArgs">GetProductArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/marketplace?tab=doc#GetProductResult">GetProductResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -354,7 +354,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getproductproduct">Get<wbr>Product<wbr>Product</h4>
+<h4 id="getproductproduct">get<wbr>Product<wbr>Product</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetProductProduct">output</a> API doc for this type.
 {{% /choosable %}}
@@ -541,7 +541,7 @@ The following output properties are available:
 
 
 
-<h4 id="getproductproductskus">Get<wbr>Product<wbr>Product<wbr>Skus</h4>
+<h4 id="getproductproductskus">get<wbr>Product<wbr>Product<wbr>Skus</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetProductProductSkus">output</a> API doc for this type.
 {{% /choosable %}}
@@ -728,7 +728,7 @@ The following output properties are available:
 
 
 
-<h4 id="getproductproductskusimage">Get<wbr>Product<wbr>Product<wbr>Skus<wbr>Image</h4>
+<h4 id="getproductproductskusimage">get<wbr>Product<wbr>Product<wbr>Skus<wbr>Image</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetProductProductSkusImage">output</a> API doc for this type.
 {{% /choosable %}}
@@ -879,7 +879,7 @@ The following output properties are available:
 
 
 
-<h4 id="getproductproductskuspackageversion">Get<wbr>Product<wbr>Product<wbr>Skus<wbr>Package<wbr>Version</h4>
+<h4 id="getproductproductskuspackageversion">get<wbr>Product<wbr>Product<wbr>Skus<wbr>Package<wbr>Version</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetProductProductSkusPackageVersion">output</a> API doc for this type.
 {{% /choosable %}}

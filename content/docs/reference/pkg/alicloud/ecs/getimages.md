@@ -50,7 +50,7 @@ export const firstImageId = imagesDs.images[0].id;
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupImages<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/ecs?tab=doc#LookupImagesArgs">LookupImagesArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/ecs?tab=doc#LookupImagesResult">LookupImagesResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetImages<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/ecs?tab=doc#GetImagesArgs">GetImagesArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/ecs?tab=doc#GetImagesResult">GetImagesResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -520,7 +520,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getimagesimage">Get<wbr>Images<wbr>Image</h4>
+<h4 id="getimagesimage">get<wbr>Images<wbr>Image</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetImagesImage">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1387,7 +1387,7 @@ The following output properties are available:
 
 
 
-<h4 id="getimagesimagediskdevicemapping">Get<wbr>Images<wbr>Image<wbr>Disk<wbr>Device<wbr>Mapping</h4>
+<h4 id="getimagesimagediskdevicemapping">get<wbr>Images<wbr>Image<wbr>Disk<wbr>Device<wbr>Mapping</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetImagesImageDiskDeviceMapping">output</a> API doc for this type.
 {{% /choosable %}}

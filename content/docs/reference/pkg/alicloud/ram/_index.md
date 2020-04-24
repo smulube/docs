@@ -29,12 +29,12 @@ Explore the resources and functions of the ram module in the AliCloud package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getaccountalias" title="GetAccountAlias"><span class="symbol function"></span>GetAccountAlias</a></li>
-    <li><a href="getaccountaliases" title="GetAccountAliases"><span class="symbol function"></span>GetAccountAliases</a></li>
-    <li><a href="getgroups" title="GetGroups"><span class="symbol function"></span>GetGroups</a></li>
-    <li><a href="getpolicies" title="GetPolicies"><span class="symbol function"></span>GetPolicies</a></li>
-    <li><a href="getroles" title="GetRoles"><span class="symbol function"></span>GetRoles</a></li>
-    <li><a href="getusers" title="GetUsers"><span class="symbol function"></span>GetUsers</a></li>
+    <li><a href="getaccountalias" title="getAccountAlias"><span class="symbol function"></span>getAccountAlias</a></li>
+    <li><a href="getaccountaliases" title="getAccountAliases"><span class="symbol function"></span>getAccountAliases</a></li>
+    <li><a href="getgroups" title="getGroups"><span class="symbol function"></span>getGroups</a></li>
+    <li><a href="getpolicies" title="getPolicies"><span class="symbol function"></span>getPolicies</a></li>
+    <li><a href="getroles" title="getRoles"><span class="symbol function"></span>getRoles</a></li>
+    <li><a href="getusers" title="getUsers"><span class="symbol function"></span>getUsers</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

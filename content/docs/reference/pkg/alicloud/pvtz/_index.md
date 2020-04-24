@@ -18,8 +18,8 @@ Explore the resources and functions of the pvtz module in the AliCloud package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getzonerecords" title="GetZoneRecords"><span class="symbol function"></span>GetZoneRecords</a></li>
-    <li><a href="getzones" title="GetZones"><span class="symbol function"></span>GetZones</a></li>
+    <li><a href="getzonerecords" title="getZoneRecords"><span class="symbol function"></span>getZoneRecords</a></li>
+    <li><a href="getzones" title="getZones"><span class="symbol function"></span>getZones</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

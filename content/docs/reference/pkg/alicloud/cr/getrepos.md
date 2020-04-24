@@ -52,7 +52,7 @@ export const output = myRepos.repos;
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupRepos<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/cr?tab=doc#LookupReposArgs">LookupReposArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/cr?tab=doc#LookupReposResult">LookupReposResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetRepos<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/cr?tab=doc#GetReposArgs">GetReposArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/cr?tab=doc#GetReposResult">GetReposResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -562,7 +562,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getreposrepo">Get<wbr>Repos<wbr>Repo</h4>
+<h4 id="getreposrepo">get<wbr>Repos<wbr>Repo</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetReposRepo">output</a> API doc for this type.
 {{% /choosable %}}
@@ -821,7 +821,7 @@ The following output properties are available:
 
 
 
-<h4 id="getreposrepodomainlist">Get<wbr>Repos<wbr>Repo<wbr>Domain<wbr>List</h4>
+<h4 id="getreposrepodomainlist">get<wbr>Repos<wbr>Repo<wbr>Domain<wbr>List</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetReposRepoDomainList">output</a> API doc for this type.
 {{% /choosable %}}
@@ -972,7 +972,7 @@ The following output properties are available:
 
 
 
-<h4 id="getreposrepotag">Get<wbr>Repos<wbr>Repo<wbr>Tag</h4>
+<h4 id="getreposrepotag">get<wbr>Repos<wbr>Repo<wbr>Tag</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetReposRepoTag">output</a> API doc for this type.
 {{% /choosable %}}

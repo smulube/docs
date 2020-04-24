@@ -48,7 +48,7 @@ export const firstFcServiceName = fcServicesDs.services[0].name;
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupServices<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/fc?tab=doc#LookupServicesArgs">LookupServicesArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/fc?tab=doc#LookupServicesResult">LookupServicesResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetServices<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/fc?tab=doc#GetServicesArgs">GetServicesArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/fc?tab=doc#GetServicesResult">GetServicesResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -458,7 +458,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getservicesservice">Get<wbr>Services<wbr>Service</h4>
+<h4 id="getservicesservice">get<wbr>Services<wbr>Service</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetServicesService">output</a> API doc for this type.
 {{% /choosable %}}
@@ -825,7 +825,7 @@ The following output properties are available:
 
 
 
-<h4 id="getservicesservicelogconfig">Get<wbr>Services<wbr>Service<wbr>Log<wbr>Config</h4>
+<h4 id="getservicesservicelogconfig">get<wbr>Services<wbr>Service<wbr>Log<wbr>Config</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetServicesServiceLogConfig">output</a> API doc for this type.
 {{% /choosable %}}
@@ -940,7 +940,7 @@ The following output properties are available:
 
 
 
-<h4 id="getservicesservicevpcconfig">Get<wbr>Services<wbr>Service<wbr>Vpc<wbr>Config</h4>
+<h4 id="getservicesservicevpcconfig">get<wbr>Services<wbr>Service<wbr>Vpc<wbr>Config</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetServicesServiceVpcConfig">output</a> API doc for this type.
 {{% /choosable %}}

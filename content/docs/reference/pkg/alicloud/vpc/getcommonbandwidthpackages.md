@@ -59,7 +59,7 @@ const fooCommonBandwidthPackages = fooCommonBandwithPackage.id.apply(id => alicl
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupCommonBandwidthPackages<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/vpc?tab=doc#LookupCommonBandwidthPackagesArgs">LookupCommonBandwidthPackagesArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/vpc?tab=doc#LookupCommonBandwidthPackagesResult">LookupCommonBandwidthPackagesResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetCommonBandwidthPackages<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/vpc?tab=doc#GetCommonBandwidthPackagesArgs">GetCommonBandwidthPackagesArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/vpc?tab=doc#GetCommonBandwidthPackagesResult">GetCommonBandwidthPackagesResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -537,7 +537,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getcommonbandwidthpackagespackage">Get<wbr>Common<wbr>Bandwidth<wbr>Packages<wbr>Package</h4>
+<h4 id="getcommonbandwidthpackagespackage">get<wbr>Common<wbr>Bandwidth<wbr>Packages<wbr>Package</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetCommonBandwidthPackagesPackage">output</a> API doc for this type.
 {{% /choosable %}}
@@ -940,7 +940,7 @@ The following output properties are available:
 
 
 
-<h4 id="getcommonbandwidthpackagespackagepublicipaddress">Get<wbr>Common<wbr>Bandwidth<wbr>Packages<wbr>Package<wbr>Public<wbr>Ip<wbr>Address</h4>
+<h4 id="getcommonbandwidthpackagespackagepublicipaddress">get<wbr>Common<wbr>Bandwidth<wbr>Packages<wbr>Package<wbr>Public<wbr>Ip<wbr>Address</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetCommonBandwidthPackagesPackagePublicIpAddress">output</a> API doc for this type.
 {{% /choosable %}}

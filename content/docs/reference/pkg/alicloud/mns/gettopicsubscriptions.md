@@ -49,7 +49,7 @@ export const firstTopicSubscriptionId = subscriptions.subscriptions[0].id;
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupTopicSubscriptions<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/mns?tab=doc#LookupTopicSubscriptionsArgs">LookupTopicSubscriptionsArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/mns?tab=doc#LookupTopicSubscriptionsResult">LookupTopicSubscriptionsResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetTopicSubscriptions<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/mns?tab=doc#GetTopicSubscriptionsArgs">GetTopicSubscriptionsArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-alicloud/sdk/v2/go/alicloud/mns?tab=doc#GetTopicSubscriptionsResult">GetTopicSubscriptionsResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -451,7 +451,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="gettopicsubscriptionssubscription">Get<wbr>Topic<wbr>Subscriptions<wbr>Subscription</h4>
+<h4 id="gettopicsubscriptionssubscription">get<wbr>Topic<wbr>Subscriptions<wbr>Subscription</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/alicloud/types/output/#GetTopicSubscriptionsSubscription">output</a> API doc for this type.
 {{% /choosable %}}
