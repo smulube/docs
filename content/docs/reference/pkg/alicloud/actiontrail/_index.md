@@ -16,12 +16,12 @@ Explore the resources and functions of the actiontrail module in the AliCloud pa
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getconsumergroups" title="getConsumerGroups"><span class="symbol function"></span>getConsumerGroups</a></li>
-    <li><a href="getinstances" title="getInstances"><span class="symbol function"></span>getInstances</a></li>
-    <li><a href="getsaslacls" title="getSaslAcls"><span class="symbol function"></span>getSaslAcls</a></li>
-    <li><a href="getsaslusers" title="getSaslUsers"><span class="symbol function"></span>getSaslUsers</a></li>
-    <li><a href="gettopics" title="getTopics"><span class="symbol function"></span>getTopics</a></li>
-    <li><a href="gettrails" title="getTrails"><span class="symbol function"></span>getTrails</a></li>
+    <li><a href="getconsumergroups" title="GetConsumerGroups"><span class="symbol function"></span>GetConsumerGroups</a></li>
+    <li><a href="getinstances" title="GetInstances"><span class="symbol function"></span>GetInstances</a></li>
+    <li><a href="getsaslacls" title="GetSaslAcls"><span class="symbol function"></span>GetSaslAcls</a></li>
+    <li><a href="getsaslusers" title="GetSaslUsers"><span class="symbol function"></span>GetSaslUsers</a></li>
+    <li><a href="gettopics" title="GetTopics"><span class="symbol function"></span>GetTopics</a></li>
+    <li><a href="gettrails" title="GetTrails"><span class="symbol function"></span>GetTrails</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

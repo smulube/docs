@@ -35,17 +35,17 @@ Explore the resources and functions of the vpc module in the AliCloud package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getcommonbandwidthpackages" title="getCommonBandwidthPackages"><span class="symbol function"></span>getCommonBandwidthPackages</a></li>
-    <li><a href="getforwardentries" title="getForwardEntries"><span class="symbol function"></span>getForwardEntries</a></li>
-    <li><a href="getnatgateways" title="getNatGateways"><span class="symbol function"></span>getNatGateways</a></li>
-    <li><a href="getnetworks" title="getNetworks"><span class="symbol function"></span>getNetworks</a></li>
-    <li><a href="getrouteentries" title="getRouteEntries"><span class="symbol function"></span>getRouteEntries</a></li>
-    <li><a href="getroutetables" title="getRouteTables"><span class="symbol function"></span>getRouteTables</a></li>
-    <li><a href="getrouterinterfaces" title="getRouterInterfaces"><span class="symbol function"></span>getRouterInterfaces</a></li>
-    <li><a href="getsnatentries" title="getSnatEntries"><span class="symbol function"></span>getSnatEntries</a></li>
-    <li><a href="getsslvpnclientcerts" title="getSslVpnClientCerts"><span class="symbol function"></span>getSslVpnClientCerts</a></li>
-    <li><a href="getsslvpnservers" title="getSslVpnServers"><span class="symbol function"></span>getSslVpnServers</a></li>
-    <li><a href="getswitches" title="getSwitches"><span class="symbol function"></span>getSwitches</a></li>
+    <li><a href="getcommonbandwidthpackages" title="GetCommonBandwidthPackages"><span class="symbol function"></span>GetCommonBandwidthPackages</a></li>
+    <li><a href="getforwardentries" title="GetForwardEntries"><span class="symbol function"></span>GetForwardEntries</a></li>
+    <li><a href="getnatgateways" title="GetNatGateways"><span class="symbol function"></span>GetNatGateways</a></li>
+    <li><a href="getnetworks" title="GetNetworks"><span class="symbol function"></span>GetNetworks</a></li>
+    <li><a href="getrouteentries" title="GetRouteEntries"><span class="symbol function"></span>GetRouteEntries</a></li>
+    <li><a href="getroutetables" title="GetRouteTables"><span class="symbol function"></span>GetRouteTables</a></li>
+    <li><a href="getrouterinterfaces" title="GetRouterInterfaces"><span class="symbol function"></span>GetRouterInterfaces</a></li>
+    <li><a href="getsnatentries" title="GetSnatEntries"><span class="symbol function"></span>GetSnatEntries</a></li>
+    <li><a href="getsslvpnclientcerts" title="GetSslVpnClientCerts"><span class="symbol function"></span>GetSslVpnClientCerts</a></li>
+    <li><a href="getsslvpnservers" title="GetSslVpnServers"><span class="symbol function"></span>GetSslVpnServers</a></li>
+    <li><a href="getswitches" title="GetSwitches"><span class="symbol function"></span>GetSwitches</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

@@ -11,7 +11,7 @@ Explore the resources and functions of the dds module in the AliCloud package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getmongoinstances" title="getMongoInstances"><span class="symbol function"></span>getMongoInstances</a></li>
+    <li><a href="getmongoinstances" title="GetMongoInstances"><span class="symbol function"></span>GetMongoInstances</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

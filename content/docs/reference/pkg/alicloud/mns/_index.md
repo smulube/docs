@@ -18,9 +18,9 @@ Explore the resources and functions of the mns module in the AliCloud package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getqueues" title="getQueues"><span class="symbol function"></span>getQueues</a></li>
-    <li><a href="gettopicsubscriptions" title="getTopicSubscriptions"><span class="symbol function"></span>getTopicSubscriptions</a></li>
-    <li><a href="gettopics" title="getTopics"><span class="symbol function"></span>getTopics</a></li>
+    <li><a href="getqueues" title="GetQueues"><span class="symbol function"></span>GetQueues</a></li>
+    <li><a href="gettopicsubscriptions" title="GetTopicSubscriptions"><span class="symbol function"></span>GetTopicSubscriptions</a></li>
+    <li><a href="gettopics" title="GetTopics"><span class="symbol function"></span>GetTopics</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

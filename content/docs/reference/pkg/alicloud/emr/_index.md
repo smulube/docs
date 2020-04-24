@@ -16,9 +16,9 @@ Explore the resources and functions of the emr module in the AliCloud package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getdisktypes" title="getDiskTypes"><span class="symbol function"></span>getDiskTypes</a></li>
-    <li><a href="getinstancetypes" title="getInstanceTypes"><span class="symbol function"></span>getInstanceTypes</a></li>
-    <li><a href="getmainversions" title="getMainVersions"><span class="symbol function"></span>getMainVersions</a></li>
+    <li><a href="getdisktypes" title="GetDiskTypes"><span class="symbol function"></span>GetDiskTypes</a></li>
+    <li><a href="getinstancetypes" title="GetInstanceTypes"><span class="symbol function"></span>GetInstanceTypes</a></li>
+    <li><a href="getmainversions" title="GetMainVersions"><span class="symbol function"></span>GetMainVersions</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

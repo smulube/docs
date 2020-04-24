@@ -17,8 +17,8 @@ Explore the resources and functions of the cr module in the AliCloud package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getnamespaces" title="getNamespaces"><span class="symbol function"></span>getNamespaces</a></li>
-    <li><a href="getrepos" title="getRepos"><span class="symbol function"></span>getRepos</a></li>
+    <li><a href="getnamespaces" title="GetNamespaces"><span class="symbol function"></span>GetNamespaces</a></li>
+    <li><a href="getrepos" title="GetRepos"><span class="symbol function"></span>GetRepos</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

@@ -17,8 +17,8 @@ Explore the resources and functions of the yundun module in the AliCloud package
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getbastionhostinstances" title="getBastionHostInstances"><span class="symbol function"></span>getBastionHostInstances</a></li>
-    <li><a href="getdbauditinstance" title="getDBAuditInstance"><span class="symbol function"></span>getDBAuditInstance</a></li>
+    <li><a href="getbastionhostinstances" title="GetBastionHostInstances"><span class="symbol function"></span>GetBastionHostInstances</a></li>
+    <li><a href="getdbauditinstance" title="GetDBAuditInstance"><span class="symbol function"></span>GetDBAuditInstance</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

@@ -38,7 +38,7 @@ export const fileCrc64Checksum = alicloud_file_crc64_checksum_defualt.checksum;
 {{< chooser language "javascript,typescript,python,go,csharp" / >}}
 
 
-{{% choosable language typescript %}}
+{{% choosable language nodejs %}}
 <div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">function </span>getFileCrc64Checksum<span class="p">(</span><span class="nx">args</span>: <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/alicloud/#GetFileCrc64ChecksumArgs">GetFileCrc64ChecksumArgs</a></span><span class="p">, </span><span class="nx">opts</span>?: <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#InvokeOptions">InvokeOptions</a></span><span class="p">): Promise&lt;<span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/alicloud/#GetFileCrc64ChecksumResult">GetFileCrc64ChecksumResult</a></span>></span></code></pre></div>
 {{% /choosable %}}
 

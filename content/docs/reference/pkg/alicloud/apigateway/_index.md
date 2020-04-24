@@ -20,9 +20,9 @@ Explore the resources and functions of the apigateway module in the AliCloud pac
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getapis" title="getApis"><span class="symbol function"></span>getApis</a></li>
-    <li><a href="getapps" title="getApps"><span class="symbol function"></span>getApps</a></li>
-    <li><a href="getgroups" title="getGroups"><span class="symbol function"></span>getGroups</a></li>
+    <li><a href="getapis" title="GetApis"><span class="symbol function"></span>GetApis</a></li>
+    <li><a href="getapps" title="GetApps"><span class="symbol function"></span>GetApps</a></li>
+    <li><a href="getgroups" title="GetGroups"><span class="symbol function"></span>GetGroups</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

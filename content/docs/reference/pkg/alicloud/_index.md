@@ -65,11 +65,11 @@ A Pulumi package for creating and managing AliCloud resources.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getaccount" title="getAccount"><span class="symbol function"></span>getAccount</a></li>
-    <li><a href="getcalleridentity" title="getCallerIdentity"><span class="symbol function"></span>getCallerIdentity</a></li>
-    <li><a href="getfilecrc64checksum" title="getFileCrc64Checksum"><span class="symbol function"></span>getFileCrc64Checksum</a></li>
-    <li><a href="getregions" title="getRegions"><span class="symbol function"></span>getRegions</a></li>
-    <li><a href="getzones" title="getZones"><span class="symbol function"></span>getZones</a></li>
+    <li><a href="getaccount" title="GetAccount"><span class="symbol function"></span>GetAccount</a></li>
+    <li><a href="getcalleridentity" title="GetCallerIdentity"><span class="symbol function"></span>GetCallerIdentity</a></li>
+    <li><a href="getfilecrc64checksum" title="GetFileCrc64Checksum"><span class="symbol function"></span>GetFileCrc64Checksum</a></li>
+    <li><a href="getregions" title="GetRegions"><span class="symbol function"></span>GetRegions</a></li>
+    <li><a href="getzones" title="GetZones"><span class="symbol function"></span>GetZones</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

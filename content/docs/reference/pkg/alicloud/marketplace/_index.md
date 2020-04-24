@@ -16,8 +16,8 @@ Explore the resources and functions of the marketplace module in the AliCloud pa
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getproduct" title="getProduct"><span class="symbol function"></span>getProduct</a></li>
-    <li><a href="getproducts" title="getProducts"><span class="symbol function"></span>getProducts</a></li>
+    <li><a href="getproduct" title="GetProduct"><span class="symbol function"></span>GetProduct</a></li>
+    <li><a href="getproducts" title="GetProducts"><span class="symbol function"></span>GetProducts</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

@@ -37,7 +37,7 @@ export const instance = alicloud_ddoscoo_instances_instance.map(v => v.id);
 {{< chooser language "javascript,typescript,python,go,csharp" / >}}
 
 
-{{% choosable language typescript %}}
+{{% choosable language nodejs %}}
 <div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">function </span>getDdosCooInstances<span class="p">(</span><span class="nx">args</span>: <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/alicloud/ddos/#GetDdosCooInstancesArgs">GetDdosCooInstancesArgs</a></span><span class="p">, </span><span class="nx">opts</span>?: <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#InvokeOptions">InvokeOptions</a></span><span class="p">): Promise&lt;<span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/alicloud/ddos/#GetDdosCooInstancesResult">GetDdosCooInstancesResult</a></span>></span></code></pre></div>
 {{% /choosable %}}
 
