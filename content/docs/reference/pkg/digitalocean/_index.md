@@ -46,29 +46,29 @@ A Pulumi package for creating and managing Digital Ocean cloud resources.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getaccount" title="getAccount"><span class="symbol function"></span>getAccount</a></li>
-    <li><a href="getcertificate" title="getCertificate"><span class="symbol function"></span>getCertificate</a></li>
-    <li><a href="getdatabasecluster" title="getDatabaseCluster"><span class="symbol function"></span>getDatabaseCluster</a></li>
-    <li><a href="getdomain" title="getDomain"><span class="symbol function"></span>getDomain</a></li>
-    <li><a href="getdroplet" title="getDroplet"><span class="symbol function"></span>getDroplet</a></li>
-    <li><a href="getdropletsnapshot" title="getDropletSnapshot"><span class="symbol function"></span>getDropletSnapshot</a></li>
-    <li><a href="getfloatingip" title="getFloatingIp"><span class="symbol function"></span>getFloatingIp</a></li>
-    <li><a href="getimage" title="getImage"><span class="symbol function"></span>getImage</a></li>
-    <li><a href="getimages" title="getImages"><span class="symbol function"></span>getImages</a></li>
-    <li><a href="getkubernetescluster" title="getKubernetesCluster"><span class="symbol function"></span>getKubernetesCluster</a></li>
-    <li><a href="getkubernetesversions" title="getKubernetesVersions"><span class="symbol function"></span>getKubernetesVersions</a></li>
-    <li><a href="getloadbalancer" title="getLoadBalancer"><span class="symbol function"></span>getLoadBalancer</a></li>
-    <li><a href="getproject" title="getProject"><span class="symbol function"></span>getProject</a></li>
-    <li><a href="getprojects" title="getProjects"><span class="symbol function"></span>getProjects</a></li>
-    <li><a href="getrecord" title="getRecord"><span class="symbol function"></span>getRecord</a></li>
-    <li><a href="getregion" title="getRegion"><span class="symbol function"></span>getRegion</a></li>
-    <li><a href="getregions" title="getRegions"><span class="symbol function"></span>getRegions</a></li>
-    <li><a href="getsizes" title="getSizes"><span class="symbol function"></span>getSizes</a></li>
-    <li><a href="getsshkey" title="getSshKey"><span class="symbol function"></span>getSshKey</a></li>
-    <li><a href="gettag" title="getTag"><span class="symbol function"></span>getTag</a></li>
-    <li><a href="getvolume" title="getVolume"><span class="symbol function"></span>getVolume</a></li>
-    <li><a href="getvolumesnapshot" title="getVolumeSnapshot"><span class="symbol function"></span>getVolumeSnapshot</a></li>
-    <li><a href="getvpc" title="getVpc"><span class="symbol function"></span>getVpc</a></li>
+    <li><a href="getaccount" title="GetAccount"><span class="symbol function"></span>GetAccount</a></li>
+    <li><a href="getcertificate" title="GetCertificate"><span class="symbol function"></span>GetCertificate</a></li>
+    <li><a href="getdatabasecluster" title="GetDatabaseCluster"><span class="symbol function"></span>GetDatabaseCluster</a></li>
+    <li><a href="getdomain" title="GetDomain"><span class="symbol function"></span>GetDomain</a></li>
+    <li><a href="getdroplet" title="GetDroplet"><span class="symbol function"></span>GetDroplet</a></li>
+    <li><a href="getdropletsnapshot" title="GetDropletSnapshot"><span class="symbol function"></span>GetDropletSnapshot</a></li>
+    <li><a href="getfloatingip" title="GetFloatingIp"><span class="symbol function"></span>GetFloatingIp</a></li>
+    <li><a href="getimage" title="GetImage"><span class="symbol function"></span>GetImage</a></li>
+    <li><a href="getimages" title="GetImages"><span class="symbol function"></span>GetImages</a></li>
+    <li><a href="getkubernetescluster" title="GetKubernetesCluster"><span class="symbol function"></span>GetKubernetesCluster</a></li>
+    <li><a href="getkubernetesversions" title="GetKubernetesVersions"><span class="symbol function"></span>GetKubernetesVersions</a></li>
+    <li><a href="getloadbalancer" title="GetLoadBalancer"><span class="symbol function"></span>GetLoadBalancer</a></li>
+    <li><a href="getproject" title="GetProject"><span class="symbol function"></span>GetProject</a></li>
+    <li><a href="getprojects" title="GetProjects"><span class="symbol function"></span>GetProjects</a></li>
+    <li><a href="getrecord" title="GetRecord"><span class="symbol function"></span>GetRecord</a></li>
+    <li><a href="getregion" title="GetRegion"><span class="symbol function"></span>GetRegion</a></li>
+    <li><a href="getregions" title="GetRegions"><span class="symbol function"></span>GetRegions</a></li>
+    <li><a href="getsizes" title="GetSizes"><span class="symbol function"></span>GetSizes</a></li>
+    <li><a href="getsshkey" title="GetSshKey"><span class="symbol function"></span>GetSshKey</a></li>
+    <li><a href="gettag" title="GetTag"><span class="symbol function"></span>GetTag</a></li>
+    <li><a href="getvolume" title="GetVolume"><span class="symbol function"></span>GetVolume</a></li>
+    <li><a href="getvolumesnapshot" title="GetVolumeSnapshot"><span class="symbol function"></span>GetVolumeSnapshot</a></li>
+    <li><a href="getvpc" title="GetVpc"><span class="symbol function"></span>GetVpc</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
