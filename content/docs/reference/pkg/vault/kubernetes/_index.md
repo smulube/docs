@@ -17,8 +17,8 @@ Explore the resources and functions of the kubernetes module in the Vault packag
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getauthbackendconfig" title="GetAuthBackendConfig"><span class="symbol function"></span>GetAuthBackendConfig</a></li>
-    <li><a href="getauthbackendrole" title="GetAuthBackendRole"><span class="symbol function"></span>GetAuthBackendRole</a></li>
+    <li><a href="getauthbackendconfig" title="getAuthBackendConfig"><span class="symbol function"></span>getAuthBackendConfig</a></li>
+    <li><a href="getauthbackendrole" title="getAuthBackendRole"><span class="symbol function"></span>getAuthBackendRole</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

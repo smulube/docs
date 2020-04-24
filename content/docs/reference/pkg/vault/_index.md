@@ -52,8 +52,8 @@ A Pulumi package for creating and managing vault cloud resources.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getauthbackend" title="GetAuthBackend"><span class="symbol function"></span>GetAuthBackend</a></li>
-    <li><a href="getpolicydocument" title="GetPolicyDocument"><span class="symbol function"></span>GetPolicyDocument</a></li>
+    <li><a href="getauthbackend" title="getAuthBackend"><span class="symbol function"></span>getAuthBackend</a></li>
+    <li><a href="getpolicydocument" title="getPolicyDocument"><span class="symbol function"></span>getPolicyDocument</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

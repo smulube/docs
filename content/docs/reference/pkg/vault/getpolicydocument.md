@@ -59,7 +59,7 @@ const examplePolicy = new vault.Policy("example", {
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupPolicyDocument<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-vault/sdk/v2/go/vault/?tab=doc#GetPolicyDocumentArgs">GetPolicyDocumentArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-vault/sdk/v2/go/vault/?tab=doc#LookupPolicyDocumentResult">LookupPolicyDocumentResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetPolicyDocument<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-vault/sdk/v2/go/vault/?tab=doc#GetPolicyDocumentArgs">GetPolicyDocumentArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-vault/sdk/v2/go/vault/?tab=doc#GetPolicyDocumentResult">GetPolicyDocumentResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -289,7 +289,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getpolicydocumentrule">Get<wbr>Policy<wbr>Document<wbr>Rule</h4>
+<h4 id="getpolicydocumentrule">get<wbr>Policy<wbr>Document<wbr>Rule</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/vault/types/input/#GetPolicyDocumentRule">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/vault/types/output/#GetPolicyDocumentRule">output</a> API doc for this type.
 {{% /choosable %}}
@@ -620,7 +620,7 @@ The following output properties are available:
 
 
 
-<h4 id="getpolicydocumentruleallowedparameter">Get<wbr>Policy<wbr>Document<wbr>Rule<wbr>Allowed<wbr>Parameter</h4>
+<h4 id="getpolicydocumentruleallowedparameter">get<wbr>Policy<wbr>Document<wbr>Rule<wbr>Allowed<wbr>Parameter</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/vault/types/input/#GetPolicyDocumentRuleAllowedParameter">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/vault/types/output/#GetPolicyDocumentRuleAllowedParameter">output</a> API doc for this type.
 {{% /choosable %}}
@@ -735,7 +735,7 @@ The following output properties are available:
 
 
 
-<h4 id="getpolicydocumentruledeniedparameter">Get<wbr>Policy<wbr>Document<wbr>Rule<wbr>Denied<wbr>Parameter</h4>
+<h4 id="getpolicydocumentruledeniedparameter">get<wbr>Policy<wbr>Document<wbr>Rule<wbr>Denied<wbr>Parameter</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/vault/types/input/#GetPolicyDocumentRuleDeniedParameter">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/vault/types/output/#GetPolicyDocumentRuleDeniedParameter">output</a> API doc for this type.
 {{% /choosable %}}

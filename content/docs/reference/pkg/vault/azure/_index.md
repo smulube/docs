@@ -19,7 +19,7 @@ Explore the resources and functions of the azure module in the Vault package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getaccesscredentials" title="GetAccessCredentials"><span class="symbol function"></span>GetAccessCredentials</a></li>
+    <li><a href="getaccesscredentials" title="getAccessCredentials"><span class="symbol function"></span>getAccessCredentials</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
