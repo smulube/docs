@@ -57,7 +57,7 @@ import * as pulumi from "@pulumi/pulumi";
 import * as aws from "@pulumi/aws";
 
 const test = pulumi.output(aws.getPrefixList({
-    filters: [{
+    filter: [{
         name: "prefix-list-id",
         values: ["pl-68a54001"],
     }],
@@ -85,7 +85,7 @@ const test = pulumi.output(aws.getPrefixList({
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupPrefixList<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/?tab=doc#GetPrefixListArgs">GetPrefixListArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/?tab=doc#LookupPrefixListResult">LookupPrefixListResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetPrefixList<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/?tab=doc#GetPrefixListArgs">GetPrefixListArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/?tab=doc#GetPrefixListResult">GetPrefixListResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -459,7 +459,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getprefixlistfilter">Get<wbr>Prefix<wbr>List<wbr>Filter</h4>
+<h4 id="getprefixlistfilter">get<wbr>Prefix<wbr>List<wbr>Filter</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/input/#GetPrefixListFilter">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetPrefixListFilter">output</a> API doc for this type.
 {{% /choosable %}}

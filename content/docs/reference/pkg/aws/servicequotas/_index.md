@@ -16,8 +16,8 @@ Explore the resources and functions of the servicequotas module in the AWS packa
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getservice" title="GetService"><span class="symbol function"></span>GetService</a></li>
-    <li><a href="getservicequota" title="GetServiceQuota"><span class="symbol function"></span>GetServiceQuota</a></li>
+    <li><a href="getservice" title="getService"><span class="symbol function"></span>getService</a></li>
+    <li><a href="getservicequota" title="getServiceQuota"><span class="symbol function"></span>getServiceQuota</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

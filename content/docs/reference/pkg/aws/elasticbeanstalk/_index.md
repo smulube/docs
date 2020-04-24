@@ -19,9 +19,9 @@ Explore the resources and functions of the elasticbeanstalk module in the AWS pa
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getapplication" title="GetApplication"><span class="symbol function"></span>GetApplication</a></li>
-    <li><a href="gethostedzone" title="GetHostedZone"><span class="symbol function"></span>GetHostedZone</a></li>
-    <li><a href="getsolutionstack" title="GetSolutionStack"><span class="symbol function"></span>GetSolutionStack</a></li>
+    <li><a href="getapplication" title="getApplication"><span class="symbol function"></span>getApplication</a></li>
+    <li><a href="gethostedzone" title="getHostedZone"><span class="symbol function"></span>getHostedZone</a></li>
+    <li><a href="getsolutionstack" title="getSolutionStack"><span class="symbol function"></span>getSolutionStack</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

@@ -17,7 +17,7 @@ Explore the resources and functions of the sqs module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getqueue" title="GetQueue"><span class="symbol function"></span>GetQueue</a></li>
+    <li><a href="getqueue" title="getQueue"><span class="symbol function"></span>getQueue</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

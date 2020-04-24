@@ -22,7 +22,7 @@ Explore the resources and functions of the storagegateway module in the AWS pack
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getlocaldisk" title="GetLocalDisk"><span class="symbol function"></span>GetLocalDisk</a></li>
+    <li><a href="getlocaldisk" title="getLocalDisk"><span class="symbol function"></span>getLocalDisk</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

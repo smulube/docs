@@ -229,7 +229,7 @@ import * as pulumi from "@pulumi/pulumi";
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupPolicyDocument<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/iam?tab=doc#LookupPolicyDocumentArgs">LookupPolicyDocumentArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/iam?tab=doc#LookupPolicyDocumentResult">LookupPolicyDocumentResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetPolicyDocument<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/iam?tab=doc#GetPolicyDocumentArgs">GetPolicyDocumentArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/iam?tab=doc#GetPolicyDocumentResult">GetPolicyDocumentResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -763,7 +763,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getpolicydocumentstatement">Get<wbr>Policy<wbr>Document<wbr>Statement</h4>
+<h4 id="getpolicydocumentstatement">get<wbr>Policy<wbr>Document<wbr>Statement</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/input/#GetPolicyDocumentStatement">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetPolicyDocumentStatement">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1174,7 +1174,7 @@ to. This is required by AWS if used for an IAM policy.
 
 
 
-<h4 id="getpolicydocumentstatementcondition">Get<wbr>Policy<wbr>Document<wbr>Statement<wbr>Condition</h4>
+<h4 id="getpolicydocumentstatementcondition">get<wbr>Policy<wbr>Document<wbr>Statement<wbr>Condition</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/input/#GetPolicyDocumentStatementCondition">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetPolicyDocumentStatementCondition">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1357,7 +1357,7 @@ the service name.
 
 
 
-<h4 id="getpolicydocumentstatementnotprincipal">Get<wbr>Policy<wbr>Document<wbr>Statement<wbr>Not<wbr>Principal</h4>
+<h4 id="getpolicydocumentstatementnotprincipal">get<wbr>Policy<wbr>Document<wbr>Statement<wbr>Not<wbr>Principal</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/input/#GetPolicyDocumentStatementNotPrincipal">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetPolicyDocumentStatementNotPrincipal">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1476,7 +1476,7 @@ is "AWS", these are IAM user or role ARNs.  When `type` is "Service", these are 
 
 
 
-<h4 id="getpolicydocumentstatementprincipal">Get<wbr>Policy<wbr>Document<wbr>Statement<wbr>Principal</h4>
+<h4 id="getpolicydocumentstatementprincipal">get<wbr>Policy<wbr>Document<wbr>Statement<wbr>Principal</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/input/#GetPolicyDocumentStatementPrincipal">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetPolicyDocumentStatementPrincipal">output</a> API doc for this type.
 {{% /choosable %}}

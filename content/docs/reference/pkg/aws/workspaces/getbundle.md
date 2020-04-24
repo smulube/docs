@@ -46,7 +46,7 @@ const example = pulumi.output(aws.workspaces.getBundle({
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupBundle<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/workspaces?tab=doc#LookupBundleArgs">LookupBundleArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/workspaces?tab=doc#LookupBundleResult">LookupBundleResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetBundle<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/workspaces?tab=doc#GetBundleArgs">GetBundleArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/workspaces?tab=doc#GetBundleResult">GetBundleResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -460,7 +460,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getbundlecomputetype">Get<wbr>Bundle<wbr>Compute<wbr>Type</h4>
+<h4 id="getbundlecomputetype">get<wbr>Bundle<wbr>Compute<wbr>Type</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetBundleComputeType">output</a> API doc for this type.
 {{% /choosable %}}
@@ -539,7 +539,7 @@ The following output properties are available:
 
 
 
-<h4 id="getbundlerootstorage">Get<wbr>Bundle<wbr>Root<wbr>Storage</h4>
+<h4 id="getbundlerootstorage">get<wbr>Bundle<wbr>Root<wbr>Storage</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetBundleRootStorage">output</a> API doc for this type.
 {{% /choosable %}}
@@ -618,7 +618,7 @@ The following output properties are available:
 
 
 
-<h4 id="getbundleuserstorage">Get<wbr>Bundle<wbr>User<wbr>Storage</h4>
+<h4 id="getbundleuserstorage">get<wbr>Bundle<wbr>User<wbr>Storage</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetBundleUserStorage">output</a> API doc for this type.
 {{% /choosable %}}

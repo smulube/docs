@@ -62,7 +62,7 @@ const selected443 = selected.apply(selected => aws.lb.getListener({
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupListener<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/elasticloadbalancingv2?tab=doc#LookupListenerArgs">LookupListenerArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/elasticloadbalancingv2?tab=doc#LookupListenerResult">LookupListenerResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetListener<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/elasticloadbalancingv2?tab=doc#GetListenerArgs">GetListenerArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/elasticloadbalancingv2?tab=doc#GetListenerResult">GetListenerResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -524,7 +524,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getlistenerdefaultaction">Get<wbr>Listener<wbr>Default<wbr>Action</h4>
+<h4 id="getlistenerdefaultaction">get<wbr>Listener<wbr>Default<wbr>Action</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetListenerDefaultAction">output</a> API doc for this type.
 {{% /choosable %}}
@@ -791,7 +791,7 @@ The following output properties are available:
 
 
 
-<h4 id="getlistenerdefaultactionauthenticatecognito">Get<wbr>Listener<wbr>Default<wbr>Action<wbr>Authenticate<wbr>Cognito</h4>
+<h4 id="getlistenerdefaultactionauthenticatecognito">get<wbr>Listener<wbr>Default<wbr>Action<wbr>Authenticate<wbr>Cognito</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetListenerDefaultActionAuthenticateCognito">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1090,7 +1090,7 @@ The following output properties are available:
 
 
 
-<h4 id="getlistenerdefaultactionauthenticateoidc">Get<wbr>Listener<wbr>Default<wbr>Action<wbr>Authenticate<wbr>Oidc</h4>
+<h4 id="getlistenerdefaultactionauthenticateoidc">get<wbr>Listener<wbr>Default<wbr>Action<wbr>Authenticate<wbr>Oidc</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetListenerDefaultActionAuthenticateOidc">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1485,7 +1485,7 @@ The following output properties are available:
 
 
 
-<h4 id="getlistenerdefaultactionfixedresponse">Get<wbr>Listener<wbr>Default<wbr>Action<wbr>Fixed<wbr>Response</h4>
+<h4 id="getlistenerdefaultactionfixedresponse">get<wbr>Listener<wbr>Default<wbr>Action<wbr>Fixed<wbr>Response</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetListenerDefaultActionFixedResponse">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1624,7 +1624,7 @@ The following output properties are available:
 
 
 
-<h4 id="getlistenerdefaultactionredirect">Get<wbr>Listener<wbr>Default<wbr>Action<wbr>Redirect</h4>
+<h4 id="getlistenerdefaultactionredirect">get<wbr>Listener<wbr>Default<wbr>Action<wbr>Redirect</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetListenerDefaultActionRedirect">output</a> API doc for this type.
 {{% /choosable %}}

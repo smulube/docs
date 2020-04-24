@@ -23,8 +23,9 @@ More information can be found in the [Amazon API Gateway Developer Guide](https:
 import * as pulumi from "@pulumi/pulumi";
 import * as aws from "@pulumi/aws";
 
-const example = new aws.apigatewayv2.Stage("example", {
+const example = new aws.Apigatewayv2Stage("example", {
     apiId: aws_apigatewayv2_api_example.id,
+    name: "example-stage",
 });
 ```
 
@@ -42,7 +43,7 @@ const example = new aws.apigatewayv2.Stage("example", {
 {{% /choosable %}}
 
 {{% choosable language python %}}
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def </span><span class="nf">Stage</span><span class="p">(resource_name, opts=None, </span>access_log_settings=None<span class="p">, </span>api_id=None<span class="p">, </span>auto_deploy=None<span class="p">, </span>client_certificate_id=None<span class="p">, </span>default_route_settings=None<span class="p">, </span>deployment_id=None<span class="p">, </span>description=None<span class="p">, </span>name=None<span class="p">, </span>route_settings=None<span class="p">, </span>stage_variables=None<span class="p">, </span>tags=None<span class="p">, __props__=None);</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def </span><span class="nf">Stage</span><span class="p">(resource_name, </span>opts=None<span class="p">, </span>access_log_settings=None<span class="p">, </span>api_id=None<span class="p">, </span>auto_deploy=None<span class="p">, </span>client_certificate_id=None<span class="p">, </span>default_route_settings=None<span class="p">, </span>deployment_id=None<span class="p">, </span>description=None<span class="p">, </span>name=None<span class="p">, </span>route_settings=None<span class="p">, </span>stage_variables=None<span class="p">, </span>tags=None<span class="p">, </span>__props__=None<span class="p">);</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language go %}}

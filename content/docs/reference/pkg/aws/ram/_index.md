@@ -19,7 +19,7 @@ Explore the resources and functions of the ram module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getresourceshare" title="GetResourceShare"><span class="symbol function"></span>GetResourceShare</a></li>
+    <li><a href="getresourceshare" title="getResourceShare"><span class="symbol function"></span>getResourceShare</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

@@ -31,7 +31,7 @@ Explore the resources and functions of the directconnect module in the AWS packa
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getgateway" title="GetGateway"><span class="symbol function"></span>GetGateway</a></li>
+    <li><a href="getgateway" title="getGateway"><span class="symbol function"></span>getGateway</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

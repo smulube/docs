@@ -17,7 +17,7 @@ Explore the resources and functions of the mq module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getbroker" title="GetBroker"><span class="symbol function"></span>GetBroker</a></li>
+    <li><a href="getbroker" title="getBroker"><span class="symbol function"></span>getBroker</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

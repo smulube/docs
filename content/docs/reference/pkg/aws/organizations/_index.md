@@ -20,8 +20,8 @@ Explore the resources and functions of the organizations module in the AWS packa
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getorganization" title="GetOrganization"><span class="symbol function"></span>GetOrganization</a></li>
-    <li><a href="getorganizationalunits" title="GetOrganizationalUnits"><span class="symbol function"></span>GetOrganizationalUnits</a></li>
+    <li><a href="getorganization" title="getOrganization"><span class="symbol function"></span>getOrganization</a></li>
+    <li><a href="getorganizationalunits" title="getOrganizationalUnits"><span class="symbol function"></span>getOrganizationalUnits</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

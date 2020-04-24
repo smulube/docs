@@ -46,7 +46,7 @@ const tableName = pulumi.output(aws.dynamodb.getTable({
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupTable<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/dynamodb?tab=doc#LookupTableArgs">LookupTableArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/dynamodb?tab=doc#LookupTableResult">LookupTableResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetTable<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/dynamodb?tab=doc#GetTableArgs">GetTableArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/dynamodb?tab=doc#GetTableResult">GetTableResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -884,7 +884,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="gettableattribute">Get<wbr>Table<wbr>Attribute</h4>
+<h4 id="gettableattribute">get<wbr>Table<wbr>Attribute</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetTableAttribute">output</a> API doc for this type.
 {{% /choosable %}}
@@ -995,7 +995,7 @@ The following output properties are available:
 
 
 
-<h4 id="gettableglobalsecondaryindex">Get<wbr>Table<wbr>Global<wbr>Secondary<wbr>Index</h4>
+<h4 id="gettableglobalsecondaryindex">get<wbr>Table<wbr>Global<wbr>Secondary<wbr>Index</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetTableGlobalSecondaryIndex">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1266,7 +1266,7 @@ The following output properties are available:
 
 
 
-<h4 id="gettablelocalsecondaryindex">Get<wbr>Table<wbr>Local<wbr>Secondary<wbr>Index</h4>
+<h4 id="gettablelocalsecondaryindex">get<wbr>Table<wbr>Local<wbr>Secondary<wbr>Index</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetTableLocalSecondaryIndex">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1441,7 +1441,7 @@ The following output properties are available:
 
 
 
-<h4 id="gettablepointintimerecovery">Get<wbr>Table<wbr>Point<wbr>In<wbr>Time<wbr>Recovery</h4>
+<h4 id="gettablepointintimerecovery">get<wbr>Table<wbr>Point<wbr>In<wbr>Time<wbr>Recovery</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetTablePointInTimeRecovery">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1516,7 +1516,7 @@ The following output properties are available:
 
 
 
-<h4 id="gettablereplica">Get<wbr>Table<wbr>Replica</h4>
+<h4 id="gettablereplica">get<wbr>Table<wbr>Replica</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetTableReplica">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1591,7 +1591,7 @@ The following output properties are available:
 
 
 
-<h4 id="gettableserversideencryption">Get<wbr>Table<wbr>Server<wbr>Side<wbr>Encryption</h4>
+<h4 id="gettableserversideencryption">get<wbr>Table<wbr>Server<wbr>Side<wbr>Encryption</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/input/#GetTableServerSideEncryption">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetTableServerSideEncryption">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1698,7 +1698,7 @@ The following output properties are available:
 
 
 
-<h4 id="gettablettl">Get<wbr>Table<wbr>Ttl</h4>
+<h4 id="gettablettl">get<wbr>Table<wbr>Ttl</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetTableTtl">output</a> API doc for this type.
 {{% /choosable %}}

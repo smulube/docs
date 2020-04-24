@@ -47,7 +47,7 @@ const test_queue = pulumi.output(aws.batch.getJobQueue({
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupJobQueue<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/batch?tab=doc#LookupJobQueueArgs">LookupJobQueueArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/batch?tab=doc#LookupJobQueueResult">LookupJobQueueResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetJobQueue<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/batch?tab=doc#GetJobQueueArgs">GetJobQueueArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/batch?tab=doc#GetJobQueueResult">GetJobQueueResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -481,7 +481,7 @@ of the job queue.
 ## Supporting Types
 
 
-<h4 id="getjobqueuecomputeenvironmentorder">Get<wbr>Job<wbr>Queue<wbr>Compute<wbr>Environment<wbr>Order</h4>
+<h4 id="getjobqueuecomputeenvironmentorder">get<wbr>Job<wbr>Queue<wbr>Compute<wbr>Environment<wbr>Order</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetJobQueueComputeEnvironmentOrder">output</a> API doc for this type.
 {{% /choosable %}}

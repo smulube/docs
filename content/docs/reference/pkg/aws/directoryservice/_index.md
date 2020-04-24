@@ -18,7 +18,7 @@ Explore the resources and functions of the directoryservice module in the AWS pa
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getdirectory" title="GetDirectory"><span class="symbol function"></span>GetDirectory</a></li>
+    <li><a href="getdirectory" title="getDirectory"><span class="symbol function"></span>getDirectory</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

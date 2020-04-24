@@ -29,11 +29,11 @@ Explore the resources and functions of the rds module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getcluster" title="GetCluster"><span class="symbol function"></span>GetCluster</a></li>
-    <li><a href="getclustersnapshot" title="GetClusterSnapshot"><span class="symbol function"></span>GetClusterSnapshot</a></li>
-    <li><a href="geteventcategories" title="GetEventCategories"><span class="symbol function"></span>GetEventCategories</a></li>
-    <li><a href="getinstance" title="GetInstance"><span class="symbol function"></span>GetInstance</a></li>
-    <li><a href="getsnapshot" title="GetSnapshot"><span class="symbol function"></span>GetSnapshot</a></li>
+    <li><a href="getcluster" title="getCluster"><span class="symbol function"></span>getCluster</a></li>
+    <li><a href="getclustersnapshot" title="getClusterSnapshot"><span class="symbol function"></span>getClusterSnapshot</a></li>
+    <li><a href="geteventcategories" title="getEventCategories"><span class="symbol function"></span>getEventCategories</a></li>
+    <li><a href="getinstance" title="getInstance"><span class="symbol function"></span>getInstance</a></li>
+    <li><a href="getsnapshot" title="getSnapshot"><span class="symbol function"></span>getSnapshot</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

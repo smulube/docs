@@ -38,14 +38,14 @@ Explore the resources and functions of the iam module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getaccountalias" title="GetAccountAlias"><span class="symbol function"></span>GetAccountAlias</a></li>
-    <li><a href="getgroup" title="GetGroup"><span class="symbol function"></span>GetGroup</a></li>
-    <li><a href="getinstanceprofile" title="GetInstanceProfile"><span class="symbol function"></span>GetInstanceProfile</a></li>
-    <li><a href="getpolicy" title="GetPolicy"><span class="symbol function"></span>GetPolicy</a></li>
-    <li><a href="getpolicydocument" title="GetPolicyDocument"><span class="symbol function"></span>GetPolicyDocument</a></li>
-    <li><a href="getrole" title="GetRole"><span class="symbol function"></span>GetRole</a></li>
-    <li><a href="getservercertificate" title="GetServerCertificate"><span class="symbol function"></span>GetServerCertificate</a></li>
-    <li><a href="getuser" title="GetUser"><span class="symbol function"></span>GetUser</a></li>
+    <li><a href="getaccountalias" title="getAccountAlias"><span class="symbol function"></span>getAccountAlias</a></li>
+    <li><a href="getgroup" title="getGroup"><span class="symbol function"></span>getGroup</a></li>
+    <li><a href="getinstanceprofile" title="getInstanceProfile"><span class="symbol function"></span>getInstanceProfile</a></li>
+    <li><a href="getpolicy" title="getPolicy"><span class="symbol function"></span>getPolicy</a></li>
+    <li><a href="getpolicydocument" title="getPolicyDocument"><span class="symbol function"></span>getPolicyDocument</a></li>
+    <li><a href="getrole" title="getRole"><span class="symbol function"></span>getRole</a></li>
+    <li><a href="getservercertificate" title="getServerCertificate"><span class="symbol function"></span>getServerCertificate</a></li>
+    <li><a href="getuser" title="getUser"><span class="symbol function"></span>getUser</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

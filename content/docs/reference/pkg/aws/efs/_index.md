@@ -17,8 +17,8 @@ Explore the resources and functions of the efs module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getfilesystem" title="GetFileSystem"><span class="symbol function"></span>GetFileSystem</a></li>
-    <li><a href="getmounttarget" title="GetMountTarget"><span class="symbol function"></span>GetMountTarget</a></li>
+    <li><a href="getfilesystem" title="getFileSystem"><span class="symbol function"></span>getFileSystem</a></li>
+    <li><a href="getmounttarget" title="getMountTarget"><span class="symbol function"></span>getMountTarget</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

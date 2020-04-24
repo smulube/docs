@@ -23,11 +23,12 @@ More information can be found in the [Amazon API Gateway Developer Guide](https:
 import * as pulumi from "@pulumi/pulumi";
 import * as aws from "@pulumi/aws";
 
-const example = new aws.apigatewayv2.Authorizer("example", {
+const example = new aws.Apigatewayv2Authorizer("example", {
     apiId: aws_apigatewayv2_api_example.id,
     authorizerType: "REQUEST",
     authorizerUri: aws_lambda_function_example.invokeArn,
     identitySources: ["route.request.header.Auth"],
+    name: "example-authorizer",
 });
 ```
 
@@ -39,14 +40,15 @@ const example = new aws.apigatewayv2.Authorizer("example", {
 import * as pulumi from "@pulumi/pulumi";
 import * as aws from "@pulumi/aws";
 
-const example = new aws.apigatewayv2.Authorizer("example", {
+const example = new aws.Apigatewayv2Authorizer("example", {
     apiId: aws_apigatewayv2_api_example.id,
     authorizerType: "JWT",
     identitySources: ["$request.header.Authorization"],
-    jwtConfiguration: {
-        audiences: ["example"],
+    jwtConfiguration: [{
+        audience: ["example"],
         issuer: pulumi.interpolate`https://${aws_cognito_user_pool_example.endpoint}`,
-    },
+    }],
+    name: "example-authorizer",
 });
 ```
 
@@ -64,7 +66,7 @@ const example = new aws.apigatewayv2.Authorizer("example", {
 {{% /choosable %}}
 
 {{% choosable language python %}}
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def </span><span class="nf">Authorizer</span><span class="p">(resource_name, opts=None, </span>api_id=None<span class="p">, </span>authorizer_credentials_arn=None<span class="p">, </span>authorizer_type=None<span class="p">, </span>authorizer_uri=None<span class="p">, </span>identity_sources=None<span class="p">, </span>jwt_configuration=None<span class="p">, </span>name=None<span class="p">, __props__=None);</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def </span><span class="nf">Authorizer</span><span class="p">(resource_name, </span>opts=None<span class="p">, </span>api_id=None<span class="p">, </span>authorizer_credentials_arn=None<span class="p">, </span>authorizer_type=None<span class="p">, </span>authorizer_uri=None<span class="p">, </span>identity_sources=None<span class="p">, </span>jwt_configuration=None<span class="p">, </span>name=None<span class="p">, </span>__props__=None<span class="p">);</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language go %}}

@@ -23,7 +23,7 @@ Explore the resources and functions of the iot module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getendpoint" title="GetEndpoint"><span class="symbol function"></span>GetEndpoint</a></li>
+    <li><a href="getendpoint" title="getEndpoint"><span class="symbol function"></span>getEndpoint</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

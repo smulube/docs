@@ -25,9 +25,9 @@ Explore the resources and functions of the ssm module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getdocument" title="GetDocument"><span class="symbol function"></span>GetDocument</a></li>
-    <li><a href="getparameter" title="GetParameter"><span class="symbol function"></span>GetParameter</a></li>
-    <li><a href="getpatchbaseline" title="GetPatchBaseline"><span class="symbol function"></span>GetPatchBaseline</a></li>
+    <li><a href="getdocument" title="getDocument"><span class="symbol function"></span>getDocument</a></li>
+    <li><a href="getparameter" title="getParameter"><span class="symbol function"></span>getParameter</a></li>
+    <li><a href="getpatchbaseline" title="getPatchBaseline"><span class="symbol function"></span>getPatchBaseline</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

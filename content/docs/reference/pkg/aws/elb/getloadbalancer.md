@@ -55,7 +55,7 @@ const test = pulumi.output(aws.elb.getLoadBalancer({
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupLoadBalancer<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/elb?tab=doc#LookupLoadBalancerArgs">LookupLoadBalancerArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/elb?tab=doc#LookupLoadBalancerResult">LookupLoadBalancerResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetLoadBalancer<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/elb?tab=doc#GetLoadBalancerArgs">GetLoadBalancerArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/elb?tab=doc#GetLoadBalancerResult">GetLoadBalancerResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -861,7 +861,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getloadbalanceraccesslogs">Get<wbr>Load<wbr>Balancer<wbr>Access<wbr>Logs</h4>
+<h4 id="getloadbalanceraccesslogs">get<wbr>Load<wbr>Balancer<wbr>Access<wbr>Logs</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetLoadBalancerAccessLogs">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1032,7 +1032,7 @@ The following output properties are available:
 
 
 
-<h4 id="getloadbalancerhealthcheck">Get<wbr>Load<wbr>Balancer<wbr>Health<wbr>Check</h4>
+<h4 id="getloadbalancerhealthcheck">get<wbr>Load<wbr>Balancer<wbr>Health<wbr>Check</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetLoadBalancerHealthCheck">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1235,7 +1235,7 @@ The following output properties are available:
 
 
 
-<h4 id="getloadbalancerlistener">Get<wbr>Load<wbr>Balancer<wbr>Listener</h4>
+<h4 id="getloadbalancerlistener">get<wbr>Load<wbr>Balancer<wbr>Listener</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetLoadBalancerListener">output</a> API doc for this type.
 {{% /choosable %}}

@@ -22,7 +22,7 @@ Enabled AWS Regions:
 import * as pulumi from "@pulumi/pulumi";
 import * as aws from "@pulumi/aws";
 
-const current = pulumi.output(aws.getRegions({ async: true }));
+const current = pulumi.output(aws.Regions({ async: true }));
 ```
 
 All the regions regardless of the availability
@@ -31,7 +31,7 @@ All the regions regardless of the availability
 import * as pulumi from "@pulumi/pulumi";
 import * as aws from "@pulumi/aws";
 
-const current = pulumi.output(aws.getRegions({
+const current = pulumi.output(aws.Regions({
     allRegions: true,
 }, { async: true }));
 ```
@@ -42,9 +42,9 @@ To see regions that are filtered by `"not-opted-in"`, the `all_regions` argument
 import * as pulumi from "@pulumi/pulumi";
 import * as aws from "@pulumi/aws";
 
-const current = pulumi.output(aws.getRegions({
+const current = pulumi.output(aws.Regions({
     allRegions: true,
-    filters: [{
+    filter: [{
         name: "opt-in-status",
         values: ["not-opted-in"],
     }],
@@ -72,7 +72,7 @@ const current = pulumi.output(aws.getRegions({
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupRegions<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/?tab=doc#GetRegionsArgs">GetRegionsArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/?tab=doc#LookupRegionsResult">LookupRegionsResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetRegions<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/?tab=doc#GetRegionsArgs">GetRegionsArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/?tab=doc#GetRegionsResult">GetRegionsResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -374,7 +374,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getregionsfilter">Get<wbr>Regions<wbr>Filter</h4>
+<h4 id="getregionsfilter">get<wbr>Regions<wbr>Filter</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/input/#GetRegionsFilter">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetRegionsFilter">output</a> API doc for this type.
 {{% /choosable %}}

@@ -37,7 +37,7 @@ import * as pulumi from "@pulumi/pulumi";
 import * as aws from "@pulumi/aws";
 
 const test = pulumi.output(aws.ec2transitgateway.getVpnAttachment({
-    filters: [{
+    filter: [{
         name: "resource-id",
         values: ["some-resource"],
     }],
@@ -65,7 +65,7 @@ const test = pulumi.output(aws.ec2transitgateway.getVpnAttachment({
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupVpnAttachment<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/ec2transitgateway?tab=doc#LookupVpnAttachmentArgs">LookupVpnAttachmentArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/ec2transitgateway?tab=doc#LookupVpnAttachmentResult">LookupVpnAttachmentResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetVpnAttachment<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/ec2transitgateway?tab=doc#GetVpnAttachmentArgs">GetVpnAttachmentArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/ec2transitgateway?tab=doc#GetVpnAttachmentResult">GetVpnAttachmentResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -471,7 +471,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getvpnattachmentfilter">Get<wbr>Vpn<wbr>Attachment<wbr>Filter</h4>
+<h4 id="getvpnattachmentfilter">get<wbr>Vpn<wbr>Attachment<wbr>Filter</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/input/#GetVpnAttachmentFilter">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetVpnAttachmentFilter">output</a> API doc for this type.
 {{% /choosable %}}

@@ -49,7 +49,7 @@ const example = pulumi.all([aws_dx_gateway_example.id, aws_ec2_transit_gateway_e
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupDirectConnectGatewayAttachment<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/ec2transitgateway?tab=doc#LookupDirectConnectGatewayAttachmentArgs">LookupDirectConnectGatewayAttachmentArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/ec2transitgateway?tab=doc#LookupDirectConnectGatewayAttachmentResult">LookupDirectConnectGatewayAttachmentResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetDirectConnectGatewayAttachment<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/ec2transitgateway?tab=doc#GetDirectConnectGatewayAttachmentArgs">GetDirectConnectGatewayAttachmentArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/ec2transitgateway?tab=doc#GetDirectConnectGatewayAttachmentResult">GetDirectConnectGatewayAttachmentResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -455,7 +455,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getdirectconnectgatewayattachmentfilter">Get<wbr>Direct<wbr>Connect<wbr>Gateway<wbr>Attachment<wbr>Filter</h4>
+<h4 id="getdirectconnectgatewayattachmentfilter">get<wbr>Direct<wbr>Connect<wbr>Gateway<wbr>Attachment<wbr>Filter</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/input/#GetDirectConnectGatewayAttachmentFilter">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetDirectConnectGatewayAttachmentFilter">output</a> API doc for this type.
 {{% /choosable %}}

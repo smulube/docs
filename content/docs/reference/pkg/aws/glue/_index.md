@@ -24,7 +24,7 @@ Explore the resources and functions of the glue module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getscript" title="GetScript"><span class="symbol function"></span>GetScript</a></li>
+    <li><a href="getscript" title="getScript"><span class="symbol function"></span>getScript</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

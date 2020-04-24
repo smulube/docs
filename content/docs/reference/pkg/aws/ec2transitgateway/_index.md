@@ -22,11 +22,11 @@ Explore the resources and functions of the ec2transitgateway module in the AWS p
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getdirectconnectgatewayattachment" title="GetDirectConnectGatewayAttachment"><span class="symbol function"></span>GetDirectConnectGatewayAttachment</a></li>
-    <li><a href="getroutetable" title="GetRouteTable"><span class="symbol function"></span>GetRouteTable</a></li>
-    <li><a href="gettransitgateway" title="GetTransitGateway"><span class="symbol function"></span>GetTransitGateway</a></li>
-    <li><a href="getvpcattachment" title="GetVpcAttachment"><span class="symbol function"></span>GetVpcAttachment</a></li>
-    <li><a href="getvpnattachment" title="GetVpnAttachment"><span class="symbol function"></span>GetVpnAttachment</a></li>
+    <li><a href="getdirectconnectgatewayattachment" title="getDirectConnectGatewayAttachment"><span class="symbol function"></span>getDirectConnectGatewayAttachment</a></li>
+    <li><a href="getroutetable" title="getRouteTable"><span class="symbol function"></span>getRouteTable</a></li>
+    <li><a href="gettransitgateway" title="getTransitGateway"><span class="symbol function"></span>getTransitGateway</a></li>
+    <li><a href="getvpcattachment" title="getVpcAttachment"><span class="symbol function"></span>getVpcAttachment</a></li>
+    <li><a href="getvpnattachment" title="getVpnAttachment"><span class="symbol function"></span>getVpnAttachment</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

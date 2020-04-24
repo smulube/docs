@@ -18,7 +18,7 @@ Explore the resources and functions of the inspector module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getrulespackages" title="GetRulesPackages"><span class="symbol function"></span>GetRulesPackages</a></li>
+    <li><a href="getrulespackages" title="getRulesPackages"><span class="symbol function"></span>getRulesPackages</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

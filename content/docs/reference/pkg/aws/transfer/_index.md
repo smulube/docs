@@ -18,7 +18,7 @@ Explore the resources and functions of the transfer module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getserver" title="GetServer"><span class="symbol function"></span>GetServer</a></li>
+    <li><a href="getserver" title="getServer"><span class="symbol function"></span>getServer</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

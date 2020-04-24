@@ -22,7 +22,7 @@ Manages an EC2 Availability Zone Group, such as updating its opt-in status.
 import * as pulumi from "@pulumi/pulumi";
 import * as aws from "@pulumi/aws";
 
-const example = new aws.ec2.AvailabilityZoneGroup("example", {
+const example = new aws.Ec2AvailabilityZoneGroup("example", {
     groupName: "us-west-2-lax-1",
     optInStatus: "opted-in",
 });
@@ -42,7 +42,7 @@ const example = new aws.ec2.AvailabilityZoneGroup("example", {
 {{% /choosable %}}
 
 {{% choosable language python %}}
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def </span><span class="nf">AvailabilityZoneGroup</span><span class="p">(resource_name, opts=None, </span>group_name=None<span class="p">, </span>opt_in_status=None<span class="p">, __props__=None);</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def </span><span class="nf">AvailabilityZoneGroup</span><span class="p">(resource_name, </span>opts=None<span class="p">, </span>group_name=None<span class="p">, </span>opt_in_status=None<span class="p">, </span>__props__=None<span class="p">);</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language go %}}

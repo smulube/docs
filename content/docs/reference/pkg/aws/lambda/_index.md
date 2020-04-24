@@ -22,10 +22,10 @@ Explore the resources and functions of the lambda module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getalias" title="GetAlias"><span class="symbol function"></span>GetAlias</a></li>
-    <li><a href="getfunction" title="GetFunction"><span class="symbol function"></span>GetFunction</a></li>
-    <li><a href="getinvocation" title="GetInvocation"><span class="symbol function"></span>GetInvocation</a></li>
-    <li><a href="getlayerversion" title="GetLayerVersion"><span class="symbol function"></span>GetLayerVersion</a></li>
+    <li><a href="getalias" title="getAlias"><span class="symbol function"></span>getAlias</a></li>
+    <li><a href="getfunction" title="getFunction"><span class="symbol function"></span>getFunction</a></li>
+    <li><a href="getinvocation" title="getInvocation"><span class="symbol function"></span>getInvocation</a></li>
+    <li><a href="getlayerversion" title="getLayerVersion"><span class="symbol function"></span>getLayerVersion</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

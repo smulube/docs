@@ -37,7 +37,7 @@ VPC.
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupVpc<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/ec2?tab=doc#LookupVpcArgs">LookupVpcArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/ec2?tab=doc#LookupVpcResult">LookupVpcResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetVpc<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/ec2?tab=doc#GetVpcArgs">GetVpcArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/ec2?tab=doc#GetVpcResult">GetVpcResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -951,7 +951,7 @@ selected VPC. May be any of `"default"`, `"dedicated"`, or `"host"`.
 ## Supporting Types
 
 
-<h4 id="getvpccidrblockassociation">Get<wbr>Vpc<wbr>Cidr<wbr>Block<wbr>Association</h4>
+<h4 id="getvpccidrblockassociation">get<wbr>Vpc<wbr>Cidr<wbr>Block<wbr>Association</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetVpcCidrBlockAssociation">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1106,7 +1106,7 @@ Can be either `"pending"` or `"available"`.
 
 
 
-<h4 id="getvpcfilter">Get<wbr>Vpc<wbr>Filter</h4>
+<h4 id="getvpcfilter">get<wbr>Vpc<wbr>Filter</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/input/#GetVpcFilter">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetVpcFilter">output</a> API doc for this type.
 {{% /choosable %}}

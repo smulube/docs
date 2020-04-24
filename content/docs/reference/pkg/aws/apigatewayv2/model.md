@@ -22,9 +22,10 @@ Manages an Amazon API Gateway Version 2 [model](https://docs.aws.amazon.com/apig
 import * as pulumi from "@pulumi/pulumi";
 import * as aws from "@pulumi/aws";
 
-const example = new aws.apigatewayv2.Model("example", {
+const example = new aws.Apigatewayv2Model("example", {
     apiId: aws_apigatewayv2_api_example.id,
     contentType: "application/json",
+    name: "example",
     schema: `{
   "$schema": "http://json-schema.org/draft-04/schema#",
   "title": "ExampleModel",
@@ -51,7 +52,7 @@ const example = new aws.apigatewayv2.Model("example", {
 {{% /choosable %}}
 
 {{% choosable language python %}}
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def </span><span class="nf">Model</span><span class="p">(resource_name, opts=None, </span>api_id=None<span class="p">, </span>content_type=None<span class="p">, </span>description=None<span class="p">, </span>name=None<span class="p">, </span>schema=None<span class="p">, __props__=None);</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def </span><span class="nf">Model</span><span class="p">(resource_name, </span>opts=None<span class="p">, </span>api_id=None<span class="p">, </span>content_type=None<span class="p">, </span>description=None<span class="p">, </span>name=None<span class="p">, </span>schema=None<span class="p">, </span>__props__=None<span class="p">);</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language go %}}

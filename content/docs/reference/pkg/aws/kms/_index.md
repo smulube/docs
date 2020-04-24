@@ -20,11 +20,11 @@ Explore the resources and functions of the kms module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getalias" title="GetAlias"><span class="symbol function"></span>GetAlias</a></li>
-    <li><a href="getciphertext" title="GetCipherText"><span class="symbol function"></span>GetCipherText</a></li>
-    <li><a href="getkey" title="GetKey"><span class="symbol function"></span>GetKey</a></li>
-    <li><a href="getsecret" title="GetSecret"><span class="symbol function"></span>GetSecret</a></li>
-    <li><a href="getsecrets" title="GetSecrets"><span class="symbol function"></span>GetSecrets</a></li>
+    <li><a href="getalias" title="getAlias"><span class="symbol function"></span>getAlias</a></li>
+    <li><a href="getciphertext" title="getCipherText"><span class="symbol function"></span>getCipherText</a></li>
+    <li><a href="getkey" title="getKey"><span class="symbol function"></span>getKey</a></li>
+    <li><a href="getsecret" title="getSecret"><span class="symbol function"></span>getSecret</a></li>
+    <li><a href="getsecrets" title="getSecrets"><span class="symbol function"></span>getSecrets</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

@@ -23,7 +23,7 @@ More information can be found in the [Amazon API Gateway Developer Guide](https:
 import * as pulumi from "@pulumi/pulumi";
 import * as aws from "@pulumi/aws";
 
-const example = new aws.apigatewayv2.IntegrationResponse("example", {
+const example = new aws.Apigatewayv2IntegrationResponse("example", {
     apiId: aws_apigatewayv2_api_example.id,
     integrationId: aws_apigatewayv2_integration_example.id,
     integrationResponseKey: "/200/",
@@ -44,7 +44,7 @@ const example = new aws.apigatewayv2.IntegrationResponse("example", {
 {{% /choosable %}}
 
 {{% choosable language python %}}
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def </span><span class="nf">IntegrationResponse</span><span class="p">(resource_name, opts=None, </span>api_id=None<span class="p">, </span>content_handling_strategy=None<span class="p">, </span>integration_id=None<span class="p">, </span>integration_response_key=None<span class="p">, </span>response_templates=None<span class="p">, </span>template_selection_expression=None<span class="p">, __props__=None);</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def </span><span class="nf">IntegrationResponse</span><span class="p">(resource_name, </span>opts=None<span class="p">, </span>api_id=None<span class="p">, </span>content_handling_strategy=None<span class="p">, </span>integration_id=None<span class="p">, </span>integration_response_key=None<span class="p">, </span>response_templates=None<span class="p">, </span>template_selection_expression=None<span class="p">, </span>__props__=None<span class="p">);</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language go %}}

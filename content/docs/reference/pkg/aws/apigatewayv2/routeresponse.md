@@ -23,7 +23,7 @@ More information can be found in the [Amazon API Gateway Developer Guide](https:
 import * as pulumi from "@pulumi/pulumi";
 import * as aws from "@pulumi/aws";
 
-const example = new aws.apigatewayv2.RouteResponse("example", {
+const example = new aws.Apigatewayv2RouteResponse("example", {
     apiId: aws_apigatewayv2_api_example.id,
     routeId: aws_apigatewayv2_route_example.id,
     routeResponseKey: "$default",
@@ -44,7 +44,7 @@ const example = new aws.apigatewayv2.RouteResponse("example", {
 {{% /choosable %}}
 
 {{% choosable language python %}}
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def </span><span class="nf">RouteResponse</span><span class="p">(resource_name, opts=None, </span>api_id=None<span class="p">, </span>model_selection_expression=None<span class="p">, </span>response_models=None<span class="p">, </span>route_id=None<span class="p">, </span>route_response_key=None<span class="p">, __props__=None);</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def </span><span class="nf">RouteResponse</span><span class="p">(resource_name, </span>opts=None<span class="p">, </span>api_id=None<span class="p">, </span>model_selection_expression=None<span class="p">, </span>response_models=None<span class="p">, </span>route_id=None<span class="p">, </span>route_response_key=None<span class="p">, </span>__props__=None<span class="p">);</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language go %}}

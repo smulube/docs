@@ -24,10 +24,10 @@ Explore the resources and functions of the route53 module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getdelegationset" title="GetDelegationSet"><span class="symbol function"></span>GetDelegationSet</a></li>
-    <li><a href="getresolverrule" title="GetResolverRule"><span class="symbol function"></span>GetResolverRule</a></li>
-    <li><a href="getresolverrules" title="GetResolverRules"><span class="symbol function"></span>GetResolverRules</a></li>
-    <li><a href="getzone" title="GetZone"><span class="symbol function"></span>GetZone</a></li>
+    <li><a href="getdelegationset" title="getDelegationSet"><span class="symbol function"></span>getDelegationSet</a></li>
+    <li><a href="getresolverrule" title="getResolverRule"><span class="symbol function"></span>getResolverRule</a></li>
+    <li><a href="getresolverrules" title="getResolverRules"><span class="symbol function"></span>getResolverRules</a></li>
+    <li><a href="getzone" title="getZone"><span class="symbol function"></span>getZone</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

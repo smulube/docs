@@ -70,7 +70,7 @@ const snsTopicPolicyTopicPolicy = new aws.sns.TopicPolicy("sns_topic_policy", {
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupOrganization<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/organizations?tab=doc#LookupOrganizationResult">LookupOrganizationResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetOrganization<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/organizations?tab=doc#GetOrganizationResult">GetOrganizationResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -523,7 +523,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getorganizationaccount">Get<wbr>Organization<wbr>Account</h4>
+<h4 id="getorganizationaccount">get<wbr>Organization<wbr>Account</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetOrganizationAccount">output</a> API doc for this type.
 {{% /choosable %}}
@@ -746,7 +746,7 @@ The following output properties are available:
 
 
 
-<h4 id="getorganizationnonmasteraccount">Get<wbr>Organization<wbr>Non<wbr>Master<wbr>Account</h4>
+<h4 id="getorganizationnonmasteraccount">get<wbr>Organization<wbr>Non<wbr>Master<wbr>Account</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetOrganizationNonMasterAccount">output</a> API doc for this type.
 {{% /choosable %}}
@@ -969,7 +969,7 @@ The following output properties are available:
 
 
 
-<h4 id="getorganizationroot">Get<wbr>Organization<wbr>Root</h4>
+<h4 id="getorganizationroot">get<wbr>Organization<wbr>Root</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetOrganizationRoot">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1156,7 +1156,7 @@ The following output properties are available:
 
 
 
-<h4 id="getorganizationrootpolicytype">Get<wbr>Organization<wbr>Root<wbr>Policy<wbr>Type</h4>
+<h4 id="getorganizationrootpolicytype">get<wbr>Organization<wbr>Root<wbr>Policy<wbr>Type</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetOrganizationRootPolicyType">output</a> API doc for this type.
 {{% /choosable %}}

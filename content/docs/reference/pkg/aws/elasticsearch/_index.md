@@ -17,7 +17,7 @@ Explore the resources and functions of the elasticsearch module in the AWS packa
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getdomain" title="GetDomain"><span class="symbol function"></span>GetDomain</a></li>
+    <li><a href="getdomain" title="getDomain"><span class="symbol function"></span>getDomain</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

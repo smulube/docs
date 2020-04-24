@@ -18,8 +18,8 @@ Explore the resources and functions of the eks module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getcluster" title="GetCluster"><span class="symbol function"></span>GetCluster</a></li>
-    <li><a href="getclusterauth" title="GetClusterAuth"><span class="symbol function"></span>GetClusterAuth</a></li>
+    <li><a href="getcluster" title="getCluster"><span class="symbol function"></span>getCluster</a></li>
+    <li><a href="getclusterauth" title="getClusterAuth"><span class="symbol function"></span>getClusterAuth</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

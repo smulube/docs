@@ -16,7 +16,7 @@ Explore the resources and functions of the qldb module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getledger" title="GetLedger"><span class="symbol function"></span>GetLedger</a></li>
+    <li><a href="getledger" title="getLedger"><span class="symbol function"></span>getLedger</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

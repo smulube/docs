@@ -46,7 +46,7 @@ const example = pulumi.output(aws.acmpca.getCertificateAuthority({
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupCertificateAuthority<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/acmpca?tab=doc#LookupCertificateAuthorityArgs">LookupCertificateAuthorityArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/acmpca?tab=doc#LookupCertificateAuthorityResult">LookupCertificateAuthorityResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetCertificateAuthority<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/acmpca?tab=doc#GetCertificateAuthorityArgs">GetCertificateAuthorityArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/acmpca?tab=doc#GetCertificateAuthorityResult">GetCertificateAuthorityResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -716,7 +716,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getcertificateauthorityrevocationconfiguration">Get<wbr>Certificate<wbr>Authority<wbr>Revocation<wbr>Configuration</h4>
+<h4 id="getcertificateauthorityrevocationconfiguration">get<wbr>Certificate<wbr>Authority<wbr>Revocation<wbr>Configuration</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/input/#GetCertificateAuthorityRevocationConfiguration">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetCertificateAuthorityRevocationConfiguration">output</a> API doc for this type.
 {{% /choosable %}}
@@ -791,7 +791,7 @@ The following output properties are available:
 
 
 
-<h4 id="getcertificateauthorityrevocationconfigurationcrlconfiguration">Get<wbr>Certificate<wbr>Authority<wbr>Revocation<wbr>Configuration<wbr>Crl<wbr>Configuration</h4>
+<h4 id="getcertificateauthorityrevocationconfigurationcrlconfiguration">get<wbr>Certificate<wbr>Authority<wbr>Revocation<wbr>Configuration<wbr>Crl<wbr>Configuration</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/input/#GetCertificateAuthorityRevocationConfigurationCrlConfiguration">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetCertificateAuthorityRevocationConfigurationCrlConfiguration">output</a> API doc for this type.
 {{% /choosable %}}

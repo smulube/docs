@@ -49,7 +49,7 @@ const existing = pulumi.output(aws.lambda.getFunction({
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupFunction<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/lambda?tab=doc#LookupFunctionArgs">LookupFunctionArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/lambda?tab=doc#LookupFunctionResult">LookupFunctionResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetFunction<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/lambda?tab=doc#GetFunctionArgs">GetFunctionArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/lambda?tab=doc#GetFunctionResult">GetFunctionResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -1099,7 +1099,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getfunctiondeadletterconfig">Get<wbr>Function<wbr>Dead<wbr>Letter<wbr>Config</h4>
+<h4 id="getfunctiondeadletterconfig">get<wbr>Function<wbr>Dead<wbr>Letter<wbr>Config</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetFunctionDeadLetterConfig">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1174,7 +1174,7 @@ The following output properties are available:
 
 
 
-<h4 id="getfunctionenvironment">Get<wbr>Function<wbr>Environment</h4>
+<h4 id="getfunctionenvironment">get<wbr>Function<wbr>Environment</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetFunctionEnvironment">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1249,7 +1249,7 @@ The following output properties are available:
 
 
 
-<h4 id="getfunctiontracingconfig">Get<wbr>Function<wbr>Tracing<wbr>Config</h4>
+<h4 id="getfunctiontracingconfig">get<wbr>Function<wbr>Tracing<wbr>Config</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetFunctionTracingConfig">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1324,7 +1324,7 @@ The following output properties are available:
 
 
 
-<h4 id="getfunctionvpcconfig">Get<wbr>Function<wbr>Vpc<wbr>Config</h4>
+<h4 id="getfunctionvpcconfig">get<wbr>Function<wbr>Vpc<wbr>Config</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetFunctionVpcConfig">output</a> API doc for this type.
 {{% /choosable %}}

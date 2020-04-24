@@ -23,7 +23,7 @@ More information can be found in the [Amazon API Gateway Developer Guide](https:
 import * as pulumi from "@pulumi/pulumi";
 import * as aws from "@pulumi/aws";
 
-const example = new aws.apigatewayv2.Integration("example", {
+const example = new aws.Apigatewayv2Integration("example", {
     apiId: aws_apigatewayv2_api_example.id,
     integrationType: "MOCK",
 });
@@ -43,7 +43,7 @@ const exampleFunction = new aws.lambda.Function("example", {
     role: aws_iam_role_example.arn,
     runtime: "nodejs10.x",
 });
-const exampleIntegration = new aws.apigatewayv2.Integration("example", {
+const exampleApigatewayv2Integration = new aws.Apigatewayv2Integration("example", {
     apiId: aws_apigatewayv2_api_example.id,
     connectionType: "INTERNET",
     contentHandlingStrategy: "CONVERT_TO_TEXT",
@@ -69,7 +69,7 @@ const exampleIntegration = new aws.apigatewayv2.Integration("example", {
 {{% /choosable %}}
 
 {{% choosable language python %}}
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def </span><span class="nf">Integration</span><span class="p">(resource_name, opts=None, </span>api_id=None<span class="p">, </span>connection_id=None<span class="p">, </span>connection_type=None<span class="p">, </span>content_handling_strategy=None<span class="p">, </span>credentials_arn=None<span class="p">, </span>description=None<span class="p">, </span>integration_method=None<span class="p">, </span>integration_type=None<span class="p">, </span>integration_uri=None<span class="p">, </span>passthrough_behavior=None<span class="p">, </span>payload_format_version=None<span class="p">, </span>request_templates=None<span class="p">, </span>template_selection_expression=None<span class="p">, </span>timeout_milliseconds=None<span class="p">, __props__=None);</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def </span><span class="nf">Integration</span><span class="p">(resource_name, </span>opts=None<span class="p">, </span>api_id=None<span class="p">, </span>connection_id=None<span class="p">, </span>connection_type=None<span class="p">, </span>content_handling_strategy=None<span class="p">, </span>credentials_arn=None<span class="p">, </span>description=None<span class="p">, </span>integration_method=None<span class="p">, </span>integration_type=None<span class="p">, </span>integration_uri=None<span class="p">, </span>passthrough_behavior=None<span class="p">, </span>payload_format_version=None<span class="p">, </span>request_templates=None<span class="p">, </span>template_selection_expression=None<span class="p">, </span>timeout_milliseconds=None<span class="p">, </span>__props__=None<span class="p">);</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language go %}}

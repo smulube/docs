@@ -46,7 +46,7 @@ const ubuntu = pulumi.output(aws.ec2.getLaunchConfiguration({
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupLaunchConfiguration<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/ec2?tab=doc#LookupLaunchConfigurationArgs">LookupLaunchConfigurationArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/ec2?tab=doc#LookupLaunchConfigurationResult">LookupLaunchConfigurationResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetLaunchConfiguration<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/ec2?tab=doc#GetLaunchConfigurationArgs">GetLaunchConfigurationArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-aws/sdk/v2/go/aws/ec2?tab=doc#GetLaunchConfigurationResult">GetLaunchConfigurationResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -860,7 +860,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getlaunchconfigurationebsblockdevice">Get<wbr>Launch<wbr>Configuration<wbr>Ebs<wbr>Block<wbr>Device</h4>
+<h4 id="getlaunchconfigurationebsblockdevice">get<wbr>Launch<wbr>Configuration<wbr>Ebs<wbr>Block<wbr>Device</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetLaunchConfigurationEbsBlockDevice">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1155,7 +1155,7 @@ The following output properties are available:
 
 
 
-<h4 id="getlaunchconfigurationephemeralblockdevice">Get<wbr>Launch<wbr>Configuration<wbr>Ephemeral<wbr>Block<wbr>Device</h4>
+<h4 id="getlaunchconfigurationephemeralblockdevice">get<wbr>Launch<wbr>Configuration<wbr>Ephemeral<wbr>Block<wbr>Device</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetLaunchConfigurationEphemeralBlockDevice">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1270,7 +1270,7 @@ The following output properties are available:
 
 
 
-<h4 id="getlaunchconfigurationrootblockdevice">Get<wbr>Launch<wbr>Configuration<wbr>Root<wbr>Block<wbr>Device</h4>
+<h4 id="getlaunchconfigurationrootblockdevice">get<wbr>Launch<wbr>Configuration<wbr>Root<wbr>Block<wbr>Device</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/aws/types/output/#GetLaunchConfigurationRootBlockDevice">output</a> API doc for this type.
 {{% /choosable %}}

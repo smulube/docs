@@ -38,10 +38,10 @@ Explore the resources and functions of the apigateway module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getkey" title="GetKey"><span class="symbol function"></span>GetKey</a></li>
-    <li><a href="getresource" title="GetResource"><span class="symbol function"></span>GetResource</a></li>
-    <li><a href="getrestapi" title="GetRestApi"><span class="symbol function"></span>GetRestApi</a></li>
-    <li><a href="getvpclink" title="GetVpcLink"><span class="symbol function"></span>GetVpcLink</a></li>
+    <li><a href="getkey" title="getKey"><span class="symbol function"></span>getKey</a></li>
+    <li><a href="getresource" title="getResource"><span class="symbol function"></span>getResource</a></li>
+    <li><a href="getrestapi" title="getRestApi"><span class="symbol function"></span>getRestApi</a></li>
+    <li><a href="getvpclink" title="getVpcLink"><span class="symbol function"></span>getVpcLink</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

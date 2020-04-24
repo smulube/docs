@@ -80,32 +80,32 @@ Explore the resources and functions of the ec2 module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getcustomergateway" title="GetCustomerGateway"><span class="symbol function"></span>GetCustomerGateway</a></li>
-    <li><a href="getinstance" title="GetInstance"><span class="symbol function"></span>GetInstance</a></li>
-    <li><a href="getinstancetypeoffering" title="GetInstanceTypeOffering"><span class="symbol function"></span>GetInstanceTypeOffering</a></li>
-    <li><a href="getinstancetypeofferings" title="GetInstanceTypeOfferings"><span class="symbol function"></span>GetInstanceTypeOfferings</a></li>
-    <li><a href="getinstances" title="GetInstances"><span class="symbol function"></span>GetInstances</a></li>
-    <li><a href="getinternetgateway" title="GetInternetGateway"><span class="symbol function"></span>GetInternetGateway</a></li>
-    <li><a href="getlaunchconfiguration" title="GetLaunchConfiguration"><span class="symbol function"></span>GetLaunchConfiguration</a></li>
-    <li><a href="getlaunchtemplate" title="GetLaunchTemplate"><span class="symbol function"></span>GetLaunchTemplate</a></li>
-    <li><a href="getnatgateway" title="GetNatGateway"><span class="symbol function"></span>GetNatGateway</a></li>
-    <li><a href="getnetworkacls" title="GetNetworkAcls"><span class="symbol function"></span>GetNetworkAcls</a></li>
-    <li><a href="getnetworkinterface" title="GetNetworkInterface"><span class="symbol function"></span>GetNetworkInterface</a></li>
-    <li><a href="getnetworkinterfaces" title="GetNetworkInterfaces"><span class="symbol function"></span>GetNetworkInterfaces</a></li>
-    <li><a href="getroute" title="GetRoute"><span class="symbol function"></span>GetRoute</a></li>
-    <li><a href="getroutetable" title="GetRouteTable"><span class="symbol function"></span>GetRouteTable</a></li>
-    <li><a href="getroutetables" title="GetRouteTables"><span class="symbol function"></span>GetRouteTables</a></li>
-    <li><a href="getsecuritygroup" title="GetSecurityGroup"><span class="symbol function"></span>GetSecurityGroup</a></li>
-    <li><a href="getsecuritygroups" title="GetSecurityGroups"><span class="symbol function"></span>GetSecurityGroups</a></li>
-    <li><a href="getsubnet" title="GetSubnet"><span class="symbol function"></span>GetSubnet</a></li>
-    <li><a href="getsubnetids" title="GetSubnetIds"><span class="symbol function"></span>GetSubnetIds</a></li>
-    <li><a href="getvpc" title="GetVpc"><span class="symbol function"></span>GetVpc</a></li>
-    <li><a href="getvpcdhcpoptions" title="GetVpcDhcpOptions"><span class="symbol function"></span>GetVpcDhcpOptions</a></li>
-    <li><a href="getvpcendpoint" title="GetVpcEndpoint"><span class="symbol function"></span>GetVpcEndpoint</a></li>
-    <li><a href="getvpcendpointservice" title="GetVpcEndpointService"><span class="symbol function"></span>GetVpcEndpointService</a></li>
-    <li><a href="getvpcpeeringconnection" title="GetVpcPeeringConnection"><span class="symbol function"></span>GetVpcPeeringConnection</a></li>
-    <li><a href="getvpcs" title="GetVpcs"><span class="symbol function"></span>GetVpcs</a></li>
-    <li><a href="getvpngateway" title="GetVpnGateway"><span class="symbol function"></span>GetVpnGateway</a></li>
+    <li><a href="getcustomergateway" title="getCustomerGateway"><span class="symbol function"></span>getCustomerGateway</a></li>
+    <li><a href="getinstance" title="getInstance"><span class="symbol function"></span>getInstance</a></li>
+    <li><a href="getinstancetypeoffering" title="getInstanceTypeOffering"><span class="symbol function"></span>getInstanceTypeOffering</a></li>
+    <li><a href="getinstancetypeofferings" title="getInstanceTypeOfferings"><span class="symbol function"></span>getInstanceTypeOfferings</a></li>
+    <li><a href="getinstances" title="getInstances"><span class="symbol function"></span>getInstances</a></li>
+    <li><a href="getinternetgateway" title="getInternetGateway"><span class="symbol function"></span>getInternetGateway</a></li>
+    <li><a href="getlaunchconfiguration" title="getLaunchConfiguration"><span class="symbol function"></span>getLaunchConfiguration</a></li>
+    <li><a href="getlaunchtemplate" title="getLaunchTemplate"><span class="symbol function"></span>getLaunchTemplate</a></li>
+    <li><a href="getnatgateway" title="getNatGateway"><span class="symbol function"></span>getNatGateway</a></li>
+    <li><a href="getnetworkacls" title="getNetworkAcls"><span class="symbol function"></span>getNetworkAcls</a></li>
+    <li><a href="getnetworkinterface" title="getNetworkInterface"><span class="symbol function"></span>getNetworkInterface</a></li>
+    <li><a href="getnetworkinterfaces" title="getNetworkInterfaces"><span class="symbol function"></span>getNetworkInterfaces</a></li>
+    <li><a href="getroute" title="getRoute"><span class="symbol function"></span>getRoute</a></li>
+    <li><a href="getroutetable" title="getRouteTable"><span class="symbol function"></span>getRouteTable</a></li>
+    <li><a href="getroutetables" title="getRouteTables"><span class="symbol function"></span>getRouteTables</a></li>
+    <li><a href="getsecuritygroup" title="getSecurityGroup"><span class="symbol function"></span>getSecurityGroup</a></li>
+    <li><a href="getsecuritygroups" title="getSecurityGroups"><span class="symbol function"></span>getSecurityGroups</a></li>
+    <li><a href="getsubnet" title="getSubnet"><span class="symbol function"></span>getSubnet</a></li>
+    <li><a href="getsubnetids" title="getSubnetIds"><span class="symbol function"></span>getSubnetIds</a></li>
+    <li><a href="getvpc" title="getVpc"><span class="symbol function"></span>getVpc</a></li>
+    <li><a href="getvpcdhcpoptions" title="getVpcDhcpOptions"><span class="symbol function"></span>getVpcDhcpOptions</a></li>
+    <li><a href="getvpcendpoint" title="getVpcEndpoint"><span class="symbol function"></span>getVpcEndpoint</a></li>
+    <li><a href="getvpcendpointservice" title="getVpcEndpointService"><span class="symbol function"></span>getVpcEndpointService</a></li>
+    <li><a href="getvpcpeeringconnection" title="getVpcPeeringConnection"><span class="symbol function"></span>getVpcPeeringConnection</a></li>
+    <li><a href="getvpcs" title="getVpcs"><span class="symbol function"></span>getVpcs</a></li>
+    <li><a href="getvpngateway" title="getVpnGateway"><span class="symbol function"></span>getVpnGateway</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

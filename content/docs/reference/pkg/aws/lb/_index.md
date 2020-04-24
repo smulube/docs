@@ -21,9 +21,9 @@ Explore the resources and functions of the lb module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getlistener" title="GetListener"><span class="symbol function"></span>GetListener</a></li>
-    <li><a href="getloadbalancer" title="GetLoadBalancer"><span class="symbol function"></span>GetLoadBalancer</a></li>
-    <li><a href="gettargetgroup" title="GetTargetGroup"><span class="symbol function"></span>GetTargetGroup</a></li>
+    <li><a href="getlistener" title="getListener"><span class="symbol function"></span>getListener</a></li>
+    <li><a href="getloadbalancer" title="getLoadBalancer"><span class="symbol function"></span>getLoadBalancer</a></li>
+    <li><a href="gettargetgroup" title="getTargetGroup"><span class="symbol function"></span>getTargetGroup</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

@@ -26,13 +26,13 @@ a particular domain name. An API stage can be associated with the domain name us
 import * as pulumi from "@pulumi/pulumi";
 import * as aws from "@pulumi/aws";
 
-const example = new aws.apigatewayv2.DomainName("example", {
+const example = new aws.Apigatewayv2DomainName("example", {
     domainName: "ws-api.example.com",
-    domainNameConfiguration: {
+    domainNameConfiguration: [{
         certificateArn: aws_acm_certificate_example.arn,
         endpointType: "REGIONAL",
         securityPolicy: "TLS_1_2",
-    },
+    }],
 });
 ```
 
@@ -50,7 +50,7 @@ const example = new aws.apigatewayv2.DomainName("example", {
 {{% /choosable %}}
 
 {{% choosable language python %}}
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def </span><span class="nf">DomainName</span><span class="p">(resource_name, opts=None, </span>domain_name=None<span class="p">, </span>domain_name_configuration=None<span class="p">, </span>tags=None<span class="p">, __props__=None);</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">def </span><span class="nf">DomainName</span><span class="p">(resource_name, </span>opts=None<span class="p">, </span>domain_name=None<span class="p">, </span>domain_name_configuration=None<span class="p">, </span>tags=None<span class="p">, </span>__props__=None<span class="p">);</span></code></pre></div>
 {{% /choosable %}}
 
 {{% choosable language go %}}
