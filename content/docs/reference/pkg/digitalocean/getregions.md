@@ -81,7 +81,7 @@ const available = pulumi.output(digitalocean.getRegions({
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupRegions<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-digitalocean/sdk/v2/go/digitalocean/?tab=doc#GetRegionsArgs">GetRegionsArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-digitalocean/sdk/v2/go/digitalocean/?tab=doc#LookupRegionsResult">LookupRegionsResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetRegions<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-digitalocean/sdk/v2/go/digitalocean/?tab=doc#GetRegionsArgs">GetRegionsArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-digitalocean/sdk/v2/go/digitalocean/?tab=doc#GetRegionsResult">GetRegionsResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -411,7 +411,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getregionsfilter">Get<wbr>Regions<wbr>Filter</h4>
+<h4 id="getregionsfilter">get<wbr>Regions<wbr>Filter</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/digitalocean/types/input/#GetRegionsFilter">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/digitalocean/types/output/#GetRegionsFilter">output</a> API doc for this type.
 {{% /choosable %}}
@@ -534,7 +534,7 @@ where the `key` field takes on one or more of the values provided here.
 
 
 
-<h4 id="getregionsregion">Get<wbr>Regions<wbr>Region</h4>
+<h4 id="getregionsregion">get<wbr>Regions<wbr>Region</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/digitalocean/types/output/#GetRegionsRegion">output</a> API doc for this type.
 {{% /choosable %}}
@@ -737,7 +737,7 @@ where the `key` field takes on one or more of the values provided here.
 
 
 
-<h4 id="getregionssort">Get<wbr>Regions<wbr>Sort</h4>
+<h4 id="getregionssort">get<wbr>Regions<wbr>Sort</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/digitalocean/types/input/#GetRegionsSort">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/digitalocean/types/output/#GetRegionsSort">output</a> API doc for this type.
 {{% /choosable %}}

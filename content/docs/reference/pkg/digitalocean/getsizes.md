@@ -35,7 +35,7 @@ will be returned.
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupSizes<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-digitalocean/sdk/v2/go/digitalocean/?tab=doc#GetSizesArgs">GetSizesArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-digitalocean/sdk/v2/go/digitalocean/?tab=doc#LookupSizesResult">LookupSizesResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetSizes<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-digitalocean/sdk/v2/go/digitalocean/?tab=doc#GetSizesArgs">GetSizesArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-digitalocean/sdk/v2/go/digitalocean/?tab=doc#GetSizesResult">GetSizesResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -341,7 +341,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getsizesfilter">Get<wbr>Sizes<wbr>Filter</h4>
+<h4 id="getsizesfilter">get<wbr>Sizes<wbr>Filter</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/digitalocean/types/input/#GetSizesFilter">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/digitalocean/types/output/#GetSizesFilter">output</a> API doc for this type.
 {{% /choosable %}}
@@ -468,7 +468,7 @@ one of the values provided here.
 
 
 
-<h4 id="getsizessize">Get<wbr>Sizes<wbr>Size</h4>
+<h4 id="getsizessize">get<wbr>Sizes<wbr>Size</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/digitalocean/types/output/#GetSizesSize">output</a> API doc for this type.
 {{% /choosable %}}
@@ -835,7 +835,7 @@ one of the values provided here.
 
 
 
-<h4 id="getsizessort">Get<wbr>Sizes<wbr>Sort</h4>
+<h4 id="getsizessort">get<wbr>Sizes<wbr>Sort</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/digitalocean/types/input/#GetSizesSort">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/digitalocean/types/output/#GetSizesSort">output</a> API doc for this type.
 {{% /choosable %}}

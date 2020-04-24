@@ -29,7 +29,7 @@ meta_desc: "Explore the GetLoadBalancer function of the Digital Ocean package, i
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupLoadBalancer<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-digitalocean/sdk/v2/go/digitalocean/?tab=doc#GetLoadBalancerArgs">GetLoadBalancerArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-digitalocean/sdk/v2/go/digitalocean/?tab=doc#LookupLoadBalancerResult">LookupLoadBalancerResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetLoadBalancer<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-digitalocean/sdk/v2/go/digitalocean/?tab=doc#GetLoadBalancerArgs">GetLoadBalancerArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-digitalocean/sdk/v2/go/digitalocean/?tab=doc#GetLoadBalancerResult">GetLoadBalancerResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -643,7 +643,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getloadbalancerforwardingrule">Get<wbr>Load<wbr>Balancer<wbr>Forwarding<wbr>Rule</h4>
+<h4 id="getloadbalancerforwardingrule">get<wbr>Load<wbr>Balancer<wbr>Forwarding<wbr>Rule</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/digitalocean/types/output/#GetLoadBalancerForwardingRule">output</a> API doc for this type.
 {{% /choosable %}}
@@ -878,7 +878,7 @@ The following output properties are available:
 
 
 
-<h4 id="getloadbalancerhealthcheck">Get<wbr>Load<wbr>Balancer<wbr>Healthcheck</h4>
+<h4 id="getloadbalancerhealthcheck">get<wbr>Load<wbr>Balancer<wbr>Healthcheck</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/digitalocean/types/output/#GetLoadBalancerHealthcheck">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1145,7 +1145,7 @@ The following output properties are available:
 
 
 
-<h4 id="getloadbalancerstickysessions">Get<wbr>Load<wbr>Balancer<wbr>Sticky<wbr>Sessions</h4>
+<h4 id="getloadbalancerstickysessions">get<wbr>Load<wbr>Balancer<wbr>Sticky<wbr>Sessions</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/digitalocean/types/output/#GetLoadBalancerStickySessions">output</a> API doc for this type.
 {{% /choosable %}}

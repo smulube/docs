@@ -29,7 +29,7 @@ meta_desc: "Explore the GetImages function of the Digital Ocean package, includi
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupImages<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-digitalocean/sdk/v2/go/digitalocean/?tab=doc#GetImagesArgs">GetImagesArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-digitalocean/sdk/v2/go/digitalocean/?tab=doc#LookupImagesResult">LookupImagesResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetImages<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-digitalocean/sdk/v2/go/digitalocean/?tab=doc#GetImagesArgs">GetImagesArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-digitalocean/sdk/v2/go/digitalocean/?tab=doc#GetImagesResult">GetImagesResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -403,7 +403,7 @@ snapshots and backups and are only available within your account.
 ## Supporting Types
 
 
-<h4 id="getimagesfilter">Get<wbr>Images<wbr>Filter</h4>
+<h4 id="getimagesfilter">get<wbr>Images<wbr>Filter</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/digitalocean/types/input/#GetImagesFilter">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/digitalocean/types/output/#GetImagesFilter">output</a> API doc for this type.
 {{% /choosable %}}
@@ -530,7 +530,7 @@ where the `key` field takes on one or more of the values provided here.
 
 
 
-<h4 id="getimagesimage">Get<wbr>Images<wbr>Image</h4>
+<h4 id="getimagesimage">get<wbr>Images<wbr>Image</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/digitalocean/types/output/#GetImagesImage">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1021,7 +1021,7 @@ where the `key` field takes on one or more of the values provided here.
 
 
 
-<h4 id="getimagessort">Get<wbr>Images<wbr>Sort</h4>
+<h4 id="getimagessort">get<wbr>Images<wbr>Sort</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/digitalocean/types/input/#GetImagesSort">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/digitalocean/types/output/#GetImagesSort">output</a> API doc for this type.
 {{% /choosable %}}

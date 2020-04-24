@@ -83,7 +83,7 @@ const non_default_production = pulumi.output(digitalocean.getProjects({
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupProjects<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-digitalocean/sdk/v2/go/digitalocean/?tab=doc#GetProjectsArgs">GetProjectsArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-digitalocean/sdk/v2/go/digitalocean/?tab=doc#LookupProjectsResult">LookupProjectsResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetProjects<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-digitalocean/sdk/v2/go/digitalocean/?tab=doc#GetProjectsArgs">GetProjectsArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-digitalocean/sdk/v2/go/digitalocean/?tab=doc#GetProjectsResult">GetProjectsResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -437,7 +437,7 @@ the following attributes:
 ## Supporting Types
 
 
-<h4 id="getprojectsfilter">Get<wbr>Projects<wbr>Filter</h4>
+<h4 id="getprojectsfilter">get<wbr>Projects<wbr>Filter</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/digitalocean/types/input/#GetProjectsFilter">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/digitalocean/types/output/#GetProjectsFilter">output</a> API doc for this type.
 {{% /choosable %}}
@@ -560,7 +560,7 @@ where the `key` field takes on one or more of the values provided here.
 
 
 
-<h4 id="getprojectsproject">Get<wbr>Projects<wbr>Project</h4>
+<h4 id="getprojectsproject">get<wbr>Projects<wbr>Project</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/digitalocean/types/output/#GetProjectsProject">output</a> API doc for this type.
 {{% /choosable %}}
@@ -955,7 +955,7 @@ where the `key` field takes on one or more of the values provided here.
 
 
 
-<h4 id="getprojectssort">Get<wbr>Projects<wbr>Sort</h4>
+<h4 id="getprojectssort">get<wbr>Projects<wbr>Sort</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/digitalocean/types/input/#GetProjectsSort">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/digitalocean/types/output/#GetProjectsSort">output</a> API doc for this type.
 {{% /choosable %}}

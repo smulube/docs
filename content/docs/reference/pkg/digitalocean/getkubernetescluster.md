@@ -29,7 +29,7 @@ meta_desc: "Explore the GetKubernetesCluster function of the Digital Ocean packa
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupKubernetesCluster<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-digitalocean/sdk/v2/go/digitalocean/?tab=doc#GetKubernetesClusterArgs">GetKubernetesClusterArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-digitalocean/sdk/v2/go/digitalocean/?tab=doc#LookupKubernetesClusterResult">LookupKubernetesClusterResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetKubernetesCluster<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-digitalocean/sdk/v2/go/digitalocean/?tab=doc#GetKubernetesClusterArgs">GetKubernetesClusterArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-digitalocean/sdk/v2/go/digitalocean/?tab=doc#GetKubernetesClusterResult">GetKubernetesClusterResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -823,7 +823,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getkubernetesclusterkubeconfig">Get<wbr>Kubernetes<wbr>Cluster<wbr>Kube<wbr>Config</h4>
+<h4 id="getkubernetesclusterkubeconfig">get<wbr>Kubernetes<wbr>Cluster<wbr>Kube<wbr>Config</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/digitalocean/types/output/#GetKubernetesClusterKubeConfig">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1090,7 +1090,7 @@ The following output properties are available:
 
 
 
-<h4 id="getkubernetesclusternodepool">Get<wbr>Kubernetes<wbr>Cluster<wbr>Node<wbr>Pool</h4>
+<h4 id="getkubernetesclusternodepool">get<wbr>Kubernetes<wbr>Cluster<wbr>Node<wbr>Pool</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/digitalocean/types/output/#GetKubernetesClusterNodePool">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1497,7 +1497,7 @@ The following output properties are available:
 
 
 
-<h4 id="getkubernetesclusternodepoolnode">Get<wbr>Kubernetes<wbr>Cluster<wbr>Node<wbr>Pool<wbr>Node</h4>
+<h4 id="getkubernetesclusternodepoolnode">get<wbr>Kubernetes<wbr>Cluster<wbr>Node<wbr>Pool<wbr>Node</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/digitalocean/types/output/#GetKubernetesClusterNodePoolNode">output</a> API doc for this type.
 {{% /choosable %}}
