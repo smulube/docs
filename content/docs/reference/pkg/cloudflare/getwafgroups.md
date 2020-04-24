@@ -33,7 +33,7 @@ Use this data source to look up [WAF Rule Groups][1].
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupWafGroups<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-cloudflare/sdk/v2/go/cloudflare/?tab=doc#GetWafGroupsArgs">GetWafGroupsArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-cloudflare/sdk/v2/go/cloudflare/?tab=doc#LookupWafGroupsResult">LookupWafGroupsResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetWafGroups<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-cloudflare/sdk/v2/go/cloudflare/?tab=doc#GetWafGroupsArgs">GetWafGroupsArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-cloudflare/sdk/v2/go/cloudflare/?tab=doc#GetWafGroupsResult">GetWafGroupsResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -387,7 +387,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getwafgroupsfilter">Get<wbr>Waf<wbr>Groups<wbr>Filter</h4>
+<h4 id="getwafgroupsfilter">get<wbr>Waf<wbr>Groups<wbr>Filter</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/cloudflare/types/input/#GetWafGroupsFilter">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/cloudflare/types/output/#GetWafGroupsFilter">output</a> API doc for this type.
 {{% /choosable %}}
@@ -494,7 +494,7 @@ The following output properties are available:
 
 
 
-<h4 id="getwafgroupsgroup">Get<wbr>Waf<wbr>Groups<wbr>Group</h4>
+<h4 id="getwafgroupsgroup">get<wbr>Waf<wbr>Groups<wbr>Group</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/cloudflare/types/output/#GetWafGroupsGroup">output</a> API doc for this type.
 {{% /choosable %}}
