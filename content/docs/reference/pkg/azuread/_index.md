@@ -26,14 +26,14 @@ A Pulumi package for creating and managing azuread cloud resources.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getapplication" title="GetApplication"><span class="symbol function"></span>GetApplication</a></li>
-    <li><a href="getclientconfig" title="GetClientConfig"><span class="symbol function"></span>GetClientConfig</a></li>
-    <li><a href="getdomains" title="GetDomains"><span class="symbol function"></span>GetDomains</a></li>
-    <li><a href="getgroup" title="GetGroup"><span class="symbol function"></span>GetGroup</a></li>
-    <li><a href="getgroups" title="GetGroups"><span class="symbol function"></span>GetGroups</a></li>
-    <li><a href="getserviceprincipal" title="GetServicePrincipal"><span class="symbol function"></span>GetServicePrincipal</a></li>
-    <li><a href="getuser" title="GetUser"><span class="symbol function"></span>GetUser</a></li>
-    <li><a href="getusers" title="GetUsers"><span class="symbol function"></span>GetUsers</a></li>
+    <li><a href="getapplication" title="getApplication"><span class="symbol function"></span>getApplication</a></li>
+    <li><a href="getclientconfig" title="getClientConfig"><span class="symbol function"></span>getClientConfig</a></li>
+    <li><a href="getdomains" title="getDomains"><span class="symbol function"></span>getDomains</a></li>
+    <li><a href="getgroup" title="getGroup"><span class="symbol function"></span>getGroup</a></li>
+    <li><a href="getgroups" title="getGroups"><span class="symbol function"></span>getGroups</a></li>
+    <li><a href="getserviceprincipal" title="getServicePrincipal"><span class="symbol function"></span>getServicePrincipal</a></li>
+    <li><a href="getuser" title="getUser"><span class="symbol function"></span>getUser</a></li>
+    <li><a href="getusers" title="getUsers"><span class="symbol function"></span>getUsers</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
