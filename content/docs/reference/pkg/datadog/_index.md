@@ -41,7 +41,7 @@ A Pulumi package for creating and managing Datadog resources.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getipranges" title="getIpRanges"><span class="symbol function"></span>getIpRanges</a></li>
+    <li><a href="getipranges" title="GetIpRanges"><span class="symbol function"></span>GetIpRanges</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
