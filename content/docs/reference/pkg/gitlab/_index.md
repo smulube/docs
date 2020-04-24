@@ -42,10 +42,10 @@ A Pulumi package for creating and managing GitLab resources.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getgroup" title="getGroup"><span class="symbol function"></span>getGroup</a></li>
-    <li><a href="getproject" title="getProject"><span class="symbol function"></span>getProject</a></li>
-    <li><a href="getuser" title="getUser"><span class="symbol function"></span>getUser</a></li>
-    <li><a href="getusers" title="getUsers"><span class="symbol function"></span>getUsers</a></li>
+    <li><a href="getgroup" title="GetGroup"><span class="symbol function"></span>GetGroup</a></li>
+    <li><a href="getproject" title="GetProject"><span class="symbol function"></span>GetProject</a></li>
+    <li><a href="getuser" title="GetUser"><span class="symbol function"></span>GetUser</a></li>
+    <li><a href="getusers" title="GetUsers"><span class="symbol function"></span>GetUsers</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
