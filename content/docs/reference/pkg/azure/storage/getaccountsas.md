@@ -38,7 +38,7 @@ and *not* a [Service SAS](https://docs.microsoft.com/en-us/rest/api/storageservi
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupAccountSAS<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/storage?tab=doc#LookupAccountSASArgs">LookupAccountSASArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/storage?tab=doc#LookupAccountSASResult">LookupAccountSASResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetAccountSAS<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/storage?tab=doc#GetAccountSASArgs">GetAccountSASArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/storage?tab=doc#GetAccountSASResult">GetAccountSASResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -680,7 +680,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getaccountsaspermissions">Get<wbr>Account<wbr>SASPermissions</h4>
+<h4 id="getaccountsaspermissions">get<wbr>Account<wbr>SASPermissions</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/input/#GetAccountSASPermissions">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetAccountSASPermissions">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1011,7 +1011,7 @@ The following output properties are available:
 
 
 
-<h4 id="getaccountsasresourcetypes">Get<wbr>Account<wbr>SASResource<wbr>Types</h4>
+<h4 id="getaccountsasresourcetypes">get<wbr>Account<wbr>SASResource<wbr>Types</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/input/#GetAccountSASResourceTypes">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetAccountSASResourceTypes">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1162,7 +1162,7 @@ The following output properties are available:
 
 
 
-<h4 id="getaccountsasservices">Get<wbr>Account<wbr>SASServices</h4>
+<h4 id="getaccountsasservices">get<wbr>Account<wbr>SASServices</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/input/#GetAccountSASServices">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetAccountSASServices">output</a> API doc for this type.
 {{% /choosable %}}

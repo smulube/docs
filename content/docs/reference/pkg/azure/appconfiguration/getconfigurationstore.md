@@ -33,7 +33,7 @@ Use this data source to access information about an existing App Configuration.
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupConfigurationStore<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/appconfiguration?tab=doc#LookupConfigurationStoreArgs">LookupConfigurationStoreArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/appconfiguration?tab=doc#LookupConfigurationStoreResult">LookupConfigurationStoreResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetConfigurationStore<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/appconfiguration?tab=doc#GetConfigurationStoreArgs">GetConfigurationStoreArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/appconfiguration?tab=doc#GetConfigurationStoreResult">GetConfigurationStoreResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -587,7 +587,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getconfigurationstoreprimaryreadkey">Get<wbr>Configuration<wbr>Store<wbr>Primary<wbr>Read<wbr>Key</h4>
+<h4 id="getconfigurationstoreprimaryreadkey">get<wbr>Configuration<wbr>Store<wbr>Primary<wbr>Read<wbr>Key</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetConfigurationStorePrimaryReadKey">output</a> API doc for this type.
 {{% /choosable %}}
@@ -738,7 +738,7 @@ The following output properties are available:
 
 
 
-<h4 id="getconfigurationstoreprimarywritekey">Get<wbr>Configuration<wbr>Store<wbr>Primary<wbr>Write<wbr>Key</h4>
+<h4 id="getconfigurationstoreprimarywritekey">get<wbr>Configuration<wbr>Store<wbr>Primary<wbr>Write<wbr>Key</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetConfigurationStorePrimaryWriteKey">output</a> API doc for this type.
 {{% /choosable %}}
@@ -889,7 +889,7 @@ The following output properties are available:
 
 
 
-<h4 id="getconfigurationstoresecondaryreadkey">Get<wbr>Configuration<wbr>Store<wbr>Secondary<wbr>Read<wbr>Key</h4>
+<h4 id="getconfigurationstoresecondaryreadkey">get<wbr>Configuration<wbr>Store<wbr>Secondary<wbr>Read<wbr>Key</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetConfigurationStoreSecondaryReadKey">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1040,7 +1040,7 @@ The following output properties are available:
 
 
 
-<h4 id="getconfigurationstoresecondarywritekey">Get<wbr>Configuration<wbr>Store<wbr>Secondary<wbr>Write<wbr>Key</h4>
+<h4 id="getconfigurationstoresecondarywritekey">get<wbr>Configuration<wbr>Store<wbr>Secondary<wbr>Write<wbr>Key</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetConfigurationStoreSecondaryWriteKey">output</a> API doc for this type.
 {{% /choosable %}}

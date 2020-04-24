@@ -34,12 +34,12 @@ Explore the resources and functions of the eventhub module in the Azure package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getauthorizationrule" title="GetAuthorizationRule"><span class="symbol function"></span>GetAuthorizationRule</a></li>
-    <li><a href="getconsumegroup" title="GetConsumeGroup"><span class="symbol function"></span>GetConsumeGroup</a></li>
-    <li><a href="geteventhubnamespace" title="GetEventhubNamespace"><span class="symbol function"></span>GetEventhubNamespace</a></li>
-    <li><a href="getnamespace" title="GetNamespace"><span class="symbol function"></span>GetNamespace</a></li>
-    <li><a href="getnamespaceauthorizationrule" title="GetNamespaceAuthorizationRule"><span class="symbol function"></span>GetNamespaceAuthorizationRule</a></li>
-    <li><a href="getservicebusnamespace" title="GetServiceBusNamespace"><span class="symbol function"></span>GetServiceBusNamespace</a></li>
+    <li><a href="getauthorizationrule" title="getAuthorizationRule"><span class="symbol function"></span>getAuthorizationRule</a></li>
+    <li><a href="getconsumegroup" title="getConsumeGroup"><span class="symbol function"></span>getConsumeGroup</a></li>
+    <li><a href="geteventhubnamespace" title="getEventhubNamespace"><span class="symbol function"></span>getEventhubNamespace</a></li>
+    <li><a href="getnamespace" title="getNamespace"><span class="symbol function"></span>getNamespace</a></li>
+    <li><a href="getnamespaceauthorizationrule" title="getNamespaceAuthorizationRule"><span class="symbol function"></span>getNamespaceAuthorizationRule</a></li>
+    <li><a href="getservicebusnamespace" title="getServiceBusNamespace"><span class="symbol function"></span>getServiceBusNamespace</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
@@ -51,6 +51,6 @@ Explore the resources and functions of the eventhub module in the Azure package.
 	<dt>Notes</dt>
 	<dd>This Pulumi package is based on the [`azurerm` Terraform Provider](https://github.com/terraform-providers/terraform-provider-azurerm).</dd>
 	<dt>Version</dt>
-	<dd>3.1.0</dd>
+	<dd>3.2.0</dd>
 </dl>
 

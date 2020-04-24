@@ -21,7 +21,7 @@ Explore the resources and functions of the logicapps module in the Azure package
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getworkflow" title="GetWorkflow"><span class="symbol function"></span>GetWorkflow</a></li>
+    <li><a href="getworkflow" title="getWorkflow"><span class="symbol function"></span>getWorkflow</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
@@ -33,6 +33,6 @@ Explore the resources and functions of the logicapps module in the Azure package
 	<dt>Notes</dt>
 	<dd>This Pulumi package is based on the [`azurerm` Terraform Provider](https://github.com/terraform-providers/terraform-provider-azurerm).</dd>
 	<dt>Version</dt>
-	<dd>3.1.0</dd>
+	<dd>3.2.0</dd>
 </dl>
 

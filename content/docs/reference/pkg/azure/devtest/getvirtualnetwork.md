@@ -33,7 +33,7 @@ Use this data source to access information about an existing Dev Test Lab Virtua
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupVirtualNetwork<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/devtest?tab=doc#LookupVirtualNetworkArgs">LookupVirtualNetworkArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/devtest?tab=doc#LookupVirtualNetworkResult">LookupVirtualNetworkResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetVirtualNetwork<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/devtest?tab=doc#GetVirtualNetworkArgs">GetVirtualNetworkArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/devtest?tab=doc#GetVirtualNetworkResult">GetVirtualNetworkResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -475,7 +475,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getvirtualnetworkallowedsubnet">Get<wbr>Virtual<wbr>Network<wbr>Allowed<wbr>Subnet</h4>
+<h4 id="getvirtualnetworkallowedsubnet">get<wbr>Virtual<wbr>Network<wbr>Allowed<wbr>Subnet</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetVirtualNetworkAllowedSubnet">output</a> API doc for this type.
 {{% /choosable %}}
@@ -626,7 +626,7 @@ The following output properties are available:
 
 
 
-<h4 id="getvirtualnetworksubnetoverride">Get<wbr>Virtual<wbr>Network<wbr>Subnet<wbr>Override</h4>
+<h4 id="getvirtualnetworksubnetoverride">get<wbr>Virtual<wbr>Network<wbr>Subnet<wbr>Override</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetVirtualNetworkSubnetOverride">output</a> API doc for this type.
 {{% /choosable %}}

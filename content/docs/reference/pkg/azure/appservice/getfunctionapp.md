@@ -33,7 +33,7 @@ Use this data source to access information about a Function App.
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupFunctionApp<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/appservice?tab=doc#LookupFunctionAppArgs">LookupFunctionAppArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/appservice?tab=doc#LookupFunctionAppResult">LookupFunctionAppResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetFunctionApp<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/appservice?tab=doc#GetFunctionAppArgs">GetFunctionAppArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/appservice?tab=doc#GetFunctionAppResult">GetFunctionAppResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -723,7 +723,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getfunctionappconnectionstring">Get<wbr>Function<wbr>App<wbr>Connection<wbr>String</h4>
+<h4 id="getfunctionappconnectionstring">get<wbr>Function<wbr>App<wbr>Connection<wbr>String</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetFunctionAppConnectionString">output</a> API doc for this type.
 {{% /choosable %}}
@@ -874,7 +874,7 @@ The following output properties are available:
 
 
 
-<h4 id="getfunctionappsitecredential">Get<wbr>Function<wbr>App<wbr>Site<wbr>Credential</h4>
+<h4 id="getfunctionappsitecredential">get<wbr>Function<wbr>App<wbr>Site<wbr>Credential</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetFunctionAppSiteCredential">output</a> API doc for this type.
 {{% /choosable %}}

@@ -21,9 +21,9 @@ Explore the resources and functions of the containerservice module in the Azure 
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getkubernetescluster" title="GetKubernetesCluster"><span class="symbol function"></span>GetKubernetesCluster</a></li>
-    <li><a href="getkubernetesserviceversions" title="GetKubernetesServiceVersions"><span class="symbol function"></span>GetKubernetesServiceVersions</a></li>
-    <li><a href="getregistry" title="GetRegistry"><span class="symbol function"></span>GetRegistry</a></li>
+    <li><a href="getkubernetescluster" title="getKubernetesCluster"><span class="symbol function"></span>getKubernetesCluster</a></li>
+    <li><a href="getkubernetesserviceversions" title="getKubernetesServiceVersions"><span class="symbol function"></span>getKubernetesServiceVersions</a></li>
+    <li><a href="getregistry" title="getRegistry"><span class="symbol function"></span>getRegistry</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
@@ -35,6 +35,6 @@ Explore the resources and functions of the containerservice module in the Azure 
 	<dt>Notes</dt>
 	<dd>This Pulumi package is based on the [`azurerm` Terraform Provider](https://github.com/terraform-providers/terraform-provider-azurerm).</dd>
 	<dt>Version</dt>
-	<dd>3.1.0</dd>
+	<dd>3.2.0</dd>
 </dl>
 

@@ -26,7 +26,7 @@ Explore the resources and functions of the datafactory module in the Azure packa
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getfactory" title="GetFactory"><span class="symbol function"></span>GetFactory</a></li>
+    <li><a href="getfactory" title="getFactory"><span class="symbol function"></span>getFactory</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
@@ -38,6 +38,6 @@ Explore the resources and functions of the datafactory module in the Azure packa
 	<dt>Notes</dt>
 	<dd>This Pulumi package is based on the [`azurerm` Terraform Provider](https://github.com/terraform-providers/terraform-provider-azurerm).</dd>
 	<dt>Version</dt>
-	<dd>3.1.0</dd>
+	<dd>3.2.0</dd>
 </dl>
 

@@ -33,7 +33,7 @@ Use this data source to access information about an existing Notification Hub Na
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupNamespace<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/notificationhub?tab=doc#LookupNamespaceArgs">LookupNamespaceArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/notificationhub?tab=doc#LookupNamespaceResult">LookupNamespaceResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetNamespace<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/notificationhub?tab=doc#GetNamespaceArgs">GetNamespaceArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/notificationhub?tab=doc#GetNamespaceResult">GetNamespaceResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -235,6 +235,15 @@ The following output properties are available:
     <dd>{{% md %}}A `sku` block as defined below.
 {{% /md %}}</dd>
 
+    <dt class="property-"
+            title="">
+        <span>Tags</span>
+        <span class="property-indicator"></span>
+        <span class="property-type">Dictionary&lt;string, string&gt;</span>
+    </dt>
+    <dd>{{% md %}}A mapping of tags to assign to the resource.
+{{% /md %}}</dd>
+
 </dl>
 {{% /choosable %}}
 
@@ -310,6 +319,15 @@ The following output properties are available:
         <span class="property-type"><a href="#getnamespacesku">Get<wbr>Namespace<wbr>Sku</a></span>
     </dt>
     <dd>{{% md %}}A `sku` block as defined below.
+{{% /md %}}</dd>
+
+    <dt class="property-"
+            title="">
+        <span>Tags</span>
+        <span class="property-indicator"></span>
+        <span class="property-type">map[string]string</span>
+    </dt>
+    <dd>{{% md %}}A mapping of tags to assign to the resource.
 {{% /md %}}</dd>
 
 </dl>
@@ -389,6 +407,15 @@ The following output properties are available:
     <dd>{{% md %}}A `sku` block as defined below.
 {{% /md %}}</dd>
 
+    <dt class="property-"
+            title="">
+        <span>tags</span>
+        <span class="property-indicator"></span>
+        <span class="property-type">{[key: string]: string}</span>
+    </dt>
+    <dd>{{% md %}}A mapping of tags to assign to the resource.
+{{% /md %}}</dd>
+
 </dl>
 {{% /choosable %}}
 
@@ -466,6 +493,15 @@ The following output properties are available:
     <dd>{{% md %}}A `sku` block as defined below.
 {{% /md %}}</dd>
 
+    <dt class="property-"
+            title="">
+        <span>tags</span>
+        <span class="property-indicator"></span>
+        <span class="property-type">Dict[str, str]</span>
+    </dt>
+    <dd>{{% md %}}A mapping of tags to assign to the resource.
+{{% /md %}}</dd>
+
 </dl>
 {{% /choosable %}}
 
@@ -479,7 +515,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getnamespacesku">Get<wbr>Namespace<wbr>Sku</h4>
+<h4 id="getnamespacesku">get<wbr>Namespace<wbr>Sku</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetNamespaceSku">output</a> API doc for this type.
 {{% /choosable %}}

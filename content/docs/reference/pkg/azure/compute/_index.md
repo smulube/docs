@@ -35,18 +35,18 @@ Explore the resources and functions of the compute module in the Azure package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getavailabilityset" title="GetAvailabilitySet"><span class="symbol function"></span>GetAvailabilitySet</a></li>
-    <li><a href="getdedicatedhost" title="GetDedicatedHost"><span class="symbol function"></span>GetDedicatedHost</a></li>
-    <li><a href="getdedicatedhostgroup" title="GetDedicatedHostGroup"><span class="symbol function"></span>GetDedicatedHostGroup</a></li>
-    <li><a href="getdiskencryptionset" title="GetDiskEncryptionSet"><span class="symbol function"></span>GetDiskEncryptionSet</a></li>
-    <li><a href="getimage" title="GetImage"><span class="symbol function"></span>GetImage</a></li>
-    <li><a href="getmanageddisk" title="GetManagedDisk"><span class="symbol function"></span>GetManagedDisk</a></li>
-    <li><a href="getplatformimage" title="GetPlatformImage"><span class="symbol function"></span>GetPlatformImage</a></li>
-    <li><a href="getsharedimage" title="GetSharedImage"><span class="symbol function"></span>GetSharedImage</a></li>
-    <li><a href="getsharedimagegallery" title="GetSharedImageGallery"><span class="symbol function"></span>GetSharedImageGallery</a></li>
-    <li><a href="getsharedimageversion" title="GetSharedImageVersion"><span class="symbol function"></span>GetSharedImageVersion</a></li>
-    <li><a href="getsnapshot" title="GetSnapshot"><span class="symbol function"></span>GetSnapshot</a></li>
-    <li><a href="getvirtualmachine" title="GetVirtualMachine"><span class="symbol function"></span>GetVirtualMachine</a></li>
+    <li><a href="getavailabilityset" title="getAvailabilitySet"><span class="symbol function"></span>getAvailabilitySet</a></li>
+    <li><a href="getdedicatedhost" title="getDedicatedHost"><span class="symbol function"></span>getDedicatedHost</a></li>
+    <li><a href="getdedicatedhostgroup" title="getDedicatedHostGroup"><span class="symbol function"></span>getDedicatedHostGroup</a></li>
+    <li><a href="getdiskencryptionset" title="getDiskEncryptionSet"><span class="symbol function"></span>getDiskEncryptionSet</a></li>
+    <li><a href="getimage" title="getImage"><span class="symbol function"></span>getImage</a></li>
+    <li><a href="getmanageddisk" title="getManagedDisk"><span class="symbol function"></span>getManagedDisk</a></li>
+    <li><a href="getplatformimage" title="getPlatformImage"><span class="symbol function"></span>getPlatformImage</a></li>
+    <li><a href="getsharedimage" title="getSharedImage"><span class="symbol function"></span>getSharedImage</a></li>
+    <li><a href="getsharedimagegallery" title="getSharedImageGallery"><span class="symbol function"></span>getSharedImageGallery</a></li>
+    <li><a href="getsharedimageversion" title="getSharedImageVersion"><span class="symbol function"></span>getSharedImageVersion</a></li>
+    <li><a href="getsnapshot" title="getSnapshot"><span class="symbol function"></span>getSnapshot</a></li>
+    <li><a href="getvirtualmachine" title="getVirtualMachine"><span class="symbol function"></span>getVirtualMachine</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
@@ -58,6 +58,6 @@ Explore the resources and functions of the compute module in the Azure package.
 	<dt>Notes</dt>
 	<dd>This Pulumi package is based on the [`azurerm` Terraform Provider](https://github.com/terraform-providers/terraform-provider-azurerm).</dd>
 	<dt>Version</dt>
-	<dd>3.1.0</dd>
+	<dd>3.2.0</dd>
 </dl>
 

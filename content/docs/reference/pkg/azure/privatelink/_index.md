@@ -16,9 +16,9 @@ Explore the resources and functions of the privatelink module in the Azure packa
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getendpointconnection" title="GetEndpointConnection"><span class="symbol function"></span>GetEndpointConnection</a></li>
-    <li><a href="getservice" title="GetService"><span class="symbol function"></span>GetService</a></li>
-    <li><a href="getserviceendpointconnections" title="GetServiceEndpointConnections"><span class="symbol function"></span>GetServiceEndpointConnections</a></li>
+    <li><a href="getendpointconnection" title="getEndpointConnection"><span class="symbol function"></span>getEndpointConnection</a></li>
+    <li><a href="getservice" title="getService"><span class="symbol function"></span>getService</a></li>
+    <li><a href="getserviceendpointconnections" title="getServiceEndpointConnections"><span class="symbol function"></span>getServiceEndpointConnections</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
@@ -30,6 +30,6 @@ Explore the resources and functions of the privatelink module in the Azure packa
 	<dt>Notes</dt>
 	<dd>This Pulumi package is based on the [`azurerm` Terraform Provider](https://github.com/terraform-providers/terraform-provider-azurerm).</dd>
 	<dt>Version</dt>
-	<dd>3.1.0</dd>
+	<dd>3.2.0</dd>
 </dl>
 

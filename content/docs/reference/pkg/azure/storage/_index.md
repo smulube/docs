@@ -28,11 +28,11 @@ Explore the resources and functions of the storage module in the Azure package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getaccount" title="GetAccount"><span class="symbol function"></span>GetAccount</a></li>
-    <li><a href="getaccountblobcontainersas" title="GetAccountBlobContainerSAS"><span class="symbol function"></span>GetAccountBlobContainerSAS</a></li>
-    <li><a href="getaccountsas" title="GetAccountSAS"><span class="symbol function"></span>GetAccountSAS</a></li>
-    <li><a href="getpolicy" title="GetPolicy"><span class="symbol function"></span>GetPolicy</a></li>
-    <li><a href="getstoragecontainer" title="GetStorageContainer"><span class="symbol function"></span>GetStorageContainer</a></li>
+    <li><a href="getaccount" title="getAccount"><span class="symbol function"></span>getAccount</a></li>
+    <li><a href="getaccountblobcontainersas" title="getAccountBlobContainerSAS"><span class="symbol function"></span>getAccountBlobContainerSAS</a></li>
+    <li><a href="getaccountsas" title="getAccountSAS"><span class="symbol function"></span>getAccountSAS</a></li>
+    <li><a href="getpolicy" title="getPolicy"><span class="symbol function"></span>getPolicy</a></li>
+    <li><a href="getstoragecontainer" title="getStorageContainer"><span class="symbol function"></span>getStorageContainer</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
@@ -44,6 +44,6 @@ Explore the resources and functions of the storage module in the Azure package.
 	<dt>Notes</dt>
 	<dd>This Pulumi package is based on the [`azurerm` Terraform Provider](https://github.com/terraform-providers/terraform-provider-azurerm).</dd>
 	<dt>Version</dt>
-	<dd>3.1.0</dd>
+	<dd>3.2.0</dd>
 </dl>
 

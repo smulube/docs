@@ -42,12 +42,12 @@ const example = pulumi.output(azure.containerservice.getKubernetesCluster({
 
 
 {{% choosable language python %}}
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">function </span> get_kubernetes_cluster(</span>name=None<span class="p">, </span>resource_group_name=None<span class="p">, </span>opts=None<span class="p">)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">function </span> get_kubernetes_cluster(</span>name=None<span class="p">, </span>private_cluster_enabled=None<span class="p">, </span>private_link_enabled=None<span class="p">, </span>resource_group_name=None<span class="p">, </span>opts=None<span class="p">)</span></code></pre></div>
 {{% /choosable %}}
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupKubernetesCluster<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/containerservice?tab=doc#LookupKubernetesClusterArgs">LookupKubernetesClusterArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/containerservice?tab=doc#LookupKubernetesClusterResult">LookupKubernetesClusterResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetKubernetesCluster<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/containerservice?tab=doc#GetKubernetesClusterArgs">GetKubernetesClusterArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/containerservice?tab=doc#GetKubernetesClusterResult">GetKubernetesClusterResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -84,6 +84,23 @@ The following arguments are supported:
     <dd>{{% md %}}The name of the Resource Group in which the managed Kubernetes Cluster exists.
 {{% /md %}}</dd>
 
+    <dt class="property-optional"
+            title="Optional">
+        <span>Private<wbr>Cluster<wbr>Enabled</span>
+        <span class="property-indicator"></span>
+        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+    </dt>
+    <dd>{{% md %}}If the cluster has the Kubernetes API only exposed on internal IP addresses.                           
+{{% /md %}}</dd>
+
+    <dt class="property-optional property-deprecated"
+            title="Optional, Deprecated">
+        <span>Private<wbr>Link<wbr>Enabled</span>
+        <span class="property-indicator"></span>
+        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+    </dt>
+    <dd>{{% md %}}{{% /md %}}<p class="property-message">Deprecated: {{% md %}}Deprecated in favor of `private_cluster_enabled`{{% /md %}}</p></dd>
+
 </dl>
 {{% /choosable %}}
 
@@ -108,6 +125,23 @@ The following arguments are supported:
     </dt>
     <dd>{{% md %}}The name of the Resource Group in which the managed Kubernetes Cluster exists.
 {{% /md %}}</dd>
+
+    <dt class="property-optional"
+            title="Optional">
+        <span>Private<wbr>Cluster<wbr>Enabled</span>
+        <span class="property-indicator"></span>
+        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+    </dt>
+    <dd>{{% md %}}If the cluster has the Kubernetes API only exposed on internal IP addresses.                           
+{{% /md %}}</dd>
+
+    <dt class="property-optional property-deprecated"
+            title="Optional, Deprecated">
+        <span>Private<wbr>Link<wbr>Enabled</span>
+        <span class="property-indicator"></span>
+        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+    </dt>
+    <dd>{{% md %}}{{% /md %}}<p class="property-message">Deprecated: {{% md %}}Deprecated in favor of `private_cluster_enabled`{{% /md %}}</p></dd>
 
 </dl>
 {{% /choosable %}}
@@ -134,6 +168,23 @@ The following arguments are supported:
     <dd>{{% md %}}The name of the Resource Group in which the managed Kubernetes Cluster exists.
 {{% /md %}}</dd>
 
+    <dt class="property-optional"
+            title="Optional">
+        <span>private<wbr>Cluster<wbr>Enabled</span>
+        <span class="property-indicator"></span>
+        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+    </dt>
+    <dd>{{% md %}}If the cluster has the Kubernetes API only exposed on internal IP addresses.                           
+{{% /md %}}</dd>
+
+    <dt class="property-optional property-deprecated"
+            title="Optional, Deprecated">
+        <span>private<wbr>Link<wbr>Enabled</span>
+        <span class="property-indicator"></span>
+        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+    </dt>
+    <dd>{{% md %}}{{% /md %}}<p class="property-message">Deprecated: {{% md %}}Deprecated in favor of `private_cluster_enabled`{{% /md %}}</p></dd>
+
 </dl>
 {{% /choosable %}}
 
@@ -158,6 +209,23 @@ The following arguments are supported:
     </dt>
     <dd>{{% md %}}The name of the Resource Group in which the managed Kubernetes Cluster exists.
 {{% /md %}}</dd>
+
+    <dt class="property-optional"
+            title="Optional">
+        <span>private_<wbr>cluster_<wbr>enabled</span>
+        <span class="property-indicator"></span>
+        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+    </dt>
+    <dd>{{% md %}}If the cluster has the Kubernetes API only exposed on internal IP addresses.                           
+{{% /md %}}</dd>
+
+    <dt class="property-optional property-deprecated"
+            title="Optional, Deprecated">
+        <span>private_<wbr>link_<wbr>enabled</span>
+        <span class="property-indicator"></span>
+        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+    </dt>
+    <dd>{{% md %}}{{% /md %}}<p class="property-message">Deprecated: {{% md %}}Deprecated in favor of `private_cluster_enabled`{{% /md %}}</p></dd>
 
 </dl>
 {{% /choosable %}}
@@ -325,6 +393,15 @@ The following output properties are available:
 
     <dt class="property-"
             title="">
+        <span>Private<wbr>Cluster<wbr>Enabled</span>
+        <span class="property-indicator"></span>
+        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
+    </dt>
+    <dd>{{% md %}}If the cluster has the Kubernetes API only exposed on internal IP addresses.                           
+{{% /md %}}</dd>
+
+    <dt class="property-"
+            title="">
         <span>Private<wbr>Fqdn</span>
         <span class="property-indicator"></span>
         <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
@@ -332,14 +409,13 @@ The following output properties are available:
     <dd>{{% md %}}The FQDN of this Kubernetes Cluster when private link has been enabled. This name is only resolvable inside the Virtual Network where the Azure Kubernetes Service is located                   
 {{% /md %}}</dd>
 
-    <dt class="property-"
-            title="">
+    <dt class="property- property-deprecated"
+            title=", Deprecated">
         <span>Private<wbr>Link<wbr>Enabled</span>
         <span class="property-indicator"></span>
         <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">bool</a></span>
     </dt>
-    <dd>{{% md %}}Does this Kubernetes Cluster have the Kubernetes API exposed via Private Link?                           
-{{% /md %}}</dd>
+    <dd>{{% md %}}{{% /md %}}<p class="property-message">Deprecated: {{% md %}}Deprecated in favor of `private_cluster_enabled`{{% /md %}}</p></dd>
 
     <dt class="property-"
             title="">
@@ -538,6 +614,15 @@ The following output properties are available:
 
     <dt class="property-"
             title="">
+        <span>Private<wbr>Cluster<wbr>Enabled</span>
+        <span class="property-indicator"></span>
+        <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
+    </dt>
+    <dd>{{% md %}}If the cluster has the Kubernetes API only exposed on internal IP addresses.                           
+{{% /md %}}</dd>
+
+    <dt class="property-"
+            title="">
         <span>Private<wbr>Fqdn</span>
         <span class="property-indicator"></span>
         <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
@@ -545,14 +630,13 @@ The following output properties are available:
     <dd>{{% md %}}The FQDN of this Kubernetes Cluster when private link has been enabled. This name is only resolvable inside the Virtual Network where the Azure Kubernetes Service is located                   
 {{% /md %}}</dd>
 
-    <dt class="property-"
-            title="">
+    <dt class="property- property-deprecated"
+            title=", Deprecated">
         <span>Private<wbr>Link<wbr>Enabled</span>
         <span class="property-indicator"></span>
         <span class="property-type"><a href="https://golang.org/pkg/builtin/#boolean">bool</a></span>
     </dt>
-    <dd>{{% md %}}Does this Kubernetes Cluster have the Kubernetes API exposed via Private Link?                           
-{{% /md %}}</dd>
+    <dd>{{% md %}}{{% /md %}}<p class="property-message">Deprecated: {{% md %}}Deprecated in favor of `private_cluster_enabled`{{% /md %}}</p></dd>
 
     <dt class="property-"
             title="">
@@ -751,6 +835,15 @@ The following output properties are available:
 
     <dt class="property-"
             title="">
+        <span>private<wbr>Cluster<wbr>Enabled</span>
+        <span class="property-indicator"></span>
+        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
+    </dt>
+    <dd>{{% md %}}If the cluster has the Kubernetes API only exposed on internal IP addresses.                           
+{{% /md %}}</dd>
+
+    <dt class="property-"
+            title="">
         <span>private<wbr>Fqdn</span>
         <span class="property-indicator"></span>
         <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
@@ -758,14 +851,13 @@ The following output properties are available:
     <dd>{{% md %}}The FQDN of this Kubernetes Cluster when private link has been enabled. This name is only resolvable inside the Virtual Network where the Azure Kubernetes Service is located                   
 {{% /md %}}</dd>
 
-    <dt class="property-"
-            title="">
+    <dt class="property- property-deprecated"
+            title=", Deprecated">
         <span>private<wbr>Link<wbr>Enabled</span>
         <span class="property-indicator"></span>
         <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean">boolean</a></span>
     </dt>
-    <dd>{{% md %}}Does this Kubernetes Cluster have the Kubernetes API exposed via Private Link?                           
-{{% /md %}}</dd>
+    <dd>{{% md %}}{{% /md %}}<p class="property-message">Deprecated: {{% md %}}Deprecated in favor of `private_cluster_enabled`{{% /md %}}</p></dd>
 
     <dt class="property-"
             title="">
@@ -964,6 +1056,15 @@ The following output properties are available:
 
     <dt class="property-"
             title="">
+        <span>private_<wbr>cluster_<wbr>enabled</span>
+        <span class="property-indicator"></span>
+        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
+    </dt>
+    <dd>{{% md %}}If the cluster has the Kubernetes API only exposed on internal IP addresses.                           
+{{% /md %}}</dd>
+
+    <dt class="property-"
+            title="">
         <span>private_<wbr>fqdn</span>
         <span class="property-indicator"></span>
         <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
@@ -971,14 +1072,13 @@ The following output properties are available:
     <dd>{{% md %}}The FQDN of this Kubernetes Cluster when private link has been enabled. This name is only resolvable inside the Virtual Network where the Azure Kubernetes Service is located                   
 {{% /md %}}</dd>
 
-    <dt class="property-"
-            title="">
+    <dt class="property- property-deprecated"
+            title=", Deprecated">
         <span>private_<wbr>link_<wbr>enabled</span>
         <span class="property-indicator"></span>
         <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">bool</a></span>
     </dt>
-    <dd>{{% md %}}Does this Kubernetes Cluster have the Kubernetes API exposed via Private Link?                           
-{{% /md %}}</dd>
+    <dd>{{% md %}}{{% /md %}}<p class="property-message">Deprecated: {{% md %}}Deprecated in favor of `private_cluster_enabled`{{% /md %}}</p></dd>
 
     <dt class="property-"
             title="">
@@ -1037,7 +1137,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getkubernetesclusteraddonprofile">Get<wbr>Kubernetes<wbr>Cluster<wbr>Addon<wbr>Profile</h4>
+<h4 id="getkubernetesclusteraddonprofile">get<wbr>Kubernetes<wbr>Cluster<wbr>Addon<wbr>Profile</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetKubernetesClusterAddonProfile">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1224,7 +1324,7 @@ The following output properties are available:
 
 
 
-<h4 id="getkubernetesclusteraddonprofileazurepolicy">Get<wbr>Kubernetes<wbr>Cluster<wbr>Addon<wbr>Profile<wbr>Azure<wbr>Policy</h4>
+<h4 id="getkubernetesclusteraddonprofileazurepolicy">get<wbr>Kubernetes<wbr>Cluster<wbr>Addon<wbr>Profile<wbr>Azure<wbr>Policy</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetKubernetesClusterAddonProfileAzurePolicy">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1303,7 +1403,7 @@ The following output properties are available:
 
 
 
-<h4 id="getkubernetesclusteraddonprofilehttpapplicationrouting">Get<wbr>Kubernetes<wbr>Cluster<wbr>Addon<wbr>Profile<wbr>Http<wbr>Application<wbr>Routing</h4>
+<h4 id="getkubernetesclusteraddonprofilehttpapplicationrouting">get<wbr>Kubernetes<wbr>Cluster<wbr>Addon<wbr>Profile<wbr>Http<wbr>Application<wbr>Routing</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetKubernetesClusterAddonProfileHttpApplicationRouting">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1418,7 +1518,7 @@ The following output properties are available:
 
 
 
-<h4 id="getkubernetesclusteraddonprofilekubedashboard">Get<wbr>Kubernetes<wbr>Cluster<wbr>Addon<wbr>Profile<wbr>Kube<wbr>Dashboard</h4>
+<h4 id="getkubernetesclusteraddonprofilekubedashboard">get<wbr>Kubernetes<wbr>Cluster<wbr>Addon<wbr>Profile<wbr>Kube<wbr>Dashboard</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetKubernetesClusterAddonProfileKubeDashboard">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1497,7 +1597,7 @@ The following output properties are available:
 
 
 
-<h4 id="getkubernetesclusteraddonprofileomsagent">Get<wbr>Kubernetes<wbr>Cluster<wbr>Addon<wbr>Profile<wbr>Oms<wbr>Agent</h4>
+<h4 id="getkubernetesclusteraddonprofileomsagent">get<wbr>Kubernetes<wbr>Cluster<wbr>Addon<wbr>Profile<wbr>Oms<wbr>Agent</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetKubernetesClusterAddonProfileOmsAgent">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1612,7 +1712,7 @@ The following output properties are available:
 
 
 
-<h4 id="getkubernetesclusteragentpoolprofile">Get<wbr>Kubernetes<wbr>Cluster<wbr>Agent<wbr>Pool<wbr>Profile</h4>
+<h4 id="getkubernetesclusteragentpoolprofile">get<wbr>Kubernetes<wbr>Cluster<wbr>Agent<wbr>Pool<wbr>Profile</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetKubernetesClusterAgentPoolProfile">output</a> API doc for this type.
 {{% /choosable %}}
@@ -2223,7 +2323,7 @@ The following output properties are available:
 
 
 
-<h4 id="getkubernetesclusterkubeadminconfig">Get<wbr>Kubernetes<wbr>Cluster<wbr>Kube<wbr>Admin<wbr>Config</h4>
+<h4 id="getkubernetesclusterkubeadminconfig">get<wbr>Kubernetes<wbr>Cluster<wbr>Kube<wbr>Admin<wbr>Config</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetKubernetesClusterKubeAdminConfig">output</a> API doc for this type.
 {{% /choosable %}}
@@ -2482,7 +2582,7 @@ The following output properties are available:
 
 
 
-<h4 id="getkubernetesclusterkubeconfig">Get<wbr>Kubernetes<wbr>Cluster<wbr>Kube<wbr>Config</h4>
+<h4 id="getkubernetesclusterkubeconfig">get<wbr>Kubernetes<wbr>Cluster<wbr>Kube<wbr>Config</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetKubernetesClusterKubeConfig">output</a> API doc for this type.
 {{% /choosable %}}
@@ -2741,7 +2841,7 @@ The following output properties are available:
 
 
 
-<h4 id="getkubernetesclusterlinuxprofile">Get<wbr>Kubernetes<wbr>Cluster<wbr>Linux<wbr>Profile</h4>
+<h4 id="getkubernetesclusterlinuxprofile">get<wbr>Kubernetes<wbr>Cluster<wbr>Linux<wbr>Profile</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetKubernetesClusterLinuxProfile">output</a> API doc for this type.
 {{% /choosable %}}
@@ -2856,7 +2956,7 @@ The following output properties are available:
 
 
 
-<h4 id="getkubernetesclusterlinuxprofilesshkey">Get<wbr>Kubernetes<wbr>Cluster<wbr>Linux<wbr>Profile<wbr>Ssh<wbr>Key</h4>
+<h4 id="getkubernetesclusterlinuxprofilesshkey">get<wbr>Kubernetes<wbr>Cluster<wbr>Linux<wbr>Profile<wbr>Ssh<wbr>Key</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetKubernetesClusterLinuxProfileSshKey">output</a> API doc for this type.
 {{% /choosable %}}
@@ -2935,7 +3035,7 @@ The following output properties are available:
 
 
 
-<h4 id="getkubernetesclusternetworkprofile">Get<wbr>Kubernetes<wbr>Cluster<wbr>Network<wbr>Profile</h4>
+<h4 id="getkubernetesclusternetworkprofile">get<wbr>Kubernetes<wbr>Cluster<wbr>Network<wbr>Profile</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetKubernetesClusterNetworkProfile">output</a> API doc for this type.
 {{% /choosable %}}
@@ -3226,7 +3326,7 @@ The following output properties are available:
 
 
 
-<h4 id="getkubernetesclusterrolebasedaccesscontrol">Get<wbr>Kubernetes<wbr>Cluster<wbr>Role<wbr>Based<wbr>Access<wbr>Control</h4>
+<h4 id="getkubernetesclusterrolebasedaccesscontrol">get<wbr>Kubernetes<wbr>Cluster<wbr>Role<wbr>Based<wbr>Access<wbr>Control</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetKubernetesClusterRoleBasedAccessControl">output</a> API doc for this type.
 {{% /choosable %}}
@@ -3341,7 +3441,7 @@ The following output properties are available:
 
 
 
-<h4 id="getkubernetesclusterrolebasedaccesscontrolazureactivedirectory">Get<wbr>Kubernetes<wbr>Cluster<wbr>Role<wbr>Based<wbr>Access<wbr>Control<wbr>Azure<wbr>Active<wbr>Directory</h4>
+<h4 id="getkubernetesclusterrolebasedaccesscontrolazureactivedirectory">get<wbr>Kubernetes<wbr>Cluster<wbr>Role<wbr>Based<wbr>Access<wbr>Control<wbr>Azure<wbr>Active<wbr>Directory</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetKubernetesClusterRoleBasedAccessControlAzureActiveDirectory">output</a> API doc for this type.
 {{% /choosable %}}
@@ -3492,7 +3592,7 @@ The following output properties are available:
 
 
 
-<h4 id="getkubernetesclusterserviceprincipal">Get<wbr>Kubernetes<wbr>Cluster<wbr>Service<wbr>Principal</h4>
+<h4 id="getkubernetesclusterserviceprincipal">get<wbr>Kubernetes<wbr>Cluster<wbr>Service<wbr>Principal</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetKubernetesClusterServicePrincipal">output</a> API doc for this type.
 {{% /choosable %}}
@@ -3571,7 +3671,7 @@ The following output properties are available:
 
 
 
-<h4 id="getkubernetesclusterwindowsprofile">Get<wbr>Kubernetes<wbr>Cluster<wbr>Windows<wbr>Profile</h4>
+<h4 id="getkubernetesclusterwindowsprofile">get<wbr>Kubernetes<wbr>Cluster<wbr>Windows<wbr>Profile</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetKubernetesClusterWindowsProfile">output</a> API doc for this type.
 {{% /choosable %}}

@@ -33,7 +33,7 @@ Use this data source to access information about an existing ExpressRoute circui
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupExpressRouteCircuit<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/network?tab=doc#LookupExpressRouteCircuitArgs">LookupExpressRouteCircuitArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/network?tab=doc#LookupExpressRouteCircuitResult">LookupExpressRouteCircuitResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetExpressRouteCircuit<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/network?tab=doc#GetExpressRouteCircuitArgs">GetExpressRouteCircuitArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/network?tab=doc#GetExpressRouteCircuitResult">GetExpressRouteCircuitResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -515,7 +515,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getexpressroutecircuitpeering">Get<wbr>Express<wbr>Route<wbr>Circuit<wbr>Peering</h4>
+<h4 id="getexpressroutecircuitpeering">get<wbr>Express<wbr>Route<wbr>Circuit<wbr>Peering</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetExpressRouteCircuitPeering">output</a> API doc for this type.
 {{% /choosable %}}
@@ -810,7 +810,7 @@ The following output properties are available:
 
 
 
-<h4 id="getexpressroutecircuitserviceproviderproperty">Get<wbr>Express<wbr>Route<wbr>Circuit<wbr>Service<wbr>Provider<wbr>Property</h4>
+<h4 id="getexpressroutecircuitserviceproviderproperty">get<wbr>Express<wbr>Route<wbr>Circuit<wbr>Service<wbr>Provider<wbr>Property</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetExpressRouteCircuitServiceProviderProperty">output</a> API doc for this type.
 {{% /choosable %}}
@@ -961,7 +961,7 @@ The following output properties are available:
 
 
 
-<h4 id="getexpressroutecircuitsku">Get<wbr>Express<wbr>Route<wbr>Circuit<wbr>Sku</h4>
+<h4 id="getexpressroutecircuitsku">get<wbr>Express<wbr>Route<wbr>Circuit<wbr>Sku</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetExpressRouteCircuitSku">output</a> API doc for this type.
 {{% /choosable %}}

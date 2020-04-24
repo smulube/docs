@@ -49,7 +49,7 @@ export const queryRuleId = example.id;
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupScheduledQueryRulesAlert<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/monitoring?tab=doc#LookupScheduledQueryRulesAlertArgs">LookupScheduledQueryRulesAlertArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/monitoring?tab=doc#LookupScheduledQueryRulesAlertResult">LookupScheduledQueryRulesAlertResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetScheduledQueryRulesAlert<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/monitoring?tab=doc#GetScheduledQueryRulesAlertArgs">GetScheduledQueryRulesAlertArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/monitoring?tab=doc#GetScheduledQueryRulesAlertResult">GetScheduledQueryRulesAlertResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -807,7 +807,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getscheduledqueryrulesalertaction">Get<wbr>Scheduled<wbr>Query<wbr>Rules<wbr>Alert<wbr>Action</h4>
+<h4 id="getscheduledqueryrulesalertaction">get<wbr>Scheduled<wbr>Query<wbr>Rules<wbr>Alert<wbr>Action</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetScheduledQueryRulesAlertAction">output</a> API doc for this type.
 {{% /choosable %}}
@@ -958,7 +958,7 @@ The following output properties are available:
 
 
 
-<h4 id="getscheduledqueryrulesalerttrigger">Get<wbr>Scheduled<wbr>Query<wbr>Rules<wbr>Alert<wbr>Trigger</h4>
+<h4 id="getscheduledqueryrulesalerttrigger">get<wbr>Scheduled<wbr>Query<wbr>Rules<wbr>Alert<wbr>Trigger</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetScheduledQueryRulesAlertTrigger">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1105,7 +1105,7 @@ The following output properties are available:
 
 
 
-<h4 id="getscheduledqueryrulesalerttriggermetrictrigger">Get<wbr>Scheduled<wbr>Query<wbr>Rules<wbr>Alert<wbr>Trigger<wbr>Metric<wbr>Trigger</h4>
+<h4 id="getscheduledqueryrulesalerttriggermetrictrigger">get<wbr>Scheduled<wbr>Query<wbr>Rules<wbr>Alert<wbr>Trigger<wbr>Metric<wbr>Trigger</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetScheduledQueryRulesAlertTriggerMetricTrigger">output</a> API doc for this type.
 {{% /choosable %}}

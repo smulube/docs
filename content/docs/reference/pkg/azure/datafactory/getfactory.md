@@ -33,7 +33,7 @@ Use this data source to access information about an existing Azure Data Factory 
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupFactory<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/datafactory?tab=doc#LookupFactoryArgs">LookupFactoryArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/datafactory?tab=doc#LookupFactoryResult">LookupFactoryResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetFactory<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/datafactory?tab=doc#GetFactoryArgs">GetFactoryArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/datafactory?tab=doc#GetFactoryResult">GetFactoryResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -483,7 +483,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getfactorygithubconfiguration">Get<wbr>Factory<wbr>Github<wbr>Configuration</h4>
+<h4 id="getfactorygithubconfiguration">get<wbr>Factory<wbr>Github<wbr>Configuration</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetFactoryGithubConfiguration">output</a> API doc for this type.
 {{% /choosable %}}
@@ -706,7 +706,7 @@ The following output properties are available:
 
 
 
-<h4 id="getfactoryidentity">Get<wbr>Factory<wbr>Identity</h4>
+<h4 id="getfactoryidentity">get<wbr>Factory<wbr>Identity</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetFactoryIdentity">output</a> API doc for this type.
 {{% /choosable %}}
@@ -857,7 +857,7 @@ The following output properties are available:
 
 
 
-<h4 id="getfactoryvstsconfiguration">Get<wbr>Factory<wbr>Vsts<wbr>Configuration</h4>
+<h4 id="getfactoryvstsconfiguration">get<wbr>Factory<wbr>Vsts<wbr>Configuration</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetFactoryVstsConfiguration">output</a> API doc for this type.
 {{% /choosable %}}

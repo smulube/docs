@@ -33,7 +33,7 @@ Use this data source to access information about an existing Virtual Network Gat
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupVirtualNetworkGateway<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/network?tab=doc#LookupVirtualNetworkGatewayArgs">LookupVirtualNetworkGatewayArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/network?tab=doc#LookupVirtualNetworkGatewayResult">LookupVirtualNetworkGatewayResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetVirtualNetworkGateway<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/network?tab=doc#GetVirtualNetworkGatewayArgs">GetVirtualNetworkGatewayArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/network?tab=doc#GetVirtualNetworkGatewayResult">GetVirtualNetworkGatewayResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -747,7 +747,7 @@ for this Virtual Network Gateway.
 ## Supporting Types
 
 
-<h4 id="getvirtualnetworkgatewaybgpsetting">Get<wbr>Virtual<wbr>Network<wbr>Gateway<wbr>Bgp<wbr>Setting</h4>
+<h4 id="getvirtualnetworkgatewaybgpsetting">get<wbr>Virtual<wbr>Network<wbr>Gateway<wbr>Bgp<wbr>Setting</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetVirtualNetworkGatewayBgpSetting">output</a> API doc for this type.
 {{% /choosable %}}
@@ -910,7 +910,7 @@ on the on-premises VPN devices.
 
 
 
-<h4 id="getvirtualnetworkgatewayipconfiguration">Get<wbr>Virtual<wbr>Network<wbr>Gateway<wbr>Ip<wbr>Configuration</h4>
+<h4 id="getvirtualnetworkgatewayipconfiguration">get<wbr>Virtual<wbr>Network<wbr>Gateway<wbr>Ip<wbr>Configuration</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetVirtualNetworkGatewayIpConfiguration">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1117,7 +1117,7 @@ network can contain at most a single Virtual Network Gateway.
 
 
 
-<h4 id="getvirtualnetworkgatewayvpnclientconfiguration">Get<wbr>Virtual<wbr>Network<wbr>Gateway<wbr>Vpn<wbr>Client<wbr>Configuration</h4>
+<h4 id="getvirtualnetworkgatewayvpnclientconfiguration">get<wbr>Virtual<wbr>Network<wbr>Gateway<wbr>Vpn<wbr>Client<wbr>Configuration</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetVirtualNetworkGatewayVpnClientConfiguration">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1408,7 +1408,7 @@ The supported values are `SSTP`, `IkeV2` and `OpenVPN`.
 
 
 
-<h4 id="getvirtualnetworkgatewayvpnclientconfigurationrevokedcertificate">Get<wbr>Virtual<wbr>Network<wbr>Gateway<wbr>Vpn<wbr>Client<wbr>Configuration<wbr>Revoked<wbr>Certificate</h4>
+<h4 id="getvirtualnetworkgatewayvpnclientconfigurationrevokedcertificate">get<wbr>Virtual<wbr>Network<wbr>Gateway<wbr>Vpn<wbr>Client<wbr>Configuration<wbr>Revoked<wbr>Certificate</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetVirtualNetworkGatewayVpnClientConfigurationRevokedCertificate">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1519,7 +1519,7 @@ The supported values are `SSTP`, `IkeV2` and `OpenVPN`.
 
 
 
-<h4 id="getvirtualnetworkgatewayvpnclientconfigurationrootcertificate">Get<wbr>Virtual<wbr>Network<wbr>Gateway<wbr>Vpn<wbr>Client<wbr>Configuration<wbr>Root<wbr>Certificate</h4>
+<h4 id="getvirtualnetworkgatewayvpnclientconfigurationrootcertificate">get<wbr>Virtual<wbr>Network<wbr>Gateway<wbr>Vpn<wbr>Client<wbr>Configuration<wbr>Root<wbr>Certificate</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetVirtualNetworkGatewayVpnClientConfigurationRootCertificate">output</a> API doc for this type.
 {{% /choosable %}}

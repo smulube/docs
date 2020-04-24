@@ -33,7 +33,7 @@ Use this data source to access information about an existing CosmosDB (formally 
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupAccount<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/cosmosdb?tab=doc#LookupAccountArgs">LookupAccountArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/cosmosdb?tab=doc#LookupAccountResult">LookupAccountResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetAccount<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/cosmosdb?tab=doc#GetAccountArgs">GetAccountArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/cosmosdb?tab=doc#GetAccountResult">GetAccountResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -975,7 +975,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getaccountcapability">Get<wbr>Account<wbr>Capability</h4>
+<h4 id="getaccountcapability">get<wbr>Account<wbr>Capability</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetAccountCapability">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1054,7 +1054,7 @@ The following output properties are available:
 
 
 
-<h4 id="getaccountconsistencypolicy">Get<wbr>Account<wbr>Consistency<wbr>Policy</h4>
+<h4 id="getaccountconsistencypolicy">get<wbr>Account<wbr>Consistency<wbr>Policy</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetAccountConsistencyPolicy">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1205,7 +1205,7 @@ The following output properties are available:
 
 
 
-<h4 id="getaccountgeolocation">Get<wbr>Account<wbr>Geo<wbr>Location</h4>
+<h4 id="getaccountgeolocation">get<wbr>Account<wbr>Geo<wbr>Location</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetAccountGeoLocation">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1352,7 +1352,7 @@ The following output properties are available:
 
 
 
-<h4 id="getaccountvirtualnetworkrule">Get<wbr>Account<wbr>Virtual<wbr>Network<wbr>Rule</h4>
+<h4 id="getaccountvirtualnetworkrule">get<wbr>Account<wbr>Virtual<wbr>Network<wbr>Rule</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetAccountVirtualNetworkRule">output</a> API doc for this type.
 {{% /choosable %}}

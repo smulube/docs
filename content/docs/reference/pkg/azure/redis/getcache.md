@@ -30,7 +30,7 @@ Use this data source to access information about an existing Redis Cache
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupCache<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/redis?tab=doc#LookupCacheArgs">LookupCacheArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/redis?tab=doc#LookupCacheResult">LookupCacheResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetCache<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/redis?tab=doc#GetCacheArgs">GetCacheArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/redis?tab=doc#GetCacheResult">GetCacheResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -1028,7 +1028,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getcachepatchschedule">Get<wbr>Cache<wbr>Patch<wbr>Schedule</h4>
+<h4 id="getcachepatchschedule">get<wbr>Cache<wbr>Patch<wbr>Schedule</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetCachePatchSchedule">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1143,7 +1143,7 @@ The following output properties are available:
 
 
 
-<h4 id="getcacheredisconfiguration">Get<wbr>Cache<wbr>Redis<wbr>Configuration</h4>
+<h4 id="getcacheredisconfiguration">get<wbr>Cache<wbr>Redis<wbr>Configuration</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetCacheRedisConfiguration">output</a> API doc for this type.
 {{% /choosable %}}

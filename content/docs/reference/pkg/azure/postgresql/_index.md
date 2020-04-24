@@ -20,7 +20,7 @@ Explore the resources and functions of the postgresql module in the Azure packag
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getserver" title="GetServer"><span class="symbol function"></span>GetServer</a></li>
+    <li><a href="getserver" title="getServer"><span class="symbol function"></span>getServer</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
@@ -32,6 +32,6 @@ Explore the resources and functions of the postgresql module in the Azure packag
 	<dt>Notes</dt>
 	<dd>This Pulumi package is based on the [`azurerm` Terraform Provider](https://github.com/terraform-providers/terraform-provider-azurerm).</dd>
 	<dt>Version</dt>
-	<dd>3.1.0</dd>
+	<dd>3.2.0</dd>
 </dl>
 

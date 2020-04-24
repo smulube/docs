@@ -18,12 +18,12 @@ Explore the resources and functions of the core module in the Azure package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getclientconfig" title="GetClientConfig"><span class="symbol function"></span>GetClientConfig</a></li>
-    <li><a href="getresourcegroup" title="GetResourceGroup"><span class="symbol function"></span>GetResourceGroup</a></li>
-    <li><a href="getresources" title="GetResources"><span class="symbol function"></span>GetResources</a></li>
-    <li><a href="getsubscription" title="GetSubscription"><span class="symbol function"></span>GetSubscription</a></li>
-    <li><a href="getsubscriptions" title="GetSubscriptions"><span class="symbol function"></span>GetSubscriptions</a></li>
-    <li><a href="getuserassignedidentity" title="GetUserAssignedIdentity"><span class="symbol function"></span>GetUserAssignedIdentity</a></li>
+    <li><a href="getclientconfig" title="getClientConfig"><span class="symbol function"></span>getClientConfig</a></li>
+    <li><a href="getresourcegroup" title="getResourceGroup"><span class="symbol function"></span>getResourceGroup</a></li>
+    <li><a href="getresources" title="getResources"><span class="symbol function"></span>getResources</a></li>
+    <li><a href="getsubscription" title="getSubscription"><span class="symbol function"></span>getSubscription</a></li>
+    <li><a href="getsubscriptions" title="getSubscriptions"><span class="symbol function"></span>getSubscriptions</a></li>
+    <li><a href="getuserassignedidentity" title="getUserAssignedIdentity"><span class="symbol function"></span>getUserAssignedIdentity</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
@@ -35,6 +35,6 @@ Explore the resources and functions of the core module in the Azure package.
 	<dt>Notes</dt>
 	<dd>This Pulumi package is based on the [`azurerm` Terraform Provider](https://github.com/terraform-providers/terraform-provider-azurerm).</dd>
 	<dt>Version</dt>
-	<dd>3.1.0</dd>
+	<dd>3.2.0</dd>
 </dl>
 

@@ -17,7 +17,7 @@ Explore the resources and functions of the operationalinsights module in the Azu
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getanalyticsworkspace" title="GetAnalyticsWorkspace"><span class="symbol function"></span>GetAnalyticsWorkspace</a></li>
+    <li><a href="getanalyticsworkspace" title="getAnalyticsWorkspace"><span class="symbol function"></span>getAnalyticsWorkspace</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
@@ -29,6 +29,6 @@ Explore the resources and functions of the operationalinsights module in the Azu
 	<dt>Notes</dt>
 	<dd>This Pulumi package is based on the [`azurerm` Terraform Provider](https://github.com/terraform-providers/terraform-provider-azurerm).</dd>
 	<dt>Version</dt>
-	<dd>3.1.0</dd>
+	<dd>3.2.0</dd>
 </dl>
 

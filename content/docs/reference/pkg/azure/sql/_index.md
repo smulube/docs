@@ -22,8 +22,8 @@ Explore the resources and functions of the sql module in the Azure package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getdatabase" title="GetDatabase"><span class="symbol function"></span>GetDatabase</a></li>
-    <li><a href="getserver" title="GetServer"><span class="symbol function"></span>GetServer</a></li>
+    <li><a href="getdatabase" title="getDatabase"><span class="symbol function"></span>getDatabase</a></li>
+    <li><a href="getserver" title="getServer"><span class="symbol function"></span>getServer</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
@@ -35,6 +35,6 @@ Explore the resources and functions of the sql module in the Azure package.
 	<dt>Notes</dt>
 	<dd>This Pulumi package is based on the [`azurerm` Terraform Provider](https://github.com/terraform-providers/terraform-provider-azurerm).</dd>
 	<dt>Version</dt>
-	<dd>3.1.0</dd>
+	<dd>3.2.0</dd>
 </dl>
 

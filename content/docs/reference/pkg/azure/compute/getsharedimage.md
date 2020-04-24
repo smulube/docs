@@ -48,7 +48,7 @@ const example = pulumi.output(azure.compute.getSharedImage({
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupSharedImage<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/compute?tab=doc#LookupSharedImageArgs">LookupSharedImageArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/compute?tab=doc#LookupSharedImageResult">LookupSharedImageResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetSharedImage<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/compute?tab=doc#GetSharedImageArgs">GetSharedImageArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/compute?tab=doc#GetSharedImageResult">GetSharedImageResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -244,6 +244,15 @@ The following output properties are available:
 
     <dt class="property-"
             title="">
+        <span>Hyper<wbr>VGeneration</span>
+        <span class="property-indicator"></span>
+        <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
+    </dt>
+    <dd>{{% md %}}The generation of HyperV that the Virtual Machine used to create the Shared Image is based on.
+{{% /md %}}</dd>
+
+    <dt class="property-"
+            title="">
         <span>Id</span>
         <span class="property-indicator"></span>
         <span class="property-type"><a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/built-in-types">string</a></span>
@@ -353,6 +362,15 @@ The following output properties are available:
         <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
     </dt>
     <dd>{{% md %}}{{% /md %}}</dd>
+
+    <dt class="property-"
+            title="">
+        <span>Hyper<wbr>VGeneration</span>
+        <span class="property-indicator"></span>
+        <span class="property-type"><a href="https://golang.org/pkg/builtin/#string">string</a></span>
+    </dt>
+    <dd>{{% md %}}The generation of HyperV that the Virtual Machine used to create the Shared Image is based on.
+{{% /md %}}</dd>
 
     <dt class="property-"
             title="">
@@ -468,6 +486,15 @@ The following output properties are available:
 
     <dt class="property-"
             title="">
+        <span>hyper<wbr>VGeneration</span>
+        <span class="property-indicator"></span>
+        <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
+    </dt>
+    <dd>{{% md %}}The generation of HyperV that the Virtual Machine used to create the Shared Image is based on.
+{{% /md %}}</dd>
+
+    <dt class="property-"
+            title="">
         <span>id</span>
         <span class="property-indicator"></span>
         <span class="property-type"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string">string</a></span>
@@ -580,6 +607,15 @@ The following output properties are available:
 
     <dt class="property-"
             title="">
+        <span>hyper_<wbr>v_<wbr>generation</span>
+        <span class="property-indicator"></span>
+        <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
+    </dt>
+    <dd>{{% md %}}The generation of HyperV that the Virtual Machine used to create the Shared Image is based on.
+{{% /md %}}</dd>
+
+    <dt class="property-"
+            title="">
         <span>id</span>
         <span class="property-indicator"></span>
         <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">str</a></span>
@@ -670,7 +706,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getsharedimageidentifier">Get<wbr>Shared<wbr>Image<wbr>Identifier</h4>
+<h4 id="getsharedimageidentifier">get<wbr>Shared<wbr>Image<wbr>Identifier</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetSharedImageIdentifier">output</a> API doc for this type.
 {{% /choosable %}}

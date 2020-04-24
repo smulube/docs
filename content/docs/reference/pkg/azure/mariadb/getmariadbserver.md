@@ -33,7 +33,7 @@ Use this data source to access information about an existing MariaDB Server.
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupMariaDbServer<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/mariadb?tab=doc#LookupMariaDbServerArgs">LookupMariaDbServerArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/mariadb?tab=doc#LookupMariaDbServerResult">LookupMariaDbServerResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetMariaDbServer<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/mariadb?tab=doc#GetMariaDbServerArgs">GetMariaDbServerArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/mariadb?tab=doc#GetMariaDbServerResult">GetMariaDbServerResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -627,7 +627,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getmariadbserverstorageprofile">Get<wbr>Maria<wbr>Db<wbr>Server<wbr>Storage<wbr>Profile</h4>
+<h4 id="getmariadbserverstorageprofile">get<wbr>Maria<wbr>Db<wbr>Server<wbr>Storage<wbr>Profile</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetMariaDbServerStorageProfile">output</a> API doc for this type.
 {{% /choosable %}}
@@ -782,7 +782,7 @@ The following output properties are available:
 
     <dt class="property-required"
             title="Required">
-        <span>backup<wbr>Retention<wbr>Days</span>
+        <span>backup_<wbr>retention_<wbr>days</span>
         <span class="property-indicator"></span>
         <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">float</a></span>
     </dt>
@@ -800,7 +800,7 @@ The following output properties are available:
 
     <dt class="property-required"
             title="Required">
-        <span>storage<wbr>Mb</span>
+        <span>storage_<wbr>mb</span>
         <span class="property-indicator"></span>
         <span class="property-type"><a href="https://docs.python.org/3/library/stdtypes.html">float</a></span>
     </dt>

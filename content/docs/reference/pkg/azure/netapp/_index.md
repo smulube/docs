@@ -19,10 +19,10 @@ Explore the resources and functions of the netapp module in the Azure package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getaccount" title="GetAccount"><span class="symbol function"></span>GetAccount</a></li>
-    <li><a href="getpool" title="GetPool"><span class="symbol function"></span>GetPool</a></li>
-    <li><a href="getsnapshot" title="GetSnapshot"><span class="symbol function"></span>GetSnapshot</a></li>
-    <li><a href="getvolume" title="GetVolume"><span class="symbol function"></span>GetVolume</a></li>
+    <li><a href="getaccount" title="getAccount"><span class="symbol function"></span>getAccount</a></li>
+    <li><a href="getpool" title="getPool"><span class="symbol function"></span>getPool</a></li>
+    <li><a href="getsnapshot" title="getSnapshot"><span class="symbol function"></span>getSnapshot</a></li>
+    <li><a href="getvolume" title="getVolume"><span class="symbol function"></span>getVolume</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
@@ -34,6 +34,6 @@ Explore the resources and functions of the netapp module in the Azure package.
 	<dt>Notes</dt>
 	<dd>This Pulumi package is based on the [`azurerm` Terraform Provider](https://github.com/terraform-providers/terraform-provider-azurerm).</dd>
 	<dt>Version</dt>
-	<dd>3.1.0</dd>
+	<dd>3.2.0</dd>
 </dl>
 

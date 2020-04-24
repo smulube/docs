@@ -33,7 +33,7 @@ Use this data source to access information about an existing Storage Management 
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupPolicy<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/storage?tab=doc#LookupPolicyArgs">LookupPolicyArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/storage?tab=doc#LookupPolicyResult">LookupPolicyResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetPolicy<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/storage?tab=doc#GetPolicyArgs">GetPolicyArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/storage?tab=doc#GetPolicyResult">GetPolicyResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -267,7 +267,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getpolicyrule">Get<wbr>Policy<wbr>Rule</h4>
+<h4 id="getpolicyrule">get<wbr>Policy<wbr>Rule</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetPolicyRule">output</a> API doc for this type.
 {{% /choosable %}}
@@ -454,7 +454,7 @@ The following output properties are available:
 
 
 
-<h4 id="getpolicyruleaction">Get<wbr>Policy<wbr>Rule<wbr>Action</h4>
+<h4 id="getpolicyruleaction">get<wbr>Policy<wbr>Rule<wbr>Action</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetPolicyRuleAction">output</a> API doc for this type.
 {{% /choosable %}}
@@ -569,7 +569,7 @@ The following output properties are available:
 
 
 
-<h4 id="getpolicyruleactionbaseblob">Get<wbr>Policy<wbr>Rule<wbr>Action<wbr>Base<wbr>Blob</h4>
+<h4 id="getpolicyruleactionbaseblob">get<wbr>Policy<wbr>Rule<wbr>Action<wbr>Base<wbr>Blob</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetPolicyRuleActionBaseBlob">output</a> API doc for this type.
 {{% /choosable %}}
@@ -720,7 +720,7 @@ The following output properties are available:
 
 
 
-<h4 id="getpolicyruleactionsnapshot">Get<wbr>Policy<wbr>Rule<wbr>Action<wbr>Snapshot</h4>
+<h4 id="getpolicyruleactionsnapshot">get<wbr>Policy<wbr>Rule<wbr>Action<wbr>Snapshot</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetPolicyRuleActionSnapshot">output</a> API doc for this type.
 {{% /choosable %}}
@@ -799,7 +799,7 @@ The following output properties are available:
 
 
 
-<h4 id="getpolicyrulefilter">Get<wbr>Policy<wbr>Rule<wbr>Filter</h4>
+<h4 id="getpolicyrulefilter">get<wbr>Policy<wbr>Rule<wbr>Filter</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetPolicyRuleFilter">output</a> API doc for this type.
 {{% /choosable %}}

@@ -42,12 +42,12 @@ Explore the resources and functions of the apimanagement module in the Azure pac
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getapi" title="GetApi"><span class="symbol function"></span>GetApi</a></li>
-    <li><a href="getapiversionset" title="GetApiVersionSet"><span class="symbol function"></span>GetApiVersionSet</a></li>
-    <li><a href="getgroup" title="GetGroup"><span class="symbol function"></span>GetGroup</a></li>
-    <li><a href="getproduct" title="GetProduct"><span class="symbol function"></span>GetProduct</a></li>
-    <li><a href="getservice" title="GetService"><span class="symbol function"></span>GetService</a></li>
-    <li><a href="getuser" title="GetUser"><span class="symbol function"></span>GetUser</a></li>
+    <li><a href="getapi" title="getApi"><span class="symbol function"></span>getApi</a></li>
+    <li><a href="getapiversionset" title="getApiVersionSet"><span class="symbol function"></span>getApiVersionSet</a></li>
+    <li><a href="getgroup" title="getGroup"><span class="symbol function"></span>getGroup</a></li>
+    <li><a href="getproduct" title="getProduct"><span class="symbol function"></span>getProduct</a></li>
+    <li><a href="getservice" title="getService"><span class="symbol function"></span>getService</a></li>
+    <li><a href="getuser" title="getUser"><span class="symbol function"></span>getUser</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
@@ -59,6 +59,6 @@ Explore the resources and functions of the apimanagement module in the Azure pac
 	<dt>Notes</dt>
 	<dd>This Pulumi package is based on the [`azurerm` Terraform Provider](https://github.com/terraform-providers/terraform-provider-azurerm).</dd>
 	<dt>Version</dt>
-	<dd>3.1.0</dd>
+	<dd>3.2.0</dd>
 </dl>
 

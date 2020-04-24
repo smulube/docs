@@ -33,7 +33,7 @@ Use this data source to access information about an existing Spring Cloud Servic
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupSpringCloudService<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/appplatform?tab=doc#LookupSpringCloudServiceArgs">LookupSpringCloudServiceArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/appplatform?tab=doc#LookupSpringCloudServiceResult">LookupSpringCloudServiceResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetSpringCloudService<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/appplatform?tab=doc#GetSpringCloudServiceArgs">GetSpringCloudServiceArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/appplatform?tab=doc#GetSpringCloudServiceResult">GetSpringCloudServiceResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -411,7 +411,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getspringcloudserviceconfigservergitsetting">Get<wbr>Spring<wbr>Cloud<wbr>Service<wbr>Config<wbr>Server<wbr>Git<wbr>Setting</h4>
+<h4 id="getspringcloudserviceconfigservergitsetting">get<wbr>Spring<wbr>Cloud<wbr>Service<wbr>Config<wbr>Server<wbr>Git<wbr>Setting</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetSpringCloudServiceConfigServerGitSetting">output</a> API doc for this type.
 {{% /choosable %}}
@@ -670,7 +670,7 @@ The following output properties are available:
 
 
 
-<h4 id="getspringcloudserviceconfigservergitsettinghttpbasicauth">Get<wbr>Spring<wbr>Cloud<wbr>Service<wbr>Config<wbr>Server<wbr>Git<wbr>Setting<wbr>Http<wbr>Basic<wbr>Auth</h4>
+<h4 id="getspringcloudserviceconfigservergitsettinghttpbasicauth">get<wbr>Spring<wbr>Cloud<wbr>Service<wbr>Config<wbr>Server<wbr>Git<wbr>Setting<wbr>Http<wbr>Basic<wbr>Auth</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetSpringCloudServiceConfigServerGitSettingHttpBasicAuth">output</a> API doc for this type.
 {{% /choosable %}}
@@ -785,7 +785,7 @@ The following output properties are available:
 
 
 
-<h4 id="getspringcloudserviceconfigservergitsettingrepository">Get<wbr>Spring<wbr>Cloud<wbr>Service<wbr>Config<wbr>Server<wbr>Git<wbr>Setting<wbr>Repository</h4>
+<h4 id="getspringcloudserviceconfigservergitsettingrepository">get<wbr>Spring<wbr>Cloud<wbr>Service<wbr>Config<wbr>Server<wbr>Git<wbr>Setting<wbr>Repository</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetSpringCloudServiceConfigServerGitSettingRepository">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1080,7 +1080,7 @@ The following output properties are available:
 
 
 
-<h4 id="getspringcloudserviceconfigservergitsettingrepositoryhttpbasicauth">Get<wbr>Spring<wbr>Cloud<wbr>Service<wbr>Config<wbr>Server<wbr>Git<wbr>Setting<wbr>Repository<wbr>Http<wbr>Basic<wbr>Auth</h4>
+<h4 id="getspringcloudserviceconfigservergitsettingrepositoryhttpbasicauth">get<wbr>Spring<wbr>Cloud<wbr>Service<wbr>Config<wbr>Server<wbr>Git<wbr>Setting<wbr>Repository<wbr>Http<wbr>Basic<wbr>Auth</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetSpringCloudServiceConfigServerGitSettingRepositoryHttpBasicAuth">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1195,7 +1195,7 @@ The following output properties are available:
 
 
 
-<h4 id="getspringcloudserviceconfigservergitsettingrepositorysshauth">Get<wbr>Spring<wbr>Cloud<wbr>Service<wbr>Config<wbr>Server<wbr>Git<wbr>Setting<wbr>Repository<wbr>Ssh<wbr>Auth</h4>
+<h4 id="getspringcloudserviceconfigservergitsettingrepositorysshauth">get<wbr>Spring<wbr>Cloud<wbr>Service<wbr>Config<wbr>Server<wbr>Git<wbr>Setting<wbr>Repository<wbr>Ssh<wbr>Auth</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetSpringCloudServiceConfigServerGitSettingRepositorySshAuth">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1382,7 +1382,7 @@ The following output properties are available:
 
 
 
-<h4 id="getspringcloudserviceconfigservergitsettingsshauth">Get<wbr>Spring<wbr>Cloud<wbr>Service<wbr>Config<wbr>Server<wbr>Git<wbr>Setting<wbr>Ssh<wbr>Auth</h4>
+<h4 id="getspringcloudserviceconfigservergitsettingsshauth">get<wbr>Spring<wbr>Cloud<wbr>Service<wbr>Config<wbr>Server<wbr>Git<wbr>Setting<wbr>Ssh<wbr>Auth</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetSpringCloudServiceConfigServerGitSettingSshAuth">output</a> API doc for this type.
 {{% /choosable %}}

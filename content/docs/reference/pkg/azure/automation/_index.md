@@ -28,11 +28,11 @@ Explore the resources and functions of the automation module in the Azure packag
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getaccount" title="GetAccount"><span class="symbol function"></span>GetAccount</a></li>
-    <li><a href="getboolvariable" title="GetBoolVariable"><span class="symbol function"></span>GetBoolVariable</a></li>
-    <li><a href="getdatetimevariable" title="GetDateTimeVariable"><span class="symbol function"></span>GetDateTimeVariable</a></li>
-    <li><a href="getintvariable" title="GetIntVariable"><span class="symbol function"></span>GetIntVariable</a></li>
-    <li><a href="getstringvariable" title="GetStringVariable"><span class="symbol function"></span>GetStringVariable</a></li>
+    <li><a href="getaccount" title="getAccount"><span class="symbol function"></span>getAccount</a></li>
+    <li><a href="getboolvariable" title="getBoolVariable"><span class="symbol function"></span>getBoolVariable</a></li>
+    <li><a href="getdatetimevariable" title="getDateTimeVariable"><span class="symbol function"></span>getDateTimeVariable</a></li>
+    <li><a href="getintvariable" title="getIntVariable"><span class="symbol function"></span>getIntVariable</a></li>
+    <li><a href="getstringvariable" title="getStringVariable"><span class="symbol function"></span>getStringVariable</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
@@ -44,6 +44,6 @@ Explore the resources and functions of the automation module in the Azure packag
 	<dt>Notes</dt>
 	<dd>This Pulumi package is based on the [`azurerm` Terraform Provider](https://github.com/terraform-providers/terraform-provider-azurerm).</dd>
 	<dt>Version</dt>
-	<dd>3.1.0</dd>
+	<dd>3.2.0</dd>
 </dl>
 

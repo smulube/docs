@@ -11,12 +11,13 @@ Explore the resources and functions of the appplatform module in the Azure packa
 
 <h2 id="resources">Resources</h2>
 <ul class="api">
+    <li><a href="springcloudapp" title="SpringCloudApp"><span class="symbol resource"></span>SpringCloudApp</a></li>
     <li><a href="springcloudservice" title="SpringCloudService"><span class="symbol resource"></span>SpringCloudService</a></li>
 </ul>
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getspringcloudservice" title="GetSpringCloudService"><span class="symbol function"></span>GetSpringCloudService</a></li>
+    <li><a href="getspringcloudservice" title="getSpringCloudService"><span class="symbol function"></span>getSpringCloudService</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
@@ -28,6 +29,6 @@ Explore the resources and functions of the appplatform module in the Azure packa
 	<dt>Notes</dt>
 	<dd>This Pulumi package is based on the [`azurerm` Terraform Provider](https://github.com/terraform-providers/terraform-provider-azurerm).</dd>
 	<dt>Version</dt>
-	<dd>3.1.0</dd>
+	<dd>3.2.0</dd>
 </dl>
 

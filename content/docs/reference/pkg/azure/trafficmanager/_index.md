@@ -17,7 +17,7 @@ Explore the resources and functions of the trafficmanager module in the Azure pa
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getgeographicallocation" title="GetGeographicalLocation"><span class="symbol function"></span>GetGeographicalLocation</a></li>
+    <li><a href="getgeographicallocation" title="getGeographicalLocation"><span class="symbol function"></span>getGeographicalLocation</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
@@ -29,6 +29,6 @@ Explore the resources and functions of the trafficmanager module in the Azure pa
 	<dt>Notes</dt>
 	<dd>This Pulumi package is based on the [`azurerm` Terraform Provider](https://github.com/terraform-providers/terraform-provider-azurerm).</dd>
 	<dt>Version</dt>
-	<dd>3.1.0</dd>
+	<dd>3.2.0</dd>
 </dl>
 

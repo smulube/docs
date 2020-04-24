@@ -48,7 +48,7 @@ const example = pulumi.output(azure.batch.getPool({
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupPool<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/batch?tab=doc#LookupPoolArgs">LookupPoolArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/batch?tab=doc#LookupPoolResult">LookupPoolResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetPool<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/batch?tab=doc#GetPoolArgs">GetPoolArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-azure/sdk/v3/go/azure/batch?tab=doc#GetPoolResult">GetPoolResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -910,7 +910,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getpoolautoscale">Get<wbr>Pool<wbr>Auto<wbr>Scale</h4>
+<h4 id="getpoolautoscale">get<wbr>Pool<wbr>Auto<wbr>Scale</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetPoolAutoScale">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1025,7 +1025,7 @@ The following output properties are available:
 
 
 
-<h4 id="getpoolcertificate">Get<wbr>Pool<wbr>Certificate</h4>
+<h4 id="getpoolcertificate">get<wbr>Pool<wbr>Certificate</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/input/#GetPoolCertificate">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetPoolCertificate">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1212,7 +1212,7 @@ The following output properties are available:
 
 
 
-<h4 id="getpoolcontainerconfiguration">Get<wbr>Pool<wbr>Container<wbr>Configuration</h4>
+<h4 id="getpoolcontainerconfiguration">get<wbr>Pool<wbr>Container<wbr>Configuration</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetPoolContainerConfiguration">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1327,7 +1327,7 @@ The following output properties are available:
 
 
 
-<h4 id="getpoolcontainerconfigurationcontainerregistry">Get<wbr>Pool<wbr>Container<wbr>Configuration<wbr>Container<wbr>Registry</h4>
+<h4 id="getpoolcontainerconfigurationcontainerregistry">get<wbr>Pool<wbr>Container<wbr>Configuration<wbr>Container<wbr>Registry</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetPoolContainerConfigurationContainerRegistry">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1478,7 +1478,7 @@ The following output properties are available:
 
 
 
-<h4 id="getpoolfixedscale">Get<wbr>Pool<wbr>Fixed<wbr>Scale</h4>
+<h4 id="getpoolfixedscale">get<wbr>Pool<wbr>Fixed<wbr>Scale</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetPoolFixedScale">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1629,7 +1629,7 @@ The following output properties are available:
 
 
 
-<h4 id="getpoolnetworkconfiguration">Get<wbr>Pool<wbr>Network<wbr>Configuration</h4>
+<h4 id="getpoolnetworkconfiguration">get<wbr>Pool<wbr>Network<wbr>Configuration</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/input/#GetPoolNetworkConfiguration">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetPoolNetworkConfiguration">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1744,7 +1744,7 @@ The following output properties are available:
 
 
 
-<h4 id="getpoolnetworkconfigurationendpointconfiguration">Get<wbr>Pool<wbr>Network<wbr>Configuration<wbr>Endpoint<wbr>Configuration</h4>
+<h4 id="getpoolnetworkconfigurationendpointconfiguration">get<wbr>Pool<wbr>Network<wbr>Configuration<wbr>Endpoint<wbr>Configuration</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/input/#GetPoolNetworkConfigurationEndpointConfiguration">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetPoolNetworkConfigurationEndpointConfiguration">output</a> API doc for this type.
 {{% /choosable %}}
@@ -1967,7 +1967,7 @@ The following output properties are available:
 
 
 
-<h4 id="getpoolnetworkconfigurationendpointconfigurationnetworksecuritygrouprule">Get<wbr>Pool<wbr>Network<wbr>Configuration<wbr>Endpoint<wbr>Configuration<wbr>Network<wbr>Security<wbr>Group<wbr>Rule</h4>
+<h4 id="getpoolnetworkconfigurationendpointconfigurationnetworksecuritygrouprule">get<wbr>Pool<wbr>Network<wbr>Configuration<wbr>Endpoint<wbr>Configuration<wbr>Network<wbr>Security<wbr>Group<wbr>Rule</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/input/#GetPoolNetworkConfigurationEndpointConfigurationNetworkSecurityGroupRule">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetPoolNetworkConfigurationEndpointConfigurationNetworkSecurityGroupRule">output</a> API doc for this type.
 {{% /choosable %}}
@@ -2118,7 +2118,7 @@ The following output properties are available:
 
 
 
-<h4 id="getpoolstarttask">Get<wbr>Pool<wbr>Start<wbr>Task</h4>
+<h4 id="getpoolstarttask">get<wbr>Pool<wbr>Start<wbr>Task</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/input/#GetPoolStartTask">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetPoolStartTask">output</a> API doc for this type.
 {{% /choosable %}}
@@ -2377,7 +2377,7 @@ The following output properties are available:
 
 
 
-<h4 id="getpoolstarttaskresourcefile">Get<wbr>Pool<wbr>Start<wbr>Task<wbr>Resource<wbr>File</h4>
+<h4 id="getpoolstarttaskresourcefile">get<wbr>Pool<wbr>Start<wbr>Task<wbr>Resource<wbr>File</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/input/#GetPoolStartTaskResourceFile">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetPoolStartTaskResourceFile">output</a> API doc for this type.
 {{% /choosable %}}
@@ -2636,7 +2636,7 @@ The following output properties are available:
 
 
 
-<h4 id="getpoolstarttaskuseridentity">Get<wbr>Pool<wbr>Start<wbr>Task<wbr>User<wbr>Identity</h4>
+<h4 id="getpoolstarttaskuseridentity">get<wbr>Pool<wbr>Start<wbr>Task<wbr>User<wbr>Identity</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/input/#GetPoolStartTaskUserIdentity">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetPoolStartTaskUserIdentity">output</a> API doc for this type.
 {{% /choosable %}}
@@ -2751,7 +2751,7 @@ The following output properties are available:
 
 
 
-<h4 id="getpoolstarttaskuseridentityautouser">Get<wbr>Pool<wbr>Start<wbr>Task<wbr>User<wbr>Identity<wbr>Auto<wbr>User</h4>
+<h4 id="getpoolstarttaskuseridentityautouser">get<wbr>Pool<wbr>Start<wbr>Task<wbr>User<wbr>Identity<wbr>Auto<wbr>User</h4>
 {{% choosable language nodejs %}}
 > See the <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/input/#GetPoolStartTaskUserIdentityAutoUser">input</a> and <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetPoolStartTaskUserIdentityAutoUser">output</a> API doc for this type.
 {{% /choosable %}}
@@ -2866,7 +2866,7 @@ The following output properties are available:
 
 
 
-<h4 id="getpoolstorageimagereference">Get<wbr>Pool<wbr>Storage<wbr>Image<wbr>Reference</h4>
+<h4 id="getpoolstorageimagereference">get<wbr>Pool<wbr>Storage<wbr>Image<wbr>Reference</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/azure/types/output/#GetPoolStorageImageReference">output</a> API doc for this type.
 {{% /choosable %}}

@@ -16,7 +16,7 @@ Explore the resources and functions of the managedapplication module in the Azur
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getdefinition" title="GetDefinition"><span class="symbol function"></span>GetDefinition</a></li>
+    <li><a href="getdefinition" title="getDefinition"><span class="symbol function"></span>getDefinition</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
@@ -28,6 +28,6 @@ Explore the resources and functions of the managedapplication module in the Azur
 	<dt>Notes</dt>
 	<dd>This Pulumi package is based on the [`azurerm` Terraform Provider](https://github.com/terraform-providers/terraform-provider-azurerm).</dd>
 	<dt>Version</dt>
-	<dd>3.1.0</dd>
+	<dd>3.2.0</dd>
 </dl>
 
