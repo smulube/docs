@@ -16,7 +16,7 @@ Explore the resources and functions of the signalr module in the Azure package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getservice" title="getService"><span class="symbol function"></span>getService</a></li>
+    <li><a href="getservice" title="GetService"><span class="symbol function"></span>GetService</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

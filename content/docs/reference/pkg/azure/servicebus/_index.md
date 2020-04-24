@@ -24,9 +24,9 @@ Explore the resources and functions of the servicebus module in the Azure packag
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getnamespace" title="getNamespace"><span class="symbol function"></span>getNamespace</a></li>
-    <li><a href="getnamespaceauthorizationrule" title="getNamespaceAuthorizationRule"><span class="symbol function"></span>getNamespaceAuthorizationRule</a></li>
-    <li><a href="gettopicauthorizationrule" title="getTopicAuthorizationRule"><span class="symbol function"></span>getTopicAuthorizationRule</a></li>
+    <li><a href="getnamespace" title="GetNamespace"><span class="symbol function"></span>GetNamespace</a></li>
+    <li><a href="getnamespaceauthorizationrule" title="GetNamespaceAuthorizationRule"><span class="symbol function"></span>GetNamespaceAuthorizationRule</a></li>
+    <li><a href="gettopicauthorizationrule" title="GetTopicAuthorizationRule"><span class="symbol function"></span>GetTopicAuthorizationRule</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

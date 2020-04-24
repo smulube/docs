@@ -20,7 +20,7 @@ Explore the resources and functions of the mariadb module in the Azure package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getmariadbserver" title="getMariaDbServer"><span class="symbol function"></span>getMariaDbServer</a></li>
+    <li><a href="getmariadbserver" title="GetMariaDbServer"><span class="symbol function"></span>GetMariaDbServer</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

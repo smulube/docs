@@ -20,7 +20,7 @@ Explore the resources and functions of the datalake module in the Azure package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getstore" title="getStore"><span class="symbol function"></span>getStore</a></li>
+    <li><a href="getstore" title="GetStore"><span class="symbol function"></span>GetStore</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

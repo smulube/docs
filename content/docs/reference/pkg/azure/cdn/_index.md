@@ -17,7 +17,7 @@ Explore the resources and functions of the cdn module in the Azure package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getprofile" title="getProfile"><span class="symbol function"></span>getProfile</a></li>
+    <li><a href="getprofile" title="GetProfile"><span class="symbol function"></span>GetProfile</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

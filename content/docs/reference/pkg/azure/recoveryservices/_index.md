@@ -16,7 +16,7 @@ Explore the resources and functions of the recoveryservices module in the Azure 
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getvault" title="getVault"><span class="symbol function"></span>getVault</a></li>
+    <li><a href="getvault" title="GetVault"><span class="symbol function"></span>GetVault</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

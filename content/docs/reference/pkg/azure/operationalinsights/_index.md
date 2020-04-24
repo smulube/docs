@@ -17,7 +17,7 @@ Explore the resources and functions of the operationalinsights module in the Azu
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getanalyticsworkspace" title="getAnalyticsWorkspace"><span class="symbol function"></span>getAnalyticsWorkspace</a></li>
+    <li><a href="getanalyticsworkspace" title="GetAnalyticsWorkspace"><span class="symbol function"></span>GetAnalyticsWorkspace</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

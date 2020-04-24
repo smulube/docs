@@ -20,7 +20,7 @@ Explore the resources and functions of the backup module in the Azure package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getpolicyvm" title="getPolicyVM"><span class="symbol function"></span>getPolicyVM</a></li>
+    <li><a href="getpolicyvm" title="GetPolicyVM"><span class="symbol function"></span>GetPolicyVM</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

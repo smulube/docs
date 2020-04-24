@@ -17,7 +17,7 @@ Explore the resources and functions of the role module in the Azure package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getroledefinition" title="getRoleDefinition"><span class="symbol function"></span>getRoleDefinition</a></li>
+    <li><a href="getroledefinition" title="GetRoleDefinition"><span class="symbol function"></span>GetRoleDefinition</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

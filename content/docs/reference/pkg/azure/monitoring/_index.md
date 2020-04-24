@@ -23,11 +23,11 @@ Explore the resources and functions of the monitoring module in the Azure packag
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getactiongroup" title="getActionGroup"><span class="symbol function"></span>getActionGroup</a></li>
-    <li><a href="getdiagnosticcategories" title="getDiagnosticCategories"><span class="symbol function"></span>getDiagnosticCategories</a></li>
-    <li><a href="getlogprofile" title="getLogProfile"><span class="symbol function"></span>getLogProfile</a></li>
-    <li><a href="getscheduledqueryrulesalert" title="getScheduledQueryRulesAlert"><span class="symbol function"></span>getScheduledQueryRulesAlert</a></li>
-    <li><a href="getscheduledqueryruleslog" title="getScheduledQueryRulesLog"><span class="symbol function"></span>getScheduledQueryRulesLog</a></li>
+    <li><a href="getactiongroup" title="GetActionGroup"><span class="symbol function"></span>GetActionGroup</a></li>
+    <li><a href="getdiagnosticcategories" title="GetDiagnosticCategories"><span class="symbol function"></span>GetDiagnosticCategories</a></li>
+    <li><a href="getlogprofile" title="GetLogProfile"><span class="symbol function"></span>GetLogProfile</a></li>
+    <li><a href="getscheduledqueryrulesalert" title="GetScheduledQueryRulesAlert"><span class="symbol function"></span>GetScheduledQueryRulesAlert</a></li>
+    <li><a href="getscheduledqueryruleslog" title="GetScheduledQueryRulesLog"><span class="symbol function"></span>GetScheduledQueryRulesLog</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

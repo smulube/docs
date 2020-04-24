@@ -20,7 +20,7 @@ Explore the resources and functions of the postgresql module in the Azure packag
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getserver" title="getServer"><span class="symbol function"></span>getServer</a></li>
+    <li><a href="getserver" title="GetServer"><span class="symbol function"></span>GetServer</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

@@ -22,8 +22,8 @@ Explore the resources and functions of the lb module in the Azure package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getbackendaddresspool" title="getBackendAddressPool"><span class="symbol function"></span>getBackendAddressPool</a></li>
-    <li><a href="getlb" title="getLB"><span class="symbol function"></span>getLB</a></li>
+    <li><a href="getbackendaddresspool" title="GetBackendAddressPool"><span class="symbol function"></span>GetBackendAddressPool</a></li>
+    <li><a href="getlb" title="GetLB"><span class="symbol function"></span>GetLB</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

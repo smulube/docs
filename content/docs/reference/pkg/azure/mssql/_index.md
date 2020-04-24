@@ -21,8 +21,8 @@ Explore the resources and functions of the mssql module in the Azure package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getdatabase" title="getDatabase"><span class="symbol function"></span>getDatabase</a></li>
-    <li><a href="getelasticpool" title="getElasticPool"><span class="symbol function"></span>getElasticPool</a></li>
+    <li><a href="getdatabase" title="GetDatabase"><span class="symbol function"></span>GetDatabase</a></li>
+    <li><a href="getelasticpool" title="GetElasticPool"><span class="symbol function"></span>GetElasticPool</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

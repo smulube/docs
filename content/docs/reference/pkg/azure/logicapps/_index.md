@@ -21,7 +21,7 @@ Explore the resources and functions of the logicapps module in the Azure package
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getworkflow" title="getWorkflow"><span class="symbol function"></span>getWorkflow</a></li>
+    <li><a href="getworkflow" title="GetWorkflow"><span class="symbol function"></span>GetWorkflow</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

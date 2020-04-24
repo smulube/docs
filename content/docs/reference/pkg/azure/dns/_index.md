@@ -25,7 +25,7 @@ Explore the resources and functions of the dns module in the Azure package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getzone" title="getZone"><span class="symbol function"></span>getZone</a></li>
+    <li><a href="getzone" title="GetZone"><span class="symbol function"></span>GetZone</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

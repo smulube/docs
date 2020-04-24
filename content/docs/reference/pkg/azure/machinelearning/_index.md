@@ -16,7 +16,7 @@ Explore the resources and functions of the machinelearning module in the Azure p
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getworkspace" title="getWorkspace"><span class="symbol function"></span>getWorkspace</a></li>
+    <li><a href="getworkspace" title="GetWorkspace"><span class="symbol function"></span>GetWorkspace</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

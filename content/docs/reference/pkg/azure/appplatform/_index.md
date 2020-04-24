@@ -17,7 +17,7 @@ Explore the resources and functions of the appplatform module in the Azure packa
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getspringcloudservice" title="getSpringCloudService"><span class="symbol function"></span>getSpringCloudService</a></li>
+    <li><a href="getspringcloudservice" title="GetSpringCloudService"><span class="symbol function"></span>GetSpringCloudService</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

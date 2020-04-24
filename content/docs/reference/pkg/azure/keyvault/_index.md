@@ -21,10 +21,10 @@ Explore the resources and functions of the keyvault module in the Azure package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getaccesspolicy" title="getAccessPolicy"><span class="symbol function"></span>getAccessPolicy</a></li>
-    <li><a href="getkey" title="getKey"><span class="symbol function"></span>getKey</a></li>
-    <li><a href="getkeyvault" title="getKeyVault"><span class="symbol function"></span>getKeyVault</a></li>
-    <li><a href="getsecret" title="getSecret"><span class="symbol function"></span>getSecret</a></li>
+    <li><a href="getaccesspolicy" title="GetAccessPolicy"><span class="symbol function"></span>GetAccessPolicy</a></li>
+    <li><a href="getkey" title="GetKey"><span class="symbol function"></span>GetKey</a></li>
+    <li><a href="getkeyvault" title="GetKeyVault"><span class="symbol function"></span>GetKeyVault</a></li>
+    <li><a href="getsecret" title="GetSecret"><span class="symbol function"></span>GetSecret</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

@@ -19,8 +19,8 @@ Explore the resources and functions of the policy module in the Azure package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getpolicydefintion" title="getPolicyDefintion"><span class="symbol function"></span>getPolicyDefintion</a></li>
-    <li><a href="getpolicysetdefinition" title="getPolicySetDefinition"><span class="symbol function"></span>getPolicySetDefinition</a></li>
+    <li><a href="getpolicydefintion" title="GetPolicyDefintion"><span class="symbol function"></span>GetPolicyDefintion</a></li>
+    <li><a href="getpolicysetdefinition" title="GetPolicySetDefinition"><span class="symbol function"></span>GetPolicySetDefinition</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

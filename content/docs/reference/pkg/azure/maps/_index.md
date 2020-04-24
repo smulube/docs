@@ -16,7 +16,7 @@ Explore the resources and functions of the maps module in the Azure package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getaccount" title="getAccount"><span class="symbol function"></span>getAccount</a></li>
+    <li><a href="getaccount" title="GetAccount"><span class="symbol function"></span>GetAccount</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

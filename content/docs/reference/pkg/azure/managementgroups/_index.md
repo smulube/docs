@@ -16,7 +16,7 @@ Explore the resources and functions of the managementgroups module in the Azure 
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getmanagementgroup" title="getManagementGroup"><span class="symbol function"></span>getManagementGroup</a></li>
+    <li><a href="getmanagementgroup" title="GetManagementGroup"><span class="symbol function"></span>GetManagementGroup</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

@@ -26,7 +26,7 @@ Explore the resources and functions of the streamanalytics module in the Azure p
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getjob" title="getJob"><span class="symbol function"></span>getJob</a></li>
+    <li><a href="getjob" title="GetJob"><span class="symbol function"></span>GetJob</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

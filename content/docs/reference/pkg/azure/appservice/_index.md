@@ -26,12 +26,12 @@ Explore the resources and functions of the appservice module in the Azure packag
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getappservice" title="getAppService"><span class="symbol function"></span>getAppService</a></li>
-    <li><a href="getappserviceenvironment" title="getAppServiceEnvironment"><span class="symbol function"></span>getAppServiceEnvironment</a></li>
-    <li><a href="getappserviceplan" title="getAppServicePlan"><span class="symbol function"></span>getAppServicePlan</a></li>
-    <li><a href="getcertificate" title="getCertificate"><span class="symbol function"></span>getCertificate</a></li>
-    <li><a href="getcertificateorder" title="getCertificateOrder"><span class="symbol function"></span>getCertificateOrder</a></li>
-    <li><a href="getfunctionapp" title="getFunctionApp"><span class="symbol function"></span>getFunctionApp</a></li>
+    <li><a href="getappservice" title="GetAppService"><span class="symbol function"></span>GetAppService</a></li>
+    <li><a href="getappserviceenvironment" title="GetAppServiceEnvironment"><span class="symbol function"></span>GetAppServiceEnvironment</a></li>
+    <li><a href="getappserviceplan" title="GetAppServicePlan"><span class="symbol function"></span>GetAppServicePlan</a></li>
+    <li><a href="getcertificate" title="GetCertificate"><span class="symbol function"></span>GetCertificate</a></li>
+    <li><a href="getcertificateorder" title="GetCertificateOrder"><span class="symbol function"></span>GetCertificateOrder</a></li>
+    <li><a href="getfunctionapp" title="GetFunctionApp"><span class="symbol function"></span>GetFunctionApp</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

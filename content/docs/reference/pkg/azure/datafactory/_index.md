@@ -26,7 +26,7 @@ Explore the resources and functions of the datafactory module in the Azure packa
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getfactory" title="getFactory"><span class="symbol function"></span>getFactory</a></li>
+    <li><a href="getfactory" title="GetFactory"><span class="symbol function"></span>GetFactory</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

@@ -16,7 +16,7 @@ Explore the resources and functions of the managedapplication module in the Azur
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getdefinition" title="getDefinition"><span class="symbol function"></span>getDefinition</a></li>
+    <li><a href="getdefinition" title="GetDefinition"><span class="symbol function"></span>GetDefinition</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

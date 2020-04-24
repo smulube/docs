@@ -18,8 +18,8 @@ Explore the resources and functions of the notificationhub module in the Azure p
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="gethub" title="getHub"><span class="symbol function"></span>getHub</a></li>
-    <li><a href="getnamespace" title="getNamespace"><span class="symbol function"></span>getNamespace</a></li>
+    <li><a href="gethub" title="GetHub"><span class="symbol function"></span>GetHub</a></li>
+    <li><a href="getnamespace" title="GetNamespace"><span class="symbol function"></span>GetNamespace</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

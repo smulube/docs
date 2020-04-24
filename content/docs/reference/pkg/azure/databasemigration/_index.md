@@ -17,8 +17,8 @@ Explore the resources and functions of the databasemigration module in the Azure
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getproject" title="getProject"><span class="symbol function"></span>getProject</a></li>
-    <li><a href="getservice" title="getService"><span class="symbol function"></span>getService</a></li>
+    <li><a href="getproject" title="GetProject"><span class="symbol function"></span>GetProject</a></li>
+    <li><a href="getservice" title="GetService"><span class="symbol function"></span>GetService</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

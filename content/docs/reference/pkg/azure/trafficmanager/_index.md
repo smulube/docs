@@ -17,7 +17,7 @@ Explore the resources and functions of the trafficmanager module in the Azure pa
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getgeographicallocation" title="getGeographicalLocation"><span class="symbol function"></span>getGeographicalLocation</a></li>
+    <li><a href="getgeographicallocation" title="GetGeographicalLocation"><span class="symbol function"></span>GetGeographicalLocation</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

@@ -25,7 +25,7 @@ Explore the resources and functions of the privatedns module in the Azure packag
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getdnszone" title="getDnsZone"><span class="symbol function"></span>getDnsZone</a></li>
+    <li><a href="getdnszone" title="GetDnsZone"><span class="symbol function"></span>GetDnsZone</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

@@ -62,25 +62,25 @@ Explore the resources and functions of the network module in the Azure package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getapplicationsecuritygroup" title="getApplicationSecurityGroup"><span class="symbol function"></span>getApplicationSecurityGroup</a></li>
-    <li><a href="getexpressroutecircuit" title="getExpressRouteCircuit"><span class="symbol function"></span>getExpressRouteCircuit</a></li>
-    <li><a href="getfirewall" title="getFirewall"><span class="symbol function"></span>getFirewall</a></li>
-    <li><a href="getgatewayconnection" title="getGatewayConnection"><span class="symbol function"></span>getGatewayConnection</a></li>
-    <li><a href="getnatgateway" title="getNatGateway"><span class="symbol function"></span>getNatGateway</a></li>
-    <li><a href="getnetworkddosprotectionplan" title="getNetworkDdosProtectionPlan"><span class="symbol function"></span>getNetworkDdosProtectionPlan</a></li>
-    <li><a href="getnetworkinterface" title="getNetworkInterface"><span class="symbol function"></span>getNetworkInterface</a></li>
-    <li><a href="getnetworksecuritygroup" title="getNetworkSecurityGroup"><span class="symbol function"></span>getNetworkSecurityGroup</a></li>
-    <li><a href="getnetworkwatcher" title="getNetworkWatcher"><span class="symbol function"></span>getNetworkWatcher</a></li>
-    <li><a href="getpublicip" title="getPublicIP"><span class="symbol function"></span>getPublicIP</a></li>
-    <li><a href="getpublicips" title="getPublicIPs"><span class="symbol function"></span>getPublicIPs</a></li>
-    <li><a href="getpublicipprefix" title="getPublicIpPrefix"><span class="symbol function"></span>getPublicIpPrefix</a></li>
-    <li><a href="getroutetable" title="getRouteTable"><span class="symbol function"></span>getRouteTable</a></li>
-    <li><a href="getservicetags" title="getServiceTags"><span class="symbol function"></span>getServiceTags</a></li>
-    <li><a href="getsubnet" title="getSubnet"><span class="symbol function"></span>getSubnet</a></li>
-    <li><a href="gettrafficmanager" title="getTrafficManager"><span class="symbol function"></span>getTrafficManager</a></li>
-    <li><a href="getvirtualhub" title="getVirtualHub"><span class="symbol function"></span>getVirtualHub</a></li>
-    <li><a href="getvirtualnetwork" title="getVirtualNetwork"><span class="symbol function"></span>getVirtualNetwork</a></li>
-    <li><a href="getvirtualnetworkgateway" title="getVirtualNetworkGateway"><span class="symbol function"></span>getVirtualNetworkGateway</a></li>
+    <li><a href="getapplicationsecuritygroup" title="GetApplicationSecurityGroup"><span class="symbol function"></span>GetApplicationSecurityGroup</a></li>
+    <li><a href="getexpressroutecircuit" title="GetExpressRouteCircuit"><span class="symbol function"></span>GetExpressRouteCircuit</a></li>
+    <li><a href="getfirewall" title="GetFirewall"><span class="symbol function"></span>GetFirewall</a></li>
+    <li><a href="getgatewayconnection" title="GetGatewayConnection"><span class="symbol function"></span>GetGatewayConnection</a></li>
+    <li><a href="getnatgateway" title="GetNatGateway"><span class="symbol function"></span>GetNatGateway</a></li>
+    <li><a href="getnetworkddosprotectionplan" title="GetNetworkDdosProtectionPlan"><span class="symbol function"></span>GetNetworkDdosProtectionPlan</a></li>
+    <li><a href="getnetworkinterface" title="GetNetworkInterface"><span class="symbol function"></span>GetNetworkInterface</a></li>
+    <li><a href="getnetworksecuritygroup" title="GetNetworkSecurityGroup"><span class="symbol function"></span>GetNetworkSecurityGroup</a></li>
+    <li><a href="getnetworkwatcher" title="GetNetworkWatcher"><span class="symbol function"></span>GetNetworkWatcher</a></li>
+    <li><a href="getpublicip" title="GetPublicIP"><span class="symbol function"></span>GetPublicIP</a></li>
+    <li><a href="getpublicips" title="GetPublicIPs"><span class="symbol function"></span>GetPublicIPs</a></li>
+    <li><a href="getpublicipprefix" title="GetPublicIpPrefix"><span class="symbol function"></span>GetPublicIpPrefix</a></li>
+    <li><a href="getroutetable" title="GetRouteTable"><span class="symbol function"></span>GetRouteTable</a></li>
+    <li><a href="getservicetags" title="GetServiceTags"><span class="symbol function"></span>GetServiceTags</a></li>
+    <li><a href="getsubnet" title="GetSubnet"><span class="symbol function"></span>GetSubnet</a></li>
+    <li><a href="gettrafficmanager" title="GetTrafficManager"><span class="symbol function"></span>GetTrafficManager</a></li>
+    <li><a href="getvirtualhub" title="GetVirtualHub"><span class="symbol function"></span>GetVirtualHub</a></li>
+    <li><a href="getvirtualnetwork" title="GetVirtualNetwork"><span class="symbol function"></span>GetVirtualNetwork</a></li>
+    <li><a href="getvirtualnetworkgateway" title="GetVirtualNetworkGateway"><span class="symbol function"></span>GetVirtualNetworkGateway</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

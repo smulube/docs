@@ -18,8 +18,8 @@ Explore the resources and functions of the authorization module in the Azure pac
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getroledefinition" title="getRoleDefinition"><span class="symbol function"></span>getRoleDefinition</a></li>
-    <li><a href="getuserassignedidentity" title="getUserAssignedIdentity"><span class="symbol function"></span>getUserAssignedIdentity</a></li>
+    <li><a href="getroledefinition" title="GetRoleDefinition"><span class="symbol function"></span>GetRoleDefinition</a></li>
+    <li><a href="getuserassignedidentity" title="GetUserAssignedIdentity"><span class="symbol function"></span>GetUserAssignedIdentity</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

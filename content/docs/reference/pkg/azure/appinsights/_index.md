@@ -19,7 +19,7 @@ Explore the resources and functions of the appinsights module in the Azure packa
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getinsights" title="getInsights"><span class="symbol function"></span>getInsights</a></li>
+    <li><a href="getinsights" title="GetInsights"><span class="symbol function"></span>GetInsights</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
