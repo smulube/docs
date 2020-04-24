@@ -55,24 +55,24 @@ A Pulumi package for creating vsphere resources
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getcomputecluster" title="GetComputeCluster"><span class="symbol function"></span>GetComputeCluster</a></li>
-    <li><a href="getcontentlibrary" title="GetContentLibrary"><span class="symbol function"></span>GetContentLibrary</a></li>
-    <li><a href="getcontentlibraryitem" title="GetContentLibraryItem"><span class="symbol function"></span>GetContentLibraryItem</a></li>
-    <li><a href="getcustomattribute" title="GetCustomAttribute"><span class="symbol function"></span>GetCustomAttribute</a></li>
-    <li><a href="getdatacenter" title="GetDatacenter"><span class="symbol function"></span>GetDatacenter</a></li>
-    <li><a href="getdatastore" title="GetDatastore"><span class="symbol function"></span>GetDatastore</a></li>
-    <li><a href="getdatastorecluster" title="GetDatastoreCluster"><span class="symbol function"></span>GetDatastoreCluster</a></li>
-    <li><a href="getdistributedvirtualswitch" title="GetDistributedVirtualSwitch"><span class="symbol function"></span>GetDistributedVirtualSwitch</a></li>
-    <li><a href="getfolder" title="GetFolder"><span class="symbol function"></span>GetFolder</a></li>
-    <li><a href="gethost" title="GetHost"><span class="symbol function"></span>GetHost</a></li>
-    <li><a href="getnetwork" title="GetNetwork"><span class="symbol function"></span>GetNetwork</a></li>
-    <li><a href="getpolicy" title="GetPolicy"><span class="symbol function"></span>GetPolicy</a></li>
-    <li><a href="getresourcepool" title="GetResourcePool"><span class="symbol function"></span>GetResourcePool</a></li>
-    <li><a href="gettag" title="GetTag"><span class="symbol function"></span>GetTag</a></li>
-    <li><a href="gettagcategory" title="GetTagCategory"><span class="symbol function"></span>GetTagCategory</a></li>
-    <li><a href="getvappcontainer" title="GetVappContainer"><span class="symbol function"></span>GetVappContainer</a></li>
-    <li><a href="getvirtualmachine" title="GetVirtualMachine"><span class="symbol function"></span>GetVirtualMachine</a></li>
-    <li><a href="getvmfsdisks" title="GetVmfsDisks"><span class="symbol function"></span>GetVmfsDisks</a></li>
+    <li><a href="getcomputecluster" title="getComputeCluster"><span class="symbol function"></span>getComputeCluster</a></li>
+    <li><a href="getcontentlibrary" title="getContentLibrary"><span class="symbol function"></span>getContentLibrary</a></li>
+    <li><a href="getcontentlibraryitem" title="getContentLibraryItem"><span class="symbol function"></span>getContentLibraryItem</a></li>
+    <li><a href="getcustomattribute" title="getCustomAttribute"><span class="symbol function"></span>getCustomAttribute</a></li>
+    <li><a href="getdatacenter" title="getDatacenter"><span class="symbol function"></span>getDatacenter</a></li>
+    <li><a href="getdatastore" title="getDatastore"><span class="symbol function"></span>getDatastore</a></li>
+    <li><a href="getdatastorecluster" title="getDatastoreCluster"><span class="symbol function"></span>getDatastoreCluster</a></li>
+    <li><a href="getdistributedvirtualswitch" title="getDistributedVirtualSwitch"><span class="symbol function"></span>getDistributedVirtualSwitch</a></li>
+    <li><a href="getfolder" title="getFolder"><span class="symbol function"></span>getFolder</a></li>
+    <li><a href="gethost" title="getHost"><span class="symbol function"></span>getHost</a></li>
+    <li><a href="getnetwork" title="getNetwork"><span class="symbol function"></span>getNetwork</a></li>
+    <li><a href="getpolicy" title="getPolicy"><span class="symbol function"></span>getPolicy</a></li>
+    <li><a href="getresourcepool" title="getResourcePool"><span class="symbol function"></span>getResourcePool</a></li>
+    <li><a href="gettag" title="getTag"><span class="symbol function"></span>getTag</a></li>
+    <li><a href="gettagcategory" title="getTagCategory"><span class="symbol function"></span>getTagCategory</a></li>
+    <li><a href="getvappcontainer" title="getVappContainer"><span class="symbol function"></span>getVappContainer</a></li>
+    <li><a href="getvirtualmachine" title="getVirtualMachine"><span class="symbol function"></span>getVirtualMachine</a></li>
+    <li><a href="getvmfsdisks" title="getVmfsDisks"><span class="symbol function"></span>getVmfsDisks</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
