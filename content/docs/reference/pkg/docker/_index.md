@@ -26,8 +26,8 @@ A Pulumi package for interacting with Docker in Pulumi programs
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getnetwork" title="getNetwork"><span class="symbol function"></span>getNetwork</a></li>
-    <li><a href="getregistryimage" title="getRegistryImage"><span class="symbol function"></span>getRegistryImage</a></li>
+    <li><a href="getnetwork" title="GetNetwork"><span class="symbol function"></span>GetNetwork</a></li>
+    <li><a href="getregistryimage" title="GetRegistryImage"><span class="symbol function"></span>GetRegistryImage</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
