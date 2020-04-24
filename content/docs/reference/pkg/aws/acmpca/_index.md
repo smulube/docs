@@ -16,7 +16,7 @@ Explore the resources and functions of the acmpca module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getcertificateauthority" title="getCertificateAuthority"><span class="symbol function"></span>getCertificateAuthority</a></li>
+    <li><a href="getcertificateauthority" title="GetCertificateAuthority"><span class="symbol function"></span>GetCertificateAuthority</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

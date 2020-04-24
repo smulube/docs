@@ -17,7 +17,7 @@ Explore the resources and functions of the workspaces module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getbundle" title="getBundle"><span class="symbol function"></span>getBundle</a></li>
+    <li><a href="getbundle" title="GetBundle"><span class="symbol function"></span>GetBundle</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

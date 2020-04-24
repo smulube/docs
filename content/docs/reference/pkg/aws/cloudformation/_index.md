@@ -18,8 +18,8 @@ Explore the resources and functions of the cloudformation module in the AWS pack
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getexport" title="getExport"><span class="symbol function"></span>getExport</a></li>
-    <li><a href="getstack" title="getStack"><span class="symbol function"></span>getStack</a></li>
+    <li><a href="getexport" title="GetExport"><span class="symbol function"></span>GetExport</a></li>
+    <li><a href="getstack" title="GetStack"><span class="symbol function"></span>GetStack</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

@@ -18,9 +18,9 @@ Explore the resources and functions of the ecr module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getcredentials" title="getCredentials"><span class="symbol function"></span>getCredentials</a></li>
-    <li><a href="getimage" title="getImage"><span class="symbol function"></span>getImage</a></li>
-    <li><a href="getrepository" title="getRepository"><span class="symbol function"></span>getRepository</a></li>
+    <li><a href="getcredentials" title="GetCredentials"><span class="symbol function"></span>GetCredentials</a></li>
+    <li><a href="getimage" title="GetImage"><span class="symbol function"></span>GetImage</a></li>
+    <li><a href="getrepository" title="GetRepository"><span class="symbol function"></span>GetRepository</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

@@ -19,10 +19,10 @@ Explore the resources and functions of the ecs module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getcluster" title="getCluster"><span class="symbol function"></span>getCluster</a></li>
-    <li><a href="getcontainerdefinition" title="getContainerDefinition"><span class="symbol function"></span>getContainerDefinition</a></li>
-    <li><a href="getservice" title="getService"><span class="symbol function"></span>getService</a></li>
-    <li><a href="gettaskdefinition" title="getTaskDefinition"><span class="symbol function"></span>getTaskDefinition</a></li>
+    <li><a href="getcluster" title="GetCluster"><span class="symbol function"></span>GetCluster</a></li>
+    <li><a href="getcontainerdefinition" title="GetContainerDefinition"><span class="symbol function"></span>GetContainerDefinition</a></li>
+    <li><a href="getservice" title="GetService"><span class="symbol function"></span>GetService</a></li>
+    <li><a href="gettaskdefinition" title="GetTaskDefinition"><span class="symbol function"></span>GetTaskDefinition</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

@@ -18,7 +18,7 @@ Explore the resources and functions of the cloudfront module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getdistribution" title="getDistribution"><span class="symbol function"></span>getDistribution</a></li>
+    <li><a href="getdistribution" title="GetDistribution"><span class="symbol function"></span>GetDistribution</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

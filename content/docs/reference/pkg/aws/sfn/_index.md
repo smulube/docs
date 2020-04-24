@@ -17,8 +17,8 @@ Explore the resources and functions of the sfn module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getactivity" title="getActivity"><span class="symbol function"></span>getActivity</a></li>
-    <li><a href="getstatemachine" title="getStateMachine"><span class="symbol function"></span>getStateMachine</a></li>
+    <li><a href="getactivity" title="GetActivity"><span class="symbol function"></span>GetActivity</a></li>
+    <li><a href="getstatemachine" title="GetStateMachine"><span class="symbol function"></span>GetStateMachine</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

@@ -17,7 +17,7 @@ Explore the resources and functions of the cloudhsmv2 module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getcluster" title="getCluster"><span class="symbol function"></span>getCluster</a></li>
+    <li><a href="getcluster" title="GetCluster"><span class="symbol function"></span>GetCluster</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

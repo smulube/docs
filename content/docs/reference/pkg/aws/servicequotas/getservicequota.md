@@ -40,7 +40,7 @@ const byQuotaName = pulumi.output(aws.servicequotas.getServiceQuota({
 {{< chooser language "javascript,typescript,python,go,csharp" / >}}
 
 
-{{% choosable language typescript %}}
+{{% choosable language nodejs %}}
 <div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">function </span>getServiceQuota<span class="p">(</span><span class="nx">args</span>: <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/servicequotas/#GetServiceQuotaArgs">GetServiceQuotaArgs</a></span><span class="p">, </span><span class="nx">opts</span>?: <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#InvokeOptions">InvokeOptions</a></span><span class="p">): Promise&lt;<span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/servicequotas/#GetServiceQuotaResult">GetServiceQuotaResult</a></span>></span></code></pre></div>
 {{% /choosable %}}
 

@@ -20,11 +20,11 @@ Explore the resources and functions of the ebs module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getdefaultkmskey" title="getDefaultKmsKey"><span class="symbol function"></span>getDefaultKmsKey</a></li>
-    <li><a href="getencryptionbydefault" title="getEncryptionByDefault"><span class="symbol function"></span>getEncryptionByDefault</a></li>
-    <li><a href="getsnapshot" title="getSnapshot"><span class="symbol function"></span>getSnapshot</a></li>
-    <li><a href="getsnapshotids" title="getSnapshotIds"><span class="symbol function"></span>getSnapshotIds</a></li>
-    <li><a href="getvolume" title="getVolume"><span class="symbol function"></span>getVolume</a></li>
+    <li><a href="getdefaultkmskey" title="GetDefaultKmsKey"><span class="symbol function"></span>GetDefaultKmsKey</a></li>
+    <li><a href="getencryptionbydefault" title="GetEncryptionByDefault"><span class="symbol function"></span>GetEncryptionByDefault</a></li>
+    <li><a href="getsnapshot" title="GetSnapshot"><span class="symbol function"></span>GetSnapshot</a></li>
+    <li><a href="getsnapshotids" title="GetSnapshotIds"><span class="symbol function"></span>GetSnapshotIds</a></li>
+    <li><a href="getvolume" title="GetVolume"><span class="symbol function"></span>GetVolume</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

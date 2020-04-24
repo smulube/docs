@@ -27,10 +27,10 @@ Explore the resources and functions of the waf module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getipset" title="getIpset"><span class="symbol function"></span>getIpset</a></li>
-    <li><a href="getratebasedrule" title="getRateBasedRule"><span class="symbol function"></span>getRateBasedRule</a></li>
-    <li><a href="getrule" title="getRule"><span class="symbol function"></span>getRule</a></li>
-    <li><a href="getwebacl" title="getWebAcl"><span class="symbol function"></span>getWebAcl</a></li>
+    <li><a href="getipset" title="GetIpset"><span class="symbol function"></span>GetIpset</a></li>
+    <li><a href="getratebasedrule" title="GetRateBasedRule"><span class="symbol function"></span>GetRateBasedRule</a></li>
+    <li><a href="getrule" title="GetRule"><span class="symbol function"></span>GetRule</a></li>
+    <li><a href="getwebacl" title="GetWebAcl"><span class="symbol function"></span>GetWebAcl</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

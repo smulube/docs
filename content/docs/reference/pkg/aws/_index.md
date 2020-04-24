@@ -134,21 +134,21 @@ A Pulumi package for creating and managing Amazon Web Services (AWS) cloud resou
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getami" title="getAmi"><span class="symbol function"></span>getAmi</a></li>
-    <li><a href="getamiids" title="getAmiIds"><span class="symbol function"></span>getAmiIds</a></li>
-    <li><a href="getarn" title="getArn"><span class="symbol function"></span>getArn</a></li>
-    <li><a href="getautoscalinggroups" title="getAutoscalingGroups"><span class="symbol function"></span>getAutoscalingGroups</a></li>
-    <li><a href="getavailabilityzone" title="getAvailabilityZone"><span class="symbol function"></span>getAvailabilityZone</a></li>
-    <li><a href="getavailabilityzones" title="getAvailabilityZones"><span class="symbol function"></span>getAvailabilityZones</a></li>
-    <li><a href="getbillingserviceaccount" title="getBillingServiceAccount"><span class="symbol function"></span>getBillingServiceAccount</a></li>
-    <li><a href="getcalleridentity" title="getCallerIdentity"><span class="symbol function"></span>getCallerIdentity</a></li>
-    <li><a href="getcanonicaluserid" title="getCanonicalUserId"><span class="symbol function"></span>getCanonicalUserId</a></li>
-    <li><a href="getelasticip" title="getElasticIp"><span class="symbol function"></span>getElasticIp</a></li>
-    <li><a href="getipranges" title="getIpRanges"><span class="symbol function"></span>getIpRanges</a></li>
-    <li><a href="getpartition" title="getPartition"><span class="symbol function"></span>getPartition</a></li>
-    <li><a href="getprefixlist" title="getPrefixList"><span class="symbol function"></span>getPrefixList</a></li>
-    <li><a href="getregion" title="getRegion"><span class="symbol function"></span>getRegion</a></li>
-    <li><a href="getregions" title="getRegions"><span class="symbol function"></span>getRegions</a></li>
+    <li><a href="getami" title="GetAmi"><span class="symbol function"></span>GetAmi</a></li>
+    <li><a href="getamiids" title="GetAmiIds"><span class="symbol function"></span>GetAmiIds</a></li>
+    <li><a href="getarn" title="GetArn"><span class="symbol function"></span>GetArn</a></li>
+    <li><a href="getautoscalinggroups" title="GetAutoscalingGroups"><span class="symbol function"></span>GetAutoscalingGroups</a></li>
+    <li><a href="getavailabilityzone" title="GetAvailabilityZone"><span class="symbol function"></span>GetAvailabilityZone</a></li>
+    <li><a href="getavailabilityzones" title="GetAvailabilityZones"><span class="symbol function"></span>GetAvailabilityZones</a></li>
+    <li><a href="getbillingserviceaccount" title="GetBillingServiceAccount"><span class="symbol function"></span>GetBillingServiceAccount</a></li>
+    <li><a href="getcalleridentity" title="GetCallerIdentity"><span class="symbol function"></span>GetCallerIdentity</a></li>
+    <li><a href="getcanonicaluserid" title="GetCanonicalUserId"><span class="symbol function"></span>GetCanonicalUserId</a></li>
+    <li><a href="getelasticip" title="GetElasticIp"><span class="symbol function"></span>GetElasticIp</a></li>
+    <li><a href="getipranges" title="GetIpRanges"><span class="symbol function"></span>GetIpRanges</a></li>
+    <li><a href="getpartition" title="GetPartition"><span class="symbol function"></span>GetPartition</a></li>
+    <li><a href="getprefixlist" title="GetPrefixList"><span class="symbol function"></span>GetPrefixList</a></li>
+    <li><a href="getregion" title="GetRegion"><span class="symbol function"></span>GetRegion</a></li>
+    <li><a href="getregions" title="GetRegions"><span class="symbol function"></span>GetRegions</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

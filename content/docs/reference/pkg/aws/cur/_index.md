@@ -16,7 +16,7 @@ Explore the resources and functions of the cur module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getreportdefinition" title="getReportDefinition"><span class="symbol function"></span>getReportDefinition</a></li>
+    <li><a href="getreportdefinition" title="GetReportDefinition"><span class="symbol function"></span>GetReportDefinition</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

@@ -18,7 +18,7 @@ Explore the resources and functions of the dynamodb module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="gettable" title="getTable"><span class="symbol function"></span>getTable</a></li>
+    <li><a href="gettable" title="GetTable"><span class="symbol function"></span>GetTable</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

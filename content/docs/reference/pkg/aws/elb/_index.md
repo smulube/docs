@@ -23,9 +23,9 @@ Explore the resources and functions of the elb module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="gethostedzoneid" title="getHostedZoneId"><span class="symbol function"></span>getHostedZoneId</a></li>
-    <li><a href="getloadbalancer" title="getLoadBalancer"><span class="symbol function"></span>getLoadBalancer</a></li>
-    <li><a href="getserviceaccount" title="getServiceAccount"><span class="symbol function"></span>getServiceAccount</a></li>
+    <li><a href="gethostedzoneid" title="GetHostedZoneId"><span class="symbol function"></span>GetHostedZoneId</a></li>
+    <li><a href="getloadbalancer" title="GetLoadBalancer"><span class="symbol function"></span>GetLoadBalancer</a></li>
+    <li><a href="getserviceaccount" title="GetServiceAccount"><span class="symbol function"></span>GetServiceAccount</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

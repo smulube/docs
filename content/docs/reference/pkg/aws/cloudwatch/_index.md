@@ -27,7 +27,7 @@ Explore the resources and functions of the cloudwatch module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getloggroup" title="getLogGroup"><span class="symbol function"></span>getLogGroup</a></li>
+    <li><a href="getloggroup" title="GetLogGroup"><span class="symbol function"></span>GetLogGroup</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

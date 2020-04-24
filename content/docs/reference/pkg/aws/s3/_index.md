@@ -25,9 +25,9 @@ Explore the resources and functions of the s3 module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getbucket" title="getBucket"><span class="symbol function"></span>getBucket</a></li>
-    <li><a href="getbucketobject" title="getBucketObject"><span class="symbol function"></span>getBucketObject</a></li>
-    <li><a href="getbucketobjects" title="getBucketObjects"><span class="symbol function"></span>getBucketObjects</a></li>
+    <li><a href="getbucket" title="GetBucket"><span class="symbol function"></span>GetBucket</a></li>
+    <li><a href="getbucketobject" title="GetBucketObject"><span class="symbol function"></span>GetBucketObject</a></li>
+    <li><a href="getbucketobjects" title="GetBucketObjects"><span class="symbol function"></span>GetBucketObjects</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

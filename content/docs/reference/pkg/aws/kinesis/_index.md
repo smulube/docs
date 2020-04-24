@@ -19,7 +19,7 @@ Explore the resources and functions of the kinesis module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getstream" title="getStream"><span class="symbol function"></span>getStream</a></li>
+    <li><a href="getstream" title="GetStream"><span class="symbol function"></span>GetStream</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

@@ -22,7 +22,7 @@ Get all direct child organizational units under a parent organizational unit. Th
 {{< chooser language "javascript,typescript,python,go,csharp" / >}}
 
 
-{{% choosable language typescript %}}
+{{% choosable language nodejs %}}
 <div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">function </span>getOrganizationalUnits<span class="p">(</span><span class="nx">args</span>: <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/organizations/#GetOrganizationalUnitsArgs">GetOrganizationalUnitsArgs</a></span><span class="p">, </span><span class="nx">opts</span>?: <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#InvokeOptions">InvokeOptions</a></span><span class="p">): Promise&lt;<span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/aws/organizations/#GetOrganizationalUnitsResult">GetOrganizationalUnitsResult</a></span>></span></code></pre></div>
 {{% /choosable %}}
 

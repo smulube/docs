@@ -17,7 +17,7 @@ Explore the resources and functions of the acm module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getcertificate" title="getCertificate"><span class="symbol function"></span>getCertificate</a></li>
+    <li><a href="getcertificate" title="GetCertificate"><span class="symbol function"></span>GetCertificate</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

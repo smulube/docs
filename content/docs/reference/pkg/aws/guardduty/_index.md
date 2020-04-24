@@ -20,7 +20,7 @@ Explore the resources and functions of the guardduty module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getdetector" title="getDetector"><span class="symbol function"></span>getDetector</a></li>
+    <li><a href="getdetector" title="GetDetector"><span class="symbol function"></span>GetDetector</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

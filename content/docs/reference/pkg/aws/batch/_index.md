@@ -18,8 +18,8 @@ Explore the resources and functions of the batch module in the AWS package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getcomputeenvironment" title="getComputeEnvironment"><span class="symbol function"></span>getComputeEnvironment</a></li>
-    <li><a href="getjobqueue" title="getJobQueue"><span class="symbol function"></span>getJobQueue</a></li>
+    <li><a href="getcomputeenvironment" title="GetComputeEnvironment"><span class="symbol function"></span>GetComputeEnvironment</a></li>
+    <li><a href="getjobqueue" title="GetJobQueue"><span class="symbol function"></span>GetJobQueue</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
