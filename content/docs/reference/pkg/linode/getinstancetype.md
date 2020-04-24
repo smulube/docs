@@ -22,9 +22,9 @@ The following example shows how one might use this data source to access informa
 import * as pulumi from "@pulumi/pulumi";
 import * as linode from "@pulumi/linode";
 
-const defaultInstanceType = linode.getInstanceType({
+const defaultInstanceType = pulumi.output(linode.getInstanceType({
     id: "g6-standard-2",
-});
+}, { async: true }));
 ```
 
 {{% /example %}}
@@ -67,7 +67,7 @@ The Linode Instance Type resource exports the following attributes:
 
 
 {{% choosable language go %}}
-<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>LookupInstanceType<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">pulumi.Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-linode/sdk/v2/go/linode/?tab=doc#GetInstanceTypeArgs">GetInstanceTypeArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">pulumi.InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-linode/sdk/v2/go/linode/?tab=doc#LookupInstanceTypeResult">LookupInstanceTypeResult</a></span>, error)</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="k">func </span>GetInstanceType<span class="p">(</span><span class="nx">ctx</span> *<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#Context">Context</a></span><span class="p">, </span><span class="nx">args</span> <span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-linode/sdk/v2/go/linode/?tab=doc#GetInstanceTypeArgs">GetInstanceTypeArgs</a></span><span class="p">, </span><span class="nx">opts</span> ...<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi/sdk/v2/go/pulumi?tab=doc#InvokeOption">InvokeOption</a></span><span class="p">) (*<span class="nx"><a href="https://pkg.go.dev/github.com/pulumi/pulumi-linode/sdk/v2/go/linode/?tab=doc#GetInstanceTypeResult">GetInstanceTypeResult</a></span>, error)</span></code></pre></div>
 {{% /choosable %}}
 
 
@@ -549,7 +549,7 @@ The following output properties are available:
 ## Supporting Types
 
 
-<h4 id="getinstancetypeaddons">Get<wbr>Instance<wbr>Type<wbr>Addons</h4>
+<h4 id="getinstancetypeaddons">get<wbr>Instance<wbr>Type<wbr>Addons</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/linode/types/output/#GetInstanceTypeAddons">output</a> API doc for this type.
 {{% /choosable %}}
@@ -624,7 +624,7 @@ The following output properties are available:
 
 
 
-<h4 id="getinstancetypeaddonsbackups">Get<wbr>Instance<wbr>Type<wbr>Addons<wbr>Backups</h4>
+<h4 id="getinstancetypeaddonsbackups">get<wbr>Instance<wbr>Type<wbr>Addons<wbr>Backups</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/linode/types/output/#GetInstanceTypeAddonsBackups">output</a> API doc for this type.
 {{% /choosable %}}
@@ -699,7 +699,7 @@ The following output properties are available:
 
 
 
-<h4 id="getinstancetypeaddonsbackupsprice">Get<wbr>Instance<wbr>Type<wbr>Addons<wbr>Backups<wbr>Price</h4>
+<h4 id="getinstancetypeaddonsbackupsprice">get<wbr>Instance<wbr>Type<wbr>Addons<wbr>Backups<wbr>Price</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/linode/types/output/#GetInstanceTypeAddonsBackupsPrice">output</a> API doc for this type.
 {{% /choosable %}}
@@ -806,7 +806,7 @@ The following output properties are available:
 
 
 
-<h4 id="getinstancetypeprice">Get<wbr>Instance<wbr>Type<wbr>Price</h4>
+<h4 id="getinstancetypeprice">get<wbr>Instance<wbr>Type<wbr>Price</h4>
 {{% choosable language nodejs %}}
 > See the   <a href="/docs/reference/pkg/nodejs/pulumi/linode/types/output/#GetInstanceTypePrice">output</a> API doc for this type.
 {{% /choosable %}}
