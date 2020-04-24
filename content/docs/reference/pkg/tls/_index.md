@@ -23,7 +23,7 @@ A Pulumi package to create TLS resources in Pulumi programs.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getpublickey" title="getPublicKey"><span class="symbol function"></span>getPublicKey</a></li>
+    <li><a href="getpublickey" title="GetPublicKey"><span class="symbol function"></span>GetPublicKey</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
