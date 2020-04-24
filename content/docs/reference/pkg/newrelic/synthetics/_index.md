@@ -20,8 +20,8 @@ Explore the resources and functions of the synthetics module in the New Relic pa
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getmonitor" title="getMonitor"><span class="symbol function"></span>getMonitor</a></li>
-    <li><a href="getsecurecredential" title="getSecureCredential"><span class="symbol function"></span>getSecureCredential</a></li>
+    <li><a href="getmonitor" title="GetMonitor"><span class="symbol function"></span>GetMonitor</a></li>
+    <li><a href="getsecurecredential" title="GetSecureCredential"><span class="symbol function"></span>GetSecureCredential</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

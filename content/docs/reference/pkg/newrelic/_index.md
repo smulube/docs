@@ -33,10 +33,10 @@ A Pulumi package for creating and managing New Relic resources.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getalertchannel" title="getAlertChannel"><span class="symbol function"></span>getAlertChannel</a></li>
-    <li><a href="getalertpolicy" title="getAlertPolicy"><span class="symbol function"></span>getAlertPolicy</a></li>
-    <li><a href="getapplication" title="getApplication"><span class="symbol function"></span>getApplication</a></li>
-    <li><a href="getkeytransaction" title="getKeyTransaction"><span class="symbol function"></span>getKeyTransaction</a></li>
+    <li><a href="getalertchannel" title="GetAlertChannel"><span class="symbol function"></span>GetAlertChannel</a></li>
+    <li><a href="getalertpolicy" title="GetAlertPolicy"><span class="symbol function"></span>GetAlertPolicy</a></li>
+    <li><a href="getapplication" title="GetApplication"><span class="symbol function"></span>GetApplication</a></li>
+    <li><a href="getkeytransaction" title="GetKeyTransaction"><span class="symbol function"></span>GetKeyTransaction</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

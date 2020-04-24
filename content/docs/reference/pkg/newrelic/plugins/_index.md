@@ -16,8 +16,8 @@ Explore the resources and functions of the plugins module in the New Relic packa
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getplugin" title="getPlugin"><span class="symbol function"></span>getPlugin</a></li>
-    <li><a href="getplugincomponent" title="getPluginComponent"><span class="symbol function"></span>getPluginComponent</a></li>
+    <li><a href="getplugin" title="GetPlugin"><span class="symbol function"></span>GetPlugin</a></li>
+    <li><a href="getplugincomponent" title="GetPluginComponent"><span class="symbol function"></span>GetPluginComponent</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
