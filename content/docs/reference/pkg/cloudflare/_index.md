@@ -50,11 +50,11 @@ A Pulumi package for creating and managing Cloudflare cloud resources.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getipranges" title="getIpRanges"><span class="symbol function"></span>getIpRanges</a></li>
-    <li><a href="getwafgroups" title="getWafGroups"><span class="symbol function"></span>getWafGroups</a></li>
-    <li><a href="getwafpackages" title="getWafPackages"><span class="symbol function"></span>getWafPackages</a></li>
-    <li><a href="getwafrules" title="getWafRules"><span class="symbol function"></span>getWafRules</a></li>
-    <li><a href="getzones" title="getZones"><span class="symbol function"></span>getZones</a></li>
+    <li><a href="getipranges" title="GetIpRanges"><span class="symbol function"></span>GetIpRanges</a></li>
+    <li><a href="getwafgroups" title="GetWafGroups"><span class="symbol function"></span>GetWafGroups</a></li>
+    <li><a href="getwafpackages" title="GetWafPackages"><span class="symbol function"></span>GetWafPackages</a></li>
+    <li><a href="getwafrules" title="GetWafRules"><span class="symbol function"></span>GetWafRules</a></li>
+    <li><a href="getzones" title="GetZones"><span class="symbol function"></span>GetZones</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
