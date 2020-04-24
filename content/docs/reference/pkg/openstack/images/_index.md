@@ -18,7 +18,7 @@ Explore the resources and functions of the images module in the Open Stack packa
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getimage" title="getImage"><span class="symbol function"></span>getImage</a></li>
+    <li><a href="getimage" title="GetImage"><span class="symbol function"></span>GetImage</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

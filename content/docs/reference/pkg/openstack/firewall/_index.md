@@ -18,7 +18,7 @@ Explore the resources and functions of the firewall module in the Open Stack pac
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getpolicy" title="getPolicy"><span class="symbol function"></span>getPolicy</a></li>
+    <li><a href="getpolicy" title="GetPolicy"><span class="symbol function"></span>GetPolicy</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

@@ -22,13 +22,13 @@ Explore the resources and functions of the identity module in the Open Stack pac
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getauthscope" title="getAuthScope"><span class="symbol function"></span>getAuthScope</a></li>
-    <li><a href="getendpoint" title="getEndpoint"><span class="symbol function"></span>getEndpoint</a></li>
-    <li><a href="getgroup" title="getGroup"><span class="symbol function"></span>getGroup</a></li>
-    <li><a href="getproject" title="getProject"><span class="symbol function"></span>getProject</a></li>
-    <li><a href="getrole" title="getRole"><span class="symbol function"></span>getRole</a></li>
-    <li><a href="getservice" title="getService"><span class="symbol function"></span>getService</a></li>
-    <li><a href="getuser" title="getUser"><span class="symbol function"></span>getUser</a></li>
+    <li><a href="getauthscope" title="GetAuthScope"><span class="symbol function"></span>GetAuthScope</a></li>
+    <li><a href="getendpoint" title="GetEndpoint"><span class="symbol function"></span>GetEndpoint</a></li>
+    <li><a href="getgroup" title="GetGroup"><span class="symbol function"></span>GetGroup</a></li>
+    <li><a href="getproject" title="GetProject"><span class="symbol function"></span>GetProject</a></li>
+    <li><a href="getrole" title="GetRole"><span class="symbol function"></span>GetRole</a></li>
+    <li><a href="getservice" title="GetService"><span class="symbol function"></span>GetService</a></li>
+    <li><a href="getuser" title="GetUser"><span class="symbol function"></span>GetUser</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
