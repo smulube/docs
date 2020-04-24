@@ -39,25 +39,25 @@ A Pulumi package for creating and managing Aiven cloud resources.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getaccount" title="getAccount"><span class="symbol function"></span>getAccount</a></li>
-    <li><a href="getaccountteam" title="getAccountTeam"><span class="symbol function"></span>getAccountTeam</a></li>
-    <li><a href="getaccountteammember" title="getAccountTeamMember"><span class="symbol function"></span>getAccountTeamMember</a></li>
-    <li><a href="getaccountteamproject" title="getAccountTeamProject"><span class="symbol function"></span>getAccountTeamProject</a></li>
-    <li><a href="getconnectionpool" title="getConnectionPool"><span class="symbol function"></span>getConnectionPool</a></li>
-    <li><a href="getdatabase" title="getDatabase"><span class="symbol function"></span>getDatabase</a></li>
-    <li><a href="getelasticsearchacl" title="getElasticSearchAcl"><span class="symbol function"></span>getElasticSearchAcl</a></li>
-    <li><a href="getkafkaacl" title="getKafkaAcl"><span class="symbol function"></span>getKafkaAcl</a></li>
-    <li><a href="getkafkaconnector" title="getKafkaConnector"><span class="symbol function"></span>getKafkaConnector</a></li>
-    <li><a href="getkafkaschema" title="getKafkaSchema"><span class="symbol function"></span>getKafkaSchema</a></li>
-    <li><a href="getkafkaschemaconfiguration" title="getKafkaSchemaConfiguration"><span class="symbol function"></span>getKafkaSchemaConfiguration</a></li>
-    <li><a href="getkafkatopic" title="getKafkaTopic"><span class="symbol function"></span>getKafkaTopic</a></li>
-    <li><a href="getproject" title="getProject"><span class="symbol function"></span>getProject</a></li>
-    <li><a href="getprojectuser" title="getProjectUser"><span class="symbol function"></span>getProjectUser</a></li>
-    <li><a href="getprojectvpc" title="getProjectVpc"><span class="symbol function"></span>getProjectVpc</a></li>
-    <li><a href="getservice" title="getService"><span class="symbol function"></span>getService</a></li>
-    <li><a href="getserviceintegrationendpoint" title="getServiceIntegrationEndpoint"><span class="symbol function"></span>getServiceIntegrationEndpoint</a></li>
-    <li><a href="getserviceuser" title="getServiceUser"><span class="symbol function"></span>getServiceUser</a></li>
-    <li><a href="getvpcpeeringconnection" title="getVpcPeeringConnection"><span class="symbol function"></span>getVpcPeeringConnection</a></li>
+    <li><a href="getaccount" title="GetAccount"><span class="symbol function"></span>GetAccount</a></li>
+    <li><a href="getaccountteam" title="GetAccountTeam"><span class="symbol function"></span>GetAccountTeam</a></li>
+    <li><a href="getaccountteammember" title="GetAccountTeamMember"><span class="symbol function"></span>GetAccountTeamMember</a></li>
+    <li><a href="getaccountteamproject" title="GetAccountTeamProject"><span class="symbol function"></span>GetAccountTeamProject</a></li>
+    <li><a href="getconnectionpool" title="GetConnectionPool"><span class="symbol function"></span>GetConnectionPool</a></li>
+    <li><a href="getdatabase" title="GetDatabase"><span class="symbol function"></span>GetDatabase</a></li>
+    <li><a href="getelasticsearchacl" title="GetElasticSearchAcl"><span class="symbol function"></span>GetElasticSearchAcl</a></li>
+    <li><a href="getkafkaacl" title="GetKafkaAcl"><span class="symbol function"></span>GetKafkaAcl</a></li>
+    <li><a href="getkafkaconnector" title="GetKafkaConnector"><span class="symbol function"></span>GetKafkaConnector</a></li>
+    <li><a href="getkafkaschema" title="GetKafkaSchema"><span class="symbol function"></span>GetKafkaSchema</a></li>
+    <li><a href="getkafkaschemaconfiguration" title="GetKafkaSchemaConfiguration"><span class="symbol function"></span>GetKafkaSchemaConfiguration</a></li>
+    <li><a href="getkafkatopic" title="GetKafkaTopic"><span class="symbol function"></span>GetKafkaTopic</a></li>
+    <li><a href="getproject" title="GetProject"><span class="symbol function"></span>GetProject</a></li>
+    <li><a href="getprojectuser" title="GetProjectUser"><span class="symbol function"></span>GetProjectUser</a></li>
+    <li><a href="getprojectvpc" title="GetProjectVpc"><span class="symbol function"></span>GetProjectVpc</a></li>
+    <li><a href="getservice" title="GetService"><span class="symbol function"></span>GetService</a></li>
+    <li><a href="getserviceintegrationendpoint" title="GetServiceIntegrationEndpoint"><span class="symbol function"></span>GetServiceIntegrationEndpoint</a></li>
+    <li><a href="getserviceuser" title="GetServiceUser"><span class="symbol function"></span>GetServiceUser</a></li>
+    <li><a href="getvpcpeeringconnection" title="GetVpcPeeringConnection"><span class="symbol function"></span>GetVpcPeeringConnection</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
