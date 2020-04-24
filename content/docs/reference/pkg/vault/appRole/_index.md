@@ -18,7 +18,7 @@ Explore the resources and functions of the appRole module in the Vault package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getauthbackendroleid" title="getAuthBackendRoleId"><span class="symbol function"></span>getAuthBackendRoleId</a></li>
+    <li><a href="getauthbackendroleid" title="GetAuthBackendRoleId"><span class="symbol function"></span>GetAuthBackendRoleId</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
