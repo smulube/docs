@@ -21,7 +21,7 @@ Explore the resources and functions of the bigquery module in the GCP package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getdefaultserviceaccount" title="getDefaultServiceAccount"><span class="symbol function"></span>getDefaultServiceAccount</a></li>
+    <li><a href="getdefaultserviceaccount" title="GetDefaultServiceAccount"><span class="symbol function"></span>GetDefaultServiceAccount</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

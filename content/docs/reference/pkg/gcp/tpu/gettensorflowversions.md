@@ -33,7 +33,7 @@ const available = pulumi.output(gcp.tpu.getTensorflowVersions({ async: true }));
 {{< chooser language "javascript,typescript,python,go,csharp" / >}}
 
 
-{{% choosable language typescript %}}
+{{% choosable language nodejs %}}
 <div class="highlight"><pre class="chroma"><code class="language-typescript" data-lang="typescript"><span class="k">function </span>getTensorflowVersions<span class="p">(</span><span class="nx">args</span>: <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/gcp/tpu/#GetTensorflowVersionsArgs">GetTensorflowVersionsArgs</a></span><span class="p">, </span><span class="nx">opts</span>?: <span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/pulumi/#InvokeOptions">InvokeOptions</a></span><span class="p">): Promise&lt;<span class="nx"><a href="/docs/reference/pkg/nodejs/pulumi/gcp/tpu/#GetTensorflowVersionsResult">GetTensorflowVersionsResult</a></span>></span></code></pre></div>
 {{% /choosable %}}
 

@@ -20,9 +20,9 @@ Explore the resources and functions of the serviceAccount module in the GCP pack
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getaccount" title="getAccount"><span class="symbol function"></span>getAccount</a></li>
-    <li><a href="getaccountaccesstoken" title="getAccountAccessToken"><span class="symbol function"></span>getAccountAccessToken</a></li>
-    <li><a href="getaccountkey" title="getAccountKey"><span class="symbol function"></span>getAccountKey</a></li>
+    <li><a href="getaccount" title="GetAccount"><span class="symbol function"></span>GetAccount</a></li>
+    <li><a href="getaccountaccesstoken" title="GetAccountAccessToken"><span class="symbol function"></span>GetAccountAccessToken</a></li>
+    <li><a href="getaccountkey" title="GetAccountKey"><span class="symbol function"></span>GetAccountKey</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

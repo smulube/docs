@@ -23,8 +23,8 @@ Explore the resources and functions of the projects module in the GCP package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getorganizationpolicy" title="getOrganizationPolicy"><span class="symbol function"></span>getOrganizationPolicy</a></li>
-    <li><a href="getproject" title="getProject"><span class="symbol function"></span>getProject</a></li>
+    <li><a href="getorganizationpolicy" title="GetOrganizationPolicy"><span class="symbol function"></span>GetOrganizationPolicy</a></li>
+    <li><a href="getproject" title="GetProject"><span class="symbol function"></span>GetProject</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

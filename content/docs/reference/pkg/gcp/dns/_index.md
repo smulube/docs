@@ -18,8 +18,8 @@ Explore the resources and functions of the dns module in the GCP package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getkeys" title="getKeys"><span class="symbol function"></span>getKeys</a></li>
-    <li><a href="getmanagedzone" title="getManagedZone"><span class="symbol function"></span>getManagedZone</a></li>
+    <li><a href="getkeys" title="GetKeys"><span class="symbol function"></span>GetKeys</a></li>
+    <li><a href="getmanagedzone" title="GetManagedZone"><span class="symbol function"></span>GetManagedZone</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

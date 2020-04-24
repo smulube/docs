@@ -16,7 +16,7 @@ Explore the resources and functions of the tpu module in the GCP package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="gettensorflowversions" title="getTensorflowVersions"><span class="symbol function"></span>getTensorflowVersions</a></li>
+    <li><a href="gettensorflowversions" title="GetTensorflowVersions"><span class="symbol function"></span>GetTensorflowVersions</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

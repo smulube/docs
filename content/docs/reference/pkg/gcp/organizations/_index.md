@@ -23,14 +23,14 @@ Explore the resources and functions of the organizations module in the GCP packa
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getactivefolder" title="getActiveFolder"><span class="symbol function"></span>getActiveFolder</a></li>
-    <li><a href="getbillingaccount" title="getBillingAccount"><span class="symbol function"></span>getBillingAccount</a></li>
-    <li><a href="getclientconfig" title="getClientConfig"><span class="symbol function"></span>getClientConfig</a></li>
-    <li><a href="getclientopeniduserinfo" title="getClientOpenIdUserInfo"><span class="symbol function"></span>getClientOpenIdUserInfo</a></li>
-    <li><a href="getfolder" title="getFolder"><span class="symbol function"></span>getFolder</a></li>
-    <li><a href="getiampolicy" title="getIAMPolicy"><span class="symbol function"></span>getIAMPolicy</a></li>
-    <li><a href="getorganization" title="getOrganization"><span class="symbol function"></span>getOrganization</a></li>
-    <li><a href="getproject" title="getProject"><span class="symbol function"></span>getProject</a></li>
+    <li><a href="getactivefolder" title="GetActiveFolder"><span class="symbol function"></span>GetActiveFolder</a></li>
+    <li><a href="getbillingaccount" title="GetBillingAccount"><span class="symbol function"></span>GetBillingAccount</a></li>
+    <li><a href="getclientconfig" title="GetClientConfig"><span class="symbol function"></span>GetClientConfig</a></li>
+    <li><a href="getclientopeniduserinfo" title="GetClientOpenIdUserInfo"><span class="symbol function"></span>GetClientOpenIdUserInfo</a></li>
+    <li><a href="getfolder" title="GetFolder"><span class="symbol function"></span>GetFolder</a></li>
+    <li><a href="getiampolicy" title="GetIAMPolicy"><span class="symbol function"></span>GetIAMPolicy</a></li>
+    <li><a href="getorganization" title="GetOrganization"><span class="symbol function"></span>GetOrganization</a></li>
+    <li><a href="getproject" title="GetProject"><span class="symbol function"></span>GetProject</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

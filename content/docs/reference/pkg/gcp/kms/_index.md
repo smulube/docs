@@ -25,11 +25,11 @@ Explore the resources and functions of the kms module in the GCP package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getkmscryptokey" title="getKMSCryptoKey"><span class="symbol function"></span>getKMSCryptoKey</a></li>
-    <li><a href="getkmscryptokeyversion" title="getKMSCryptoKeyVersion"><span class="symbol function"></span>getKMSCryptoKeyVersion</a></li>
-    <li><a href="getkmskeyring" title="getKMSKeyRing"><span class="symbol function"></span>getKMSKeyRing</a></li>
-    <li><a href="getkmssecret" title="getKMSSecret"><span class="symbol function"></span>getKMSSecret</a></li>
-    <li><a href="getkmssecretciphertext" title="getKMSSecretCiphertext"><span class="symbol function"></span>getKMSSecretCiphertext</a></li>
+    <li><a href="getkmscryptokey" title="GetKMSCryptoKey"><span class="symbol function"></span>GetKMSCryptoKey</a></li>
+    <li><a href="getkmscryptokeyversion" title="GetKMSCryptoKeyVersion"><span class="symbol function"></span>GetKMSCryptoKeyVersion</a></li>
+    <li><a href="getkmskeyring" title="GetKMSKeyRing"><span class="symbol function"></span>GetKMSKeyRing</a></li>
+    <li><a href="getkmssecret" title="GetKMSSecret"><span class="symbol function"></span>GetKMSSecret</a></li>
+    <li><a href="getkmssecretciphertext" title="GetKMSSecretCiphertext"><span class="symbol function"></span>GetKMSSecretCiphertext</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

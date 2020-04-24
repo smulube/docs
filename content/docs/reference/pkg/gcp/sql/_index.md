@@ -20,7 +20,7 @@ Explore the resources and functions of the sql module in the GCP package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getcacerts" title="getCaCerts"><span class="symbol function"></span>getCaCerts</a></li>
+    <li><a href="getcacerts" title="GetCaCerts"><span class="symbol function"></span>GetCaCerts</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

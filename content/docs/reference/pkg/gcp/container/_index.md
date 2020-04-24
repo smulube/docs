@@ -18,10 +18,10 @@ Explore the resources and functions of the container module in the GCP package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getcluster" title="getCluster"><span class="symbol function"></span>getCluster</a></li>
-    <li><a href="getengineversions" title="getEngineVersions"><span class="symbol function"></span>getEngineVersions</a></li>
-    <li><a href="getregistryimage" title="getRegistryImage"><span class="symbol function"></span>getRegistryImage</a></li>
-    <li><a href="getregistryrepository" title="getRegistryRepository"><span class="symbol function"></span>getRegistryRepository</a></li>
+    <li><a href="getcluster" title="GetCluster"><span class="symbol function"></span>GetCluster</a></li>
+    <li><a href="getengineversions" title="GetEngineVersions"><span class="symbol function"></span>GetEngineVersions</a></li>
+    <li><a href="getregistryimage" title="GetRegistryImage"><span class="symbol function"></span>GetRegistryImage</a></li>
+    <li><a href="getregistryrepository" title="GetRegistryRepository"><span class="symbol function"></span>GetRegistryRepository</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

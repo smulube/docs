@@ -29,10 +29,10 @@ Explore the resources and functions of the storage module in the GCP package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getbucketobject" title="getBucketObject"><span class="symbol function"></span>getBucketObject</a></li>
-    <li><a href="getobjectsignedurl" title="getObjectSignedUrl"><span class="symbol function"></span>getObjectSignedUrl</a></li>
-    <li><a href="getprojectserviceaccount" title="getProjectServiceAccount"><span class="symbol function"></span>getProjectServiceAccount</a></li>
-    <li><a href="gettransferprojectservieaccount" title="getTransferProjectServieAccount"><span class="symbol function"></span>getTransferProjectServieAccount</a></li>
+    <li><a href="getbucketobject" title="GetBucketObject"><span class="symbol function"></span>GetBucketObject</a></li>
+    <li><a href="getobjectsignedurl" title="GetObjectSignedUrl"><span class="symbol function"></span>GetObjectSignedUrl</a></li>
+    <li><a href="getprojectserviceaccount" title="GetProjectServiceAccount"><span class="symbol function"></span>GetProjectServiceAccount</a></li>
+    <li><a href="gettransferprojectservieaccount" title="GetTransferProjectServieAccount"><span class="symbol function"></span>GetTransferProjectServieAccount</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

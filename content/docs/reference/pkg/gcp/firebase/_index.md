@@ -18,8 +18,8 @@ Explore the resources and functions of the firebase module in the GCP package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getwebapp" title="getWebApp"><span class="symbol function"></span>getWebApp</a></li>
-    <li><a href="getwebappconfig" title="getWebAppConfig"><span class="symbol function"></span>getWebAppConfig</a></li>
+    <li><a href="getwebapp" title="GetWebApp"><span class="symbol function"></span>GetWebApp</a></li>
+    <li><a href="getwebappconfig" title="GetWebAppConfig"><span class="symbol function"></span>GetWebAppConfig</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

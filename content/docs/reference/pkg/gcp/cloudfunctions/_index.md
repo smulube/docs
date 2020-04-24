@@ -19,7 +19,7 @@ Explore the resources and functions of the cloudfunctions module in the GCP pack
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getfunction" title="getFunction"><span class="symbol function"></span>getFunction</a></li>
+    <li><a href="getfunction" title="GetFunction"><span class="symbol function"></span>GetFunction</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

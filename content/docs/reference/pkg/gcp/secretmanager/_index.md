@@ -20,7 +20,7 @@ Explore the resources and functions of the secretmanager module in the GCP packa
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getsecretversion" title="getSecretVersion"><span class="symbol function"></span>getSecretVersion</a></li>
+    <li><a href="getsecretversion" title="GetSecretVersion"><span class="symbol function"></span>GetSecretVersion</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

@@ -11,7 +11,7 @@ Explore the resources and functions of the iam module in the GCP package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getrule" title="getRule"><span class="symbol function"></span>getRule</a></li>
+    <li><a href="getrule" title="GetRule"><span class="symbol function"></span>GetRule</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

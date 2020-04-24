@@ -16,7 +16,7 @@ Explore the resources and functions of the composer module in the GCP package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getimageversions" title="getImageVersions"><span class="symbol function"></span>getImageVersions</a></li>
+    <li><a href="getimageversions" title="GetImageVersions"><span class="symbol function"></span>GetImageVersions</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>

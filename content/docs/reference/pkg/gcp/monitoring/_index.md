@@ -21,10 +21,10 @@ Explore the resources and functions of the monitoring module in the GCP package.
 
 <h2 id="functions">Functions</h2>
 <ul class="api">
-    <li><a href="getappengineservice" title="getAppEngineService"><span class="symbol function"></span>getAppEngineService</a></li>
-    <li><a href="getnotificationchannel" title="getNotificationChannel"><span class="symbol function"></span>getNotificationChannel</a></li>
-    <li><a href="getsecretversion" title="getSecretVersion"><span class="symbol function"></span>getSecretVersion</a></li>
-    <li><a href="getuptimecheckips" title="getUptimeCheckIPs"><span class="symbol function"></span>getUptimeCheckIPs</a></li>
+    <li><a href="getappengineservice" title="GetAppEngineService"><span class="symbol function"></span>GetAppEngineService</a></li>
+    <li><a href="getnotificationchannel" title="GetNotificationChannel"><span class="symbol function"></span>GetNotificationChannel</a></li>
+    <li><a href="getsecretversion" title="GetSecretVersion"><span class="symbol function"></span>GetSecretVersion</a></li>
+    <li><a href="getuptimecheckips" title="GetUptimeCheckIPs"><span class="symbol function"></span>GetUptimeCheckIPs</a></li>
 </ul>
 
 <h2 id="package-details">Package Details</h2>
